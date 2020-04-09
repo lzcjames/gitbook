@@ -8,8 +8,9 @@
     * [Web应用程序](Web_Guide/4-Web应用程序.md)
     * [服务器端脚本](Web_Guide/5-服务器端脚本.md)
     * [通用网关接口](Web_Guide/6-通用网关接口.md)
-    * [Web框架](Web_Guide/7-Web框架.md)
-    * [Web服务](Web_Guide/8-Web服务.md)
+    * [Web应用框架](Web_Guide/7-Web应用框架.md)
+	* [CMS内容管理系统](Web_Guide/8-CMS内容管理系统.md)
+    * [Web服务](Web_Guide/9-Web服务.md)
     
 * [WordPress pirate 手记](WordPress_Pirate/1-Intro.md)    
     * [通过WP本身获取信息](WordPress_Pirate/2-通过WP本身获取信息.md)    
