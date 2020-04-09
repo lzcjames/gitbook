@@ -1,6 +1,6 @@
 # Summary
 
-## A First-page group
+## Web
 
 * [Web小册](Web_Guide/1-Intro.md)    
     * [前言](Web_Guide/2-前言.md)   
@@ -11,8 +11,10 @@
     * [Web框架](Web_Guide/7-Web框架.md)
     * [Web服务](Web_Guide/8-Web服务.md)
     
-* [Second page's title](page2/README.md)    
-    * [Some child page](page2/page2-1.md)    
-    * [Some other child page](part2/page2-2.md)    
+* [WordPress pirate 手记](WordPress_Pirate/1-Intro.md)    
+    * [通过WP本身获取信息](WordPress_Pirate/2-通过WP本身获取信息.md)    
+    * [暴力破解](WordPress_Pirate/3-暴力破解.md)    
+	* [SQL注入](WordPress_Pirate/4-SQL注入.md)    
+    * [LFI攻击](WordPress_Pirate/5-LFI攻击.md)    
     
 ## A second-page group
