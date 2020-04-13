@@ -1,4 +1,4 @@
-# Lession 1
+# Cloud Concepts
 
 ## 1. Cloud Computing
 - On-demande self-service (随需应变的自助服务)
@@ -33,5 +33,6 @@ In the Disaster Recovery, the keys metrics are:
 - Elasticity (弹性)
 It is the ablity to quickly increase or decrease resourcesNot just limited to virtual machines, it can be your storage. It can be your database. It can be any other load balancer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzQyMzY4MDRdfQ==
+eyJoaXN0b3J5IjpbLTExMjY0NzU3NjAsLTEzNzQyMzY4MDRdfQ
+==
 -->
