@@ -8,7 +8,7 @@
 - Measured service (监控，报告服务)
 
 ## 2. Service Models
-![IaaS, Paas and SaaS](https://pictshare.net/kkc5uv.png)
+![IaaS, Paas and SaaS](https://imgur.com/lpDPe5k.png)
 
 ## 3. High Availability  objectives
 
@@ -33,6 +33,6 @@ In the Disaster Recovery, the keys metrics are:
 - Elasticity (弹性)
 It is the ablity to quickly increase or decrease resourcesNot just limited to virtual machines, it can be your storage. It can be your database. It can be any other load balancer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjY0NzU3NjAsLTEzNzQyMzY4MDRdfQ
-==
+eyJoaXN0b3J5IjpbLTE4MjcwMTc5NTksLTExMjY0NzU3NjAsLT
+EzNzQyMzY4MDRdfQ==
 -->
