@@ -29,12 +29,12 @@ Not share single points of hardware failure such as same physical server, physic
 3. **Avoid single points of failure**
 
 -  In different FDs in one AD in one Region
-![enter image description here](https://imgur.com/T6lBG4V.png)
+![avoid single points of failure1](https://imgur.com/T6lBG4V.png)
 To avoid single points of failure,  firs  thing is you should always have **multiple  instances** of the same type. So you have **a second cop  application** in the second FD. They are all stateless.
 Don't put it in the same FD, because this FD can be unavailable as well.
 
 - In different ADs for multiple Regions
-![enter image description here](https://imgur.com/J5HdS0V.png)
+![avoid single points of failure2](https://imgur.com/J5HdS0V.png)
 Between 2 ADs, we use *Data Guard* to manage data. And in this case, if your whole AD1 becomes  unavailable, you still have your same application up and running in AD2, because you're replicating your data to AD2 in the same Region, that's saying avoid single points of failure.
 
 ## Compartments
@@ -49,13 +49,14 @@ A compartment is a  collection of related resources. It helps you **isolate** an
 	- Compartments can be nested, 嵌套 (six levels)
 	- Access control by writing Policies
 	- Analyze cost and assign budget for resources in compartments
-![enter image description here](https://imgur.com/HYDAFmi.png)
+	
+![compartment](https://imgur.com/HYDAFmi.png)
 
 
 
 ---
 <sup>**1:**</sup> 反关联性规则, 比如将一组虚拟机放置在不同的主机上，这样可以防止所有虚拟机在单个主机发生故障时立即发生故障
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3OTQxMDkwMCwtNDIzNzc3OTQ3LDc2Nz
-MxNDU4LC0zNzgzNjQzOTldfQ==
+eyJoaXN0b3J5IjpbLTEzNTk0MTA1MzIsLTQyMzc3Nzk0Nyw3Nj
+czMTQ1OCwtMzc4MzY0Mzk5XX0=
 -->
