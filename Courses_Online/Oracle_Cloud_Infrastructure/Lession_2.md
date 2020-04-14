@@ -44,7 +44,8 @@ A compartment is a  collection of related resources. It helps you **isolate** an
 	- Resources can be removed from one compartment to another
 	- Resources from multiple regions can be in the same compartment
 	- Compartments can be nested, 嵌套 (six levels)
-	- 
+	- Access control by writing Policies
+	- Analyze cost and assign budget for resources in compartments
 
 
 
@@ -52,6 +53,6 @@ A compartment is a  collection of related resources. It helps you **isolate** an
 ---
 <sup>**1:**</sup> 反关联性规则, 比如将一组虚拟机放置在不同的主机上，这样可以防止所有虚拟机在单个主机发生故障时立即发生故障
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODQzMjQ4MDgsNzY3MzE0NTgsLTM3OD
-M2NDM5OV19
+eyJoaXN0b3J5IjpbLTQyMzc3Nzk0Nyw3NjczMTQ1OCwtMzc4Mz
+Y0Mzk5XX0=
 -->
