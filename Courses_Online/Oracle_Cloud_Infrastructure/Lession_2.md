@@ -26,7 +26,7 @@ Not share single points of hardware failure such as same physical server, physic
 2. For any region with one AD, a **second AD** is used to enable further option for **Disaster Recovery** and **Data Residency** within a year
 对于只含一个AD的Region, 第二个备用AD在一年内提供**灾难恢复**和**数据驻留**服务
 
-** 3. Avoid single points of failure**
+3. **Avoid single points of failure**
 -  In different FDs in one AD in one Region
 ![enter image description here](https://imgur.com/T6lBG4V.png)
 To avoid single points of failure,  firs  thing is you should always have **multiple  instances** of the same type. So you have **a second cop  application** in the second FD. They are all stateless.
@@ -37,6 +37,7 @@ Don't put it in the same FD, because this FD can be unavailable as well.
 Between 2 ADs, we use *Data Guard* to manage data. And in this case, if your whole AD1 becomes  unavailable, you still have your same application up and running in AD2, because you're replicating your data to AD2 in the same Region, that's saying avoid single points of failure.
 
 ## Compartments
+A compartment is a  collection of related resources? It helps you isolate and control acc
 
 
 
@@ -44,6 +45,6 @@ Between 2 ADs, we use *Data Guard* to manage data. And in this case, if your who
 ---
 <sup>**1:**</sup> 反关联性规则, 比如将一组虚拟机放置在不同的主机上，这样可以防止所有虚拟机在单个主机发生故障时立即发生故障
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE1Nzk4MjU4LDc2NzMxNDU4LC0zNzgzNj
-QzOTldfQ==
+eyJoaXN0b3J5IjpbMTk4NjQ3NDEzOCw3NjczMTQ1OCwtMzc4Mz
+Y0Mzk5XX0=
 -->
