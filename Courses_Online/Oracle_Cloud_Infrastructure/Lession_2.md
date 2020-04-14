@@ -34,7 +34,7 @@ Don't  put  it  in  the  same  FD,  because  this  fault  domain  can  be  unava
 
 - In different ADs for multiple Regions
 ![enter image description here](https://imgur.com/J5HdS0V.png)
-Enter 2 ADs, we use *Data Guard* to manage service
+Enter 2 ADs, we use *Data Guard* to manage data. And  in  this  case,  if  your  whole  AD1  becomes  unavailable,  you  still  have  your  same application  up  and  running in AD2,  because  you're  replicating  your  data to AD2.
 
 ## Compartments
 
@@ -44,6 +44,6 @@ Enter 2 ADs, we use *Data Guard* to manage service
 ---
 <sup>**1:**</sup> 反关联性规则, 比如将一组虚拟机放置在不同的主机上，这样可以防止所有虚拟机在单个主机发生故障时立即发生故障
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDMzNTE0MjgsNzY3MzE0NTgsLTM3OD
-M2NDM5OV19
+eyJoaXN0b3J5IjpbMTgxMDQzNTMwMSw3NjczMTQ1OCwtMzc4Mz
+Y0Mzk5XX0=
 -->
