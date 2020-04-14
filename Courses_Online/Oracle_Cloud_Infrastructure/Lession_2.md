@@ -33,7 +33,7 @@ To avoid single points of failure,  first  thing  is  you  should  always  have 
 Don't  put  it  in  the  same  FD,  because  this  fault  domain  can  be  unavailable  as well.
 
 - In different ADs for multiple Regions
-
+![enter image description here](https://imgur.com/J5HdS0V.png)
 
 
 ## Compartments
@@ -44,5 +44,6 @@ Don't  put  it  in  the  same  FD,  because  this  fault  domain  can  be  unava
 ---
 <sup>**1:**</sup> 反关联性规则, 比如将一组虚拟机放置在不同的主机上，这样可以防止所有虚拟机在单个主机发生故障时立即发生故障
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY3MzE0NTgsLTM3ODM2NDM5OV19
+eyJoaXN0b3J5IjpbLTIwMTMyMzE1NjksNzY3MzE0NTgsLTM3OD
+M2NDM5OV19
 -->
