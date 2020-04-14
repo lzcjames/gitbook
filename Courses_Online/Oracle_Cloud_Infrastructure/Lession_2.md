@@ -29,7 +29,9 @@ Not share single points of hardware failure such as same physical server, physic
 3. Avoid single points of failure
 - In different FDs in one AD in one Region
 ![enter image description here](https://imgur.com/T6lBG4V.png)
-To avoid sing
+To avoid single points of failure,  first  thing  is  you  should  always  have  multiple  instances  of  the  same  type.  So  you  have  an  application  in the second FD.  These  are  all  stateless.
+You  actually  have  a  second  copy  running in  the  second  FD.  Don't  put  it  in  the  same  FD,  because  this  fault  domain  can  be  unavailable  as well.
+
 - In different ADs for multiple Regions
 
 
@@ -42,5 +44,5 @@ To avoid sing
 ---
 <sup>**1:**</sup> 反关联性规则, 比如将一组虚拟机放置在不同的主机上，这样可以防止所有虚拟机在单个主机发生故障时立即发生故障
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjE4NTQ1MTIsLTM3ODM2NDM5OV19
+eyJoaXN0b3J5IjpbNzg3NTA1MTYwLC0zNzgzNjQzOTldfQ==
 -->
