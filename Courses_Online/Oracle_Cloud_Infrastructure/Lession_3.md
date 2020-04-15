@@ -42,12 +42,12 @@ Oracle Functions where you just write the code. You write the code in different 
 - small but powerful blocks of code 
 - stored as Docker images in a specified Docker registry.
 - invoked in response to a CLI command or signed HTTP request (为了响应CLI命令或签名的HTTP请求而调用)
-<div style="page-break-after: always;"></div>
+
 ## Instance basics
 
 Compute instances depend on on other OCI services such as Block Volume and Virtual Cloud Network (VCN)
 
-![instance](https://imgur.com/zrghb9s.png)
+<img src="https://imgur.com/zrghb9s.png" width="350" height="200">
 
 ## Vertical Scaling
 
@@ -87,5 +87,6 @@ The concept of containers where we raised the abstraction one more level, and no
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTgyMTE0MjIsLTQxMDYyNzcwN119
+eyJoaXN0b3J5IjpbLTQzOTgxNTY1NSwtMTI1ODIxMTQyMiwtND
+EwNjI3NzA3XX0=
 -->
