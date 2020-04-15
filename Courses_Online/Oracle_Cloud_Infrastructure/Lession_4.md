@@ -30,6 +30,7 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 - When instance  dies,  Your  boot  volume  and  your  data  volumes  are  all  still  available. So Block Volume is used for  **data durability** 数据持久化.
 
 ### Use cases
+
 - Databases
 - Exchange (supports block level storage only)
 - VMware (VMFS volumes on block level storage)
@@ -39,5 +40,5 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMTMwMzMsNzg5MzU0NzM0XX0=
+eyJoaXN0b3J5IjpbLTE5ODI3MDcwMTcsNzg5MzU0NzM0XX0=
 -->
