@@ -43,7 +43,9 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 - Block Volume store replica of data in 3 separate FDs
 - You don't need to configure any software based protection (RAID 10 etc)
 - A backup is recommend for minimize losing data. 
+
+<img src="https://imgur.com/UwItVxH.png" width="420" height="220">
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY5NTczOTEyLC0xOTgyNzA3MDE3LDc4OT
+eyJoaXN0b3J5IjpbODU5NTE1NTgyLC0xOTgyNzA3MDE3LDc4OT
 M1NDczNF19
 -->
