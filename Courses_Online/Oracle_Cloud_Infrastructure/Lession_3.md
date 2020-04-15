@@ -1,66 +1,67 @@
-＃OCI计算服务
+# OCI Compute Services
 
-## 裸机裸机
+## Bare Metal 裸机
 
-一个没有任何虚拟化功能的物理服务器，您必须设置一个虚拟化层，然后您必须管理所有事情：操作系统，运行时等。Oracle提供了现成的虚拟化功能< SUP > ** 1 ** </上> 
+A physical server without any virtualization, you have to set up  a virtualization layer, then you have to manage all the things: OS, run-times etc.
+Oracle offer a off-box virtualization<sup>**1**</sup>
 
+### Uses cases
 
-###用例
+Direct Hardware Access with all the Security, Capabilities, Elasticity and Scalability of OCI.
 
-具有OCI的所有安全性，功能，弹性和可伸缩性的直接硬件访问。
+- Workloads that are performance-intensive
+性能密集型工作负载
+- Workloads that are not virtualized
+- Workloads that require a specific hypervisor
+- Workloads that require BYO Licensing
 
-- 工作负载是性能密集型性能密集型工作负载-工作负载未虚拟化-需要一个特定的虚拟机管理程序的工作负载-需要自带酒水许可工作负载
+## Dedicated Virtual Hosts 专用虚拟主机
 
+ A host server, It has a virtualization, you can run VMs on top of that.
 
+## Virtual Machines
 
+A virtual machine is a guest on a host server with hypervisor based virtualization. 
 
+###  Use cases
 
-## 专用虚拟主机专用虚拟主机
-
- 主机服务器，具有虚拟化功能，您可以在其上运行VM。
-
-## 虚拟机
-
-虚拟机是具有基于虚拟机管理程序的虚拟化的主机服务器上的访客。 
-
-###                                                                                                                                                         用例
-
-虚拟机需要工作-操作系统路径管理，安全性配置，监视，应用程序配置和扩展，以处理可变流量，如果您要：
-- 控制环境的各个方面-在Windows或Linux上运行的旧版应用程序-将应用程序从本地迁移到OCI
-
-
-
-
-## 容器引擎
-
-您要管理代码，然后当然要管理App容器< sup > ** 2 ** </ sup>。 
+VMs require work - OS path management, security configuration, monitoring, application configuration and scaling to handle variable traffic, if you want to:
+-  control all aspects of an environment
+- deploy a legacy app running on Windows or Linux
+- move applications from on-premises to OCI
 
 
-## 函数
+## Container Engine
 
-您只需在其中编写代码的Oracle函数。您可以使用不同的语言编写代码，而不必担心任何基础架构。
-- 小但功能强大的代码块-作为Docker映像存储在指定的Docker初始化中。-为响应CLI命令或签名的HTTP请求而调用（以响应CLI命令或签名的HTTP请求而调用）
-
-
-<div style =“总是分页后中断；”> </ div> ##实例基础
+you are managing your code, and then of course you are managing your App container<sup>**2**</sup>.
 
 
-计算实例相对其他OCI服务，例如数据块量和虚拟云网络（VCN）
+## Functions
 
-！[instance]（https://imgur.com/zrghb9s.png ）
+Oracle Functions where you just write the code. You write the code in different languages, and you don't worry about any of the underlying infrastructure.
+- small but powerful blocks of code 
+- stored as Docker images in a specified Docker registry.
+- invoked in response to a CLI command or signed HTTP request (为了响应CLI命令或签名的HTTP请求而调用)
+<div style="page-break-after: always;"></div>
+## Instance basics
 
-## 垂直缩放
+Compute instances depend on on other OCI services such as Block Volume and Virtual Cloud Network (VCN)
 
-支持按比例放大和按比例缩小实例形状（实例尺寸），在调整实例大小之前必须停止实例。
+![instance](https://imgur.com/zrghb9s.png)
 
-## 自动缩放
-这实际上是水平缩放。通过自动配置从分割黄金映像启用**虚拟机的扩展部署**，称为横向扩展或垂直扩展。
+## Vertical Scaling
 
-！[横向扩展或初步扩展]（https://imgur.com/YbKBZMG.png ）
+Scale-up and Scale-down instance shape (实例外形) supported, the instance must be stopped before resize it.
 
-### 如何自动缩放
+## Autoscaling
+Which is literally horizontal scaling. Enables **large scale deployment** of VMs from a single gold image with automatic configuration, referred to as Scale-out or Scale-in.
+
+<img src="https://imgur.com/YbKBZMG.png" width="320" height="300">
+
+### How to autoscaling
 
 ![How to autoscaling](https://imgur.com/SZ5sl1f.png)
+
 1. You have an instance running --> what you do is create **a configuration**.
 The configuration is nothing but an operating system image, your metadata, storage disks, all  that stuff. It basically earns about what you  instance looks like. You're creating this thing called a *gold image* here.
 
@@ -68,6 +69,7 @@ The configuration is nothing but an operating system image, your metadata, stora
 
 3. Put these instances in different ADs. Then define your **scaling rules** to  manage hundreds of VMs together as one unit. 
 
+<div style="page-break-after: always;"></div>
 
 ##  VM vs Container 
 
@@ -76,7 +78,7 @@ There were some downsides to VM, you were **repeating the operating system** eve
 The concept of containers where we raised the abstraction one more level, and now we **abstract/virtualize** the **operating system**.  It **shares** the **kernel** or the **operating system** with other containers.
 
 ![VM vs Container ](https://imgur.com/ZIPLBR8.png)
-
+<img src="https://imgur.com/ZIPLBR8.png" width="320" height="300">
 
 
 
@@ -89,5 +91,5 @@ The concept of containers where we raised the abstraction one more level, and no
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MDIzMTcxMiwtNDEwNjI3NzA3XX0=
+eyJoaXN0b3J5IjpbNjc5OTgwMzU2LC00MTA2Mjc3MDddfQ==
 -->
