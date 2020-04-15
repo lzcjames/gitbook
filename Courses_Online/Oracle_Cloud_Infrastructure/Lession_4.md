@@ -31,8 +31,9 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 - Exchange (supports block level storage only)
 - VMware (VMFS volumes on block level storage)
 - Server boot (in public clouds, instances are configured to boot from block level storage)
--![enter image description here](https://imgur.com/PO5DbHp.png | width=100)
-![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=00)
+![enter image description here](https://imgur.com/PO5DbHp.png | width=100)
+
+<img src="https://your-image-url.type" width="100" height="100">
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIyMzk1MjA4LDc4OTM1NDczNF19
+eyJoaXN0b3J5IjpbMTIzOTY5OTUzMSw3ODkzNTQ3MzRdfQ==
 -->
