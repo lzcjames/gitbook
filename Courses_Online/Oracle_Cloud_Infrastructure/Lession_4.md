@@ -36,7 +36,7 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 - VMware (VMFS volumes on block level storage)
 - Server boot (in public clouds, instances are configured to boot from block level storage)
 
-<img src="https://imgur.com/PO5DbHp.png" width="420" height="500">
+<img src="https://imgur.com/PO5DbHp.png" width="420" height="480">
 
 ### Highly durable
 - Storage is highly durable and persistent
@@ -44,8 +44,12 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 - You don't need to configure any software based protection (RAID 10 etc)
 - A backup is recommend for minimize losing data. 
 
-<img src="https://imgur.com/UwItVxH.png" width="420" height="220">
+<img src="https://imgur.com/UwItVxH.png" width="400" height="220">
+
+### Backup
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU5NTE1NTgyLC0xOTgyNzA3MDE3LDc4OT
-M1NDczNF19
+eyJoaXN0b3J5IjpbLTQ0NzU0MjA1MCwtMTk4MjcwNzAxNyw3OD
+kzNTQ3MzRdfQ==
 -->
