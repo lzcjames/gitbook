@@ -77,11 +77,7 @@ There were some downsides to VM, you were **repeating the operating system** eve
 
 The concept of containers where we raised the abstraction one more level, and now we **abstract/virtualize** the **operating system**.  It **shares** the **kernel** or the **operating system** with other containers.
 
-![VM vs Container ](https://imgur.com/ZIPLBR8.png)
-<img src="https://imgur.com/ZIPLBR8.png" width="320" height="300">
-
-
-
+<img src="https://imgur.com/ZIPLBR8.png" width="650" height="300">
 
 ---
 <sup>**1:**</sup> **off-box virtualization:**  we off-load network and storage to a separate hardware card in the server. People also  call it  as  custom  silicon. 我们把网络和储存卸货到一个单独的硬件卡上.
@@ -91,5 +87,5 @@ The concept of containers where we raised the abstraction one more level, and no
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc5OTgwMzU2LC00MTA2Mjc3MDddfQ==
+eyJoaXN0b3J5IjpbLTEyNTgyMTE0MjIsLTQxMDYyNzcwN119
 -->
