@@ -16,7 +16,8 @@ Grouping of hardware and infrastructure within an AD to provide anti-affinity (*
 故障域是在AD中用于提供反关联性<sup>**1**</sup>的硬件和基础结构的分组，FD也称为**逻辑数据中心** . 
 
 Not share single points of hardware failure such as same physical server, physical rack or power distribution unit.
-![FD doesn't share single points](https://imgur.com/QQelQ8L.png)
+
+<img src="https://imgur.com/QQelQ8L.png" width="320" height="300">
 
 ## High Availability Design
 
@@ -57,6 +58,6 @@ A compartment is a  collection of related resources. It helps you **isolate** an
 ---
 <sup>**1:**</sup> 反关联性规则, 比如将一组虚拟机放置在不同的主机上，这样可以防止所有虚拟机在单个主机发生故障时立即发生故障
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTk0MTA1MzIsLTQyMzc3Nzk0Nyw3Nj
-czMTQ1OCwtMzc4MzY0Mzk5XX0=
+eyJoaXN0b3J5IjpbMTAyMTcyNzMwOSwtMTM1OTQxMDUzMiwtND
+IzNzc3OTQ3LDc2NzMxNDU4LC0zNzgzNjQzOTldfQ==
 -->
