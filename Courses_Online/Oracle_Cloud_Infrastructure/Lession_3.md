@@ -31,6 +31,8 @@ VMs require work - OS path management, security configuration, monitoring, appli
 - move applications from on-premises to OCI
 
 
+<div style="page-break-after: always;"></div>
+
 ## Container Engine
 
 you are managing your code, and then of course you are managing your App container<sup>**2**</sup>.
@@ -68,7 +70,7 @@ The configuration is nothing but an operating system image, your metadata, stora
 
 3. Put these instances in different ADs. Then define your **scaling rules** to  manage hundreds of VMs together as one unit. 
 
-
+<div style="page-break-after: always;"></div>
 ##  VM vs Container 
 
 There were some downsides to VM, you were **repeating the operating system** everywhere. And so these became **bulky** (笨重的). For example if you have 10 VMs, basically you're packaging the operating system 10 times.
@@ -89,5 +91,5 @@ The concept of containers where we raised the abstraction one more level, and no
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDYyNzcwN119
+eyJoaXN0b3J5IjpbMzU1NDcxMjk3LC00MTA2Mjc3MDddfQ==
 -->
