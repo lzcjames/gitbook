@@ -17,7 +17,7 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 - You can place any kind of file system on block level storage. E.g Windows uses NTFS; VMware uses VMFS.
 
-### Block Volume Service
+## Block Volume Service
 
 - Storage for compute instances (REMOTE)
 
@@ -38,7 +38,11 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 <img src="https://imgur.com/PO5DbHp.png" width="420" height="500">
 
-
+### Highly durable
+- Storage is highly durable and persistent
+- Block Volume store replica of data in 3 separate FDs
+- You don't need to configure any software 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODI3MDcwMTcsNzg5MzU0NzM0XX0=
+eyJoaXN0b3J5IjpbOTkzNTM5ODQ1LC0xOTgyNzA3MDE3LDc4OT
+M1NDczNF19
 -->
