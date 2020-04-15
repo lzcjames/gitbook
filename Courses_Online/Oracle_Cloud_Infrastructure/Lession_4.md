@@ -39,6 +39,7 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 <img src="https://imgur.com/PO5DbHp.png" width="420" height="480">
 
 ### Highly durable
+
 - Storage is highly durable and persistent
 - Block Volume store replica of data in 3 separate FDs
 - You don't need to configure any software based protection (RAID 10 etc)
@@ -50,6 +51,6 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NzU0MjA1MCwtMTk4MjcwNzAxNyw3OD
-kzNTQ3MzRdfQ==
+eyJoaXN0b3J5IjpbLTE2MzA4MTc5MzYsLTQ0NzU0MjA1MCwtMT
+k4MjcwNzAxNyw3ODkzNTQ3MzRdfQ==
 -->
