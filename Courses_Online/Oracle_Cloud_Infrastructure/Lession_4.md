@@ -59,16 +59,17 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 ## Local NVMe
 - **Temporary** storage **locally** attached directly to the compute instances
 -  **high-performance** local storage
-- Storage is **non-persistent** (sur)
-- Use cases
-	- NoSQL DB
-	- in-memory DB
-	- Scale-out transnational DB
-	- Data warehousing (数据仓库)
+- Storage is **non-persistent** (survives reboot)
+- 
+## Use cases
+- NoSQL DB
+- in-memory DB
+- Scale-out transnational DB
+- Data warehousing (数据仓库)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MDU4OTM1OSwtNjM2MTAzMjUwLC0xNj
-MwODE3OTM2LC00NDc1NDIwNTAsLTE5ODI3MDcwMTcsNzg5MzU0
-NzM0XX0=
+eyJoaXN0b3J5IjpbNjQ2NDEzODU5LC02MzYxMDMyNTAsLTE2Mz
+A4MTc5MzYsLTQ0NzU0MjA1MCwtMTk4MjcwNzAxNyw3ODkzNTQ3
+MzRdfQ==
 -->
