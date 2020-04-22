@@ -48,28 +48,36 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 <img src="https://imgur.com/UwItVxH.png" width="400" height="220">
 
 ### Block Volume Backup
+
 - Complete point-in-time snapshot copy of your block volumes
 - Encrypted and stored in the Object Storage, and can be restored as new volumes to any AD within the same region
 - Can copy block volume backups from one-region to another
 - Backups can be scheduled
 
 ### Block Volume Tiers
+
 <img src="https://imgur.com/JGrdTwk.png" width="500" height="290">
 
 ## Local NVMe
+
 - **Temporary** storage **locally** attached directly to the compute instances
 -  **high-performance** local storage
 - Storage is **non-persistent** (survives reboot)
-- 
-## Use cases
+
+### Use cases
+
 - NoSQL DB
 - in-memory DB
 - Scale-out transnational DB
 - Data warehousing (数据仓库)
 
+## File Storage
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ2NDEzODU5LC02MzYxMDMyNTAsLTE2Mz
+eyJoaXN0b3J5IjpbNDMyODQzNTk4LC02MzYxMDMyNTAsLTE2Mz
 A4MTc5MzYsLTQ0NzU0MjA1MCwtMTk4MjcwNzAxNyw3ODkzNTQ3
 MzRdfQ==
 -->
