@@ -114,13 +114,15 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 - Offers 2 distinct storage classes
 	- Hot Storage
 	- Cold Storage
+	
+### Object Storage Tiers
 
 ### Object Storage Highly durable
 
 - **Highly durable**  and **Persistent**
 - File storage stores replica of data in 3 separate FDs
 - In a multi-AD region, it stores replica of data in more than on AD
-- Data **detected and auto repaired
+- Data **detected** and **auto repaired**
 - For **disaster recovery**
 
 ### Object Storage Use cases
@@ -144,7 +146,7 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNjk3MTE0NCwtMTM5MzUzODI2LDEyNz
+eyJoaXN0b3J5IjpbMTkzMzg0MTY0NCwtMTM5MzUzODI2LDEyNz
 kwNTQ3MzUsLTYzNjEwMzI1MCwtMTYzMDgxNzkzNiwtNDQ3NTQy
 MDUwLC0xOTgyNzA3MDE3LDc4OTM1NDczNF19
 -->
