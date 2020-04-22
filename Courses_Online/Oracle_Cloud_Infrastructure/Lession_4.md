@@ -99,10 +99,16 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 - General purpose File systems (e.g. NAS)
 
 
+## Object Storage
+
+- All data is managed as objects
+- Each object is stored in a buck
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDUwMTg2OTAsLTEzOTM1MzgyNiwxMj
-c5MDU0NzM1LC02MzYxMDMyNTAsLTE2MzA4MTc5MzYsLTQ0NzU0
-MjA1MCwtMTk4MjcwNzAxNyw3ODkzNTQ3MzRdfQ==
+eyJoaXN0b3J5IjpbNDUwMjY3MDMyLC0xMzkzNTM4MjYsMTI3OT
+A1NDczNSwtNjM2MTAzMjUwLC0xNjMwODE3OTM2LC00NDc1NDIw
+NTAsLTE5ODI3MDcwMTcsNzg5MzU0NzM0XX0=
 -->
