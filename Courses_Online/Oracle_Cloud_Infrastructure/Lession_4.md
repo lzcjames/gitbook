@@ -102,13 +102,13 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 ## Object Storage
 
 - All data is managed as objects
-- Each object is stored in a buck
+- Each object is stored in a bucket
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUwMjY3MDMyLC0xMzkzNTM4MjYsMTI3OT
-A1NDczNSwtNjM2MTAzMjUwLC0xNjMwODE3OTM2LC00NDc1NDIw
-NTAsLTE5ODI3MDcwMTcsNzg5MzU0NzM0XX0=
+eyJoaXN0b3J5IjpbLTEyMTM2NDUzNSwtMTM5MzUzODI2LDEyNz
+kwNTQ3MzUsLTYzNjEwMzI1MCwtMTYzMDgxNzkzNiwtNDQ3NTQy
+MDUwLC0xOTgyNzA3MDE3LDc4OTM1NDczNF19
 -->
