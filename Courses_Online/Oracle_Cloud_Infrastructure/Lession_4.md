@@ -118,7 +118,9 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 ### Object Storage Tiers
 1. Standard Storage Tier (Hot)
 	- Fast, immediate and frequent access
-	- 
+	- Data retrieval is instantaneous
+	- Always serves the most recent copy of data when retrived
+	- Standard buckets can't be downgraded to ar
 3. blabla
 
 ### Object Storage Highly durable
@@ -150,7 +152,7 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MDI2NjM1MCwyODEzNzQ4MjEsMTU5NT
+eyJoaXN0b3J5IjpbLTc1OTgwOTM0NiwyODEzNzQ4MjEsMTU5NT
 Y5NTIxMiwxOTMzODQxNjQ0LC0xMzkzNTM4MjYsMTI3OTA1NDcz
 NSwtNjM2MTAzMjUwLC0xNjMwODE3OTM2LC00NDc1NDIwNTAsLT
 E5ODI3MDcwMTcsNzg5MzU0NzM0XX0=
