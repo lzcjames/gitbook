@@ -126,7 +126,7 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 #### 2. Archive Storage Tier (Cold)
 
--  
+-  Rarely accessed data, must be retained and saved for long 
 
 ### Object Storage Highly durable
 
@@ -157,8 +157,8 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDk3NDgyODcsMjgxMzc0ODIxLDE1OT
-U2OTUyMTIsMTkzMzg0MTY0NCwtMTM5MzUzODI2LDEyNzkwNTQ3
-MzUsLTYzNjEwMzI1MCwtMTYzMDgxNzkzNiwtNDQ3NTQyMDUwLC
-0xOTgyNzA3MDE3LDc4OTM1NDczNF19
+eyJoaXN0b3J5IjpbNjE1ODYxNzI4LDI4MTM3NDgyMSwxNTk1Nj
+k1MjEyLDE5MzM4NDE2NDQsLTEzOTM1MzgyNiwxMjc5MDU0NzM1
+LC02MzYxMDMyNTAsLTE2MzA4MTc5MzYsLTQ0NzU0MjA1MCwtMT
+k4MjcwNzAxNyw3ODkzNTQ3MzRdfQ==
 -->
