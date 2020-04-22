@@ -48,9 +48,13 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 <img src="https://imgur.com/UwItVxH.png" width="400" height="220">
 
 ### Backup
+- Complete point-in-time snapshot copy of your block volumes
+- Encrypted and stored in the Object Storage, and can be restored as new volumes to any AD within the same region
+- Can copy block volume backups from one-region to another
+- Backups can be scheduled
 
-
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzA4MTc5MzYsLTQ0NzU0MjA1MCwtMT
-k4MjcwNzAxNyw3ODkzNTQ3MzRdfQ==
+eyJoaXN0b3J5IjpbLTEyODY2MTc2OTMsLTE2MzA4MTc5MzYsLT
+Q0NzU0MjA1MCwtMTk4MjcwNzAxNyw3ODkzNTQ3MzRdfQ==
 -->
