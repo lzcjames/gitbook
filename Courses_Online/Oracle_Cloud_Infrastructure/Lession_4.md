@@ -83,13 +83,19 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 - Support NFSv.3 distributed fils system
 - Data protection: Snapshots
 - Security: data-at-rest and in-transit encryption for all file systems & metadata
-- 
+
+### File Storage Uses cases
+
+- Oracle Applications
+- HPC
+- Big Data and Analytics
+- General purpose File systems (e.g. NAS)
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDQzNzEwNjUsMTI3OTA1NDczNSwtNj
-M2MTAzMjUwLC0xNjMwODE3OTM2LC00NDc1NDIwNTAsLTE5ODI3
-MDcwMTcsNzg5MzU0NzM0XX0=
+eyJoaXN0b3J5IjpbMTQ3MjAwODUxNywxMjc5MDU0NzM1LC02Mz
+YxMDMyNTAsLTE2MzA4MTc5MzYsLTQ0NzU0MjA1MCwtMTk4Mjcw
+NzAxNyw3ODkzNTQ3MzRdfQ==
 -->
