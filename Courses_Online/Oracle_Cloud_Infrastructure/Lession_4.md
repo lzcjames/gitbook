@@ -120,7 +120,8 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 - **Highly durable**  and **Persistent**
 - File storage stores replica of data in 3 separate FDs
 - In a multi-AD region, it stores replica of data in more than on AD
-- 
+- Data **detected and auto repaired
+- For **disaster recovery**
 
 ### Object Storage Use cases
 
@@ -143,7 +144,7 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzc5NzY1ODAsLTEzOTM1MzgyNiwxMj
-c5MDU0NzM1LC02MzYxMDMyNTAsLTE2MzA4MTc5MzYsLTQ0NzU0
-MjA1MCwtMTk4MjcwNzAxNyw3ODkzNTQ3MzRdfQ==
+eyJoaXN0b3J5IjpbMTAzNjk3MTE0NCwtMTM5MzUzODI2LDEyNz
+kwNTQ3MzUsLTYzNjEwMzI1MCwtMTYzMDgxNzkzNiwtNDQ3NTQy
+MDUwLC0xOTgyNzA3MDE3LDc4OTM1NDczNF19
 -->
