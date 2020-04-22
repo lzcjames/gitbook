@@ -116,13 +116,16 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 	- Cold Storage
 	
 ### Object Storage Tiers
+
 #### 1. Standard Storage Tier (Hot)
-- Fast, immediate and frequent access
-- Data retrieval is instantaneous
-- Always serves the most recent copy of data when retrived
-- Standard buckets can't be downgraded to archive storage
+
+- Fast, immediate and frequent access.
+- Data retrieval is instantaneous. 数据检索是即时的
+- Always serves the most recent copy of data when retrieved. 检索时始终提供最新的数据副本
+- Standard buckets can't be downgraded to archive storage. 无法将标准存储桶降级到归档存储
 
 #### 2. Archive Storage Tier (Cold)
+
 -  
 
 ### Object Storage Highly durable
@@ -154,8 +157,8 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc5Mzk0NjUyLDI4MTM3NDgyMSwxNTk1Nj
-k1MjEyLDE5MzM4NDE2NDQsLTEzOTM1MzgyNiwxMjc5MDU0NzM1
-LC02MzYxMDMyNTAsLTE2MzA4MTc5MzYsLTQ0NzU0MjA1MCwtMT
-k4MjcwNzAxNyw3ODkzNTQ3MzRdfQ==
+eyJoaXN0b3J5IjpbLTE3NDk3NDgyODcsMjgxMzc0ODIxLDE1OT
+U2OTUyMTIsMTkzMzg0MTY0NCwtMTM5MzUzODI2LDEyNzkwNTQ3
+MzUsLTYzNjEwMzI1MCwtMTYzMDgxNzkzNiwtNDQ3NTQyMDUwLC
+0xOTgyNzA3MDE3LDc4OTM1NDczNF19
 -->
