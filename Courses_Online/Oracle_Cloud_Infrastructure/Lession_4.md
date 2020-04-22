@@ -2,7 +2,7 @@
 
 ## Overview
 
-<img src="https://imgur.com/jlbOm1y.png" width="600" height="300">
+<img src="https://imgur.com/jlbOm1y.png" width="700" height="350">
 
 ## Block Storage
 
@@ -40,7 +40,7 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 - VMware (VMFS volumes on block level storage)
 - Server boot (in public clouds, instances are configured to boot from block level storage)
 
-<img src="https://imgur.com/PO5DbHp.png" width="320" height="480">
+<img src="https://imgur.com/PO5DbHp.png" width="320" height="390">
 
 ### Block Volume Highly durable
 
@@ -165,8 +165,8 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcyODY1MDcsMjgxMzc0ODIxLDE1OTU2OT
-UyMTIsMTkzMzg0MTY0NCwtMTM5MzUzODI2LDEyNzkwNTQ3MzUs
-LTYzNjEwMzI1MCwtMTYzMDgxNzkzNiwtNDQ3NTQyMDUwLC0xOT
-gyNzA3MDE3LDc4OTM1NDczNF19
+eyJoaXN0b3J5IjpbLTU0ODI3MDAwMSwyODEzNzQ4MjEsMTU5NT
+Y5NTIxMiwxOTMzODQxNjQ0LC0xMzkzNTM4MjYsMTI3OTA1NDcz
+NSwtNjM2MTAzMjUwLC0xNjMwODE3OTM2LC00NDc1NDIwNTAsLT
+E5ODI3MDcwMTcsNzg5MzU0NzM0XX0=
 -->
