@@ -29,7 +29,7 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 - When instance  dies,  Your  boot  volume  and  your  data  volumes  are  all  still  available. So Block Volume is used for  **data durability** 数据持久化.
 
-### Block Volume Use cases
+### Block Volume Use ases
 
 - Databases
 - Exchange (supports block level storage only)
@@ -64,7 +64,7 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 -  **high-performance** local storage
 - Storage is **non-persistent** (survives reboot)
 
-### Use cases
+### Local NVMe Use cases
 
 - NoSQL DB
 - in-memory DB
@@ -79,10 +79,14 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 	- SMB
 
 ### File Storage Service (FSS)
+
 - Shared file system storage for compute instances
 - Support NFSv.3 distributed fils system
 - Data protection: Snapshots
 - Security: data-at-rest and in-transit encryption for all file systems & metadata
+
+### File Storage Highly durable
+
 
 ### File Storage Uses cases
 
@@ -95,7 +99,7 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MjAwODUxNywxMjc5MDU0NzM1LC02Mz
+eyJoaXN0b3J5IjpbMjA3Mzg3ODcxMSwxMjc5MDU0NzM1LC02Mz
 YxMDMyNTAsLTE2MzA4MTc5MzYsLTQ0NzU0MjA1MCwtMTk4Mjcw
 NzAxNyw3ODkzNTQ3MzRdfQ==
 -->
