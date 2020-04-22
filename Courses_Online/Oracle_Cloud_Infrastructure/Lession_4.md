@@ -110,7 +110,12 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 ### Object Storage Service
 
+- Regional service, not tied to any specific compute instance
+- Offers 2 distinct storage classes
+	- Hot Storage
+	- Cold Storage
 
+### Obkect
 
 
 
@@ -123,7 +128,7 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNDI0MDcyOCwtMTM5MzUzODI2LDEyNz
+eyJoaXN0b3J5IjpbMTk1MjM0NTYwNCwtMTM5MzUzODI2LDEyNz
 kwNTQ3MzUsLTYzNjEwMzI1MCwtMTYzMDgxNzkzNiwtNDQ3NTQy
 MDUwLC0xOTgyNzA3MDE3LDc4OTM1NDczNF19
 -->
