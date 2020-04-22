@@ -116,6 +116,7 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 	- Cold Storage
 	
 ### Object Storage Tiers
+1
 
 ### Object Storage Highly durable
 
@@ -146,7 +147,8 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMzg0MTY0NCwtMTM5MzUzODI2LDEyNz
-kwNTQ3MzUsLTYzNjEwMzI1MCwtMTYzMDgxNzkzNiwtNDQ3NTQy
-MDUwLC0xOTgyNzA3MDE3LDc4OTM1NDczNF19
+eyJoaXN0b3J5IjpbMTYzODU4ODQyMywxOTMzODQxNjQ0LC0xMz
+kzNTM4MjYsMTI3OTA1NDczNSwtNjM2MTAzMjUwLC0xNjMwODE3
+OTM2LC00NDc1NDIwNTAsLTE5ODI3MDcwMTcsNzg5MzU0NzM0XX
+0=
 -->
