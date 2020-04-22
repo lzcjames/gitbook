@@ -73,11 +73,16 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 ## File Storage
 
+- Hierarchical collection of documents
+- Distributed files standards
+	- NFS
+	- SMB
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMyODQzNTk4LC02MzYxMDMyNTAsLTE2Mz
-A4MTc5MzYsLTQ0NzU0MjA1MCwtMTk4MjcwNzAxNyw3ODkzNTQ3
-MzRdfQ==
+eyJoaXN0b3J5IjpbMTI3OTA1NDczNSwtNjM2MTAzMjUwLC0xNj
+MwODE3OTM2LC00NDc1NDIwNTAsLTE5ODI3MDcwMTcsNzg5MzU0
+NzM0XX0=
 -->
