@@ -101,14 +101,16 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 ## Object Storage
 
-- All data is managed as objects
-- Each object is composed of object itself and object's metadata 
+- All data is managed as **objects**, for storing unlimited of unstructured data.
+- Each object is composed of **object itself** and **object's metadata** 
 - Each object is stored in a bucket<sup>**1**</sup>, this means that accessing individual objects is fast and easy.
 - Without a folder hierarchy
-- High scalability and reliability
+- **High scalability** and **reliability**
 - Object storage relies on standard HTTP verbs (GET, PUT, POST, UPDATE, DELETE )
 
-### Object
+### Object Storage Service
+
+
 
 
 
@@ -121,7 +123,7 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5Mjg1MzQ1MywtMTM5MzUzODI2LDEyNz
+eyJoaXN0b3J5IjpbMTUyNDI0MDcyOCwtMTM5MzUzODI2LDEyNz
 kwNTQ3MzUsLTYzNjEwMzI1MCwtMTYzMDgxNzkzNiwtNDQ3NTQy
 MDUwLC0xOTgyNzA3MDE3LDc4OTM1NDczNF19
 -->
