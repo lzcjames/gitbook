@@ -119,7 +119,9 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 - Content repository for data, images, logs and video etc.
 - **Archive/ Backup** for longer periods of time.
-- Storing log data for analysis
+- Storing log data for analysis and debugs/ troubleshooting.
+- Storing large data sets (genome data, IoT).
+- Big data, Had
 
 
 
@@ -132,7 +134,7 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjAzMjc0NjIsLTEzOTM1MzgyNiwxMj
-c5MDU0NzM1LC02MzYxMDMyNTAsLTE2MzA4MTc5MzYsLTQ0NzU0
-MjA1MCwtMTk4MjcwNzAxNyw3ODkzNTQ3MzRdfQ==
+eyJoaXN0b3J5IjpbMTk0NDg3NzU2MywtMTM5MzUzODI2LDEyNz
+kwNTQ3MzUsLTYzNjEwMzI1MCwtMTYzMDgxNzkzNiwtNDQ3NTQy
+MDUwLC0xOTgyNzA3MDE3LDc4OTM1NDczNF19
 -->
