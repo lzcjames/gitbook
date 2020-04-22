@@ -102,14 +102,16 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 ## Object Storage
 
 - All data is managed as objects
+- Each object is composed of object itself and object's metadata 
 - Each object is stored in a bucket. A bucket is a logical container for storing objects
-- without 
+- without a folder hierarchy
+- 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNjk3MDYwMSwtMTM5MzUzODI2LDEyNz
+eyJoaXN0b3J5IjpbMTUxOTYyMTU3MywtMTM5MzUzODI2LDEyNz
 kwNTQ3MzUsLTYzNjEwMzI1MCwtMTYzMDgxNzkzNiwtNDQ3NTQy
 MDUwLC0xOTgyNzA3MDE3LDc4OTM1NDczNF19
 -->
