@@ -2,7 +2,7 @@
 
 ## Overview
 
-
+<img src="https://imgur.com/jlbOm1y.png" width="800" height="400">
 
 ## Block Storage
 
@@ -165,8 +165,8 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcyNzEyODcwLDI4MTM3NDgyMSwxNTk1Nj
-k1MjEyLDE5MzM4NDE2NDQsLTEzOTM1MzgyNiwxMjc5MDU0NzM1
-LC02MzYxMDMyNTAsLTE2MzA4MTc5MzYsLTQ0NzU0MjA1MCwtMT
-k4MjcwNzAxNyw3ODkzNTQ3MzRdfQ==
+eyJoaXN0b3J5IjpbMTI0MjIwNDM5NSwyODEzNzQ4MjEsMTU5NT
+Y5NTIxMiwxOTMzODQxNjQ0LC0xMzkzNTM4MjYsMTI3OTA1NDcz
+NSwtNjM2MTAzMjUwLC0xNjMwODE3OTM2LC00NDc1NDIwNTAsLT
+E5ODI3MDcwMTcsNzg5MzU0NzM0XX0=
 -->
