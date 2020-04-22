@@ -106,7 +106,9 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 - Each object is stored in a bucket<sup>**1**</sup>, this means that accessing individual objects is fast and easy.
 - Without a folder hierarchy
 - High scalability and reliability
-- 
+- Object storage relies on standard HTTP verbs (GET, PUT, POST, UPDATE, DELETE )
+
+### Object
 
 
 
@@ -119,7 +121,7 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODU4NzU3ODksLTEzOTM1MzgyNiwxMj
-c5MDU0NzM1LC02MzYxMDMyNTAsLTE2MzA4MTc5MzYsLTQ0NzU0
-MjA1MCwtMTk4MjcwNzAxNyw3ODkzNTQ3MzRdfQ==
+eyJoaXN0b3J5IjpbLTU5Mjg1MzQ1MywtMTM5MzUzODI2LDEyNz
+kwNTQ3MzUsLTYzNjEwMzI1MCwtMTYzMDgxNzkzNiwtNDQ3NTQy
+MDUwLC0xOTgyNzA3MDE3LDc4OTM1NDczNF19
 -->
