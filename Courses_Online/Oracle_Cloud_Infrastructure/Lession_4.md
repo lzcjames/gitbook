@@ -1,5 +1,9 @@
 # OCI Storage Services
 
+## Overview
+
+
+
 ## Block Storage
 
 - Like a hard drive in a server except the hard drive happens to be installed in a **remote** chassis.
@@ -129,7 +133,8 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 -  Rarely accessed data, must be retained and saved for long period of time.
 - 10 times cheaper than Standard Storage Tier
 - **90 days minimum** for storage
-- Objects need to be stored before download; Time To First Byte (TTF)
+- Objects need to be stored before download; Time To First Byte (TTFB) after restore request is made: 4 hours
+- Archive buckets can't be downgraded to standard storage
 
 ### Object Storage Highly durable
 
@@ -160,7 +165,7 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg4ODUzNjg4LDI4MTM3NDgyMSwxNTk1Nj
+eyJoaXN0b3J5IjpbNzcyNzEyODcwLDI4MTM3NDgyMSwxNTk1Nj
 k1MjEyLDE5MzM4NDE2NDQsLTEzOTM1MzgyNiwxMjc5MDU0NzM1
 LC02MzYxMDMyNTAsLTE2MzA4MTc5MzYsLTQ0NzU0MjA1MCwtMT
 k4MjcwNzAxNyw3ODkzNTQ3MzRdfQ==
