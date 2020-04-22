@@ -53,8 +53,9 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 - Can copy block volume backups from one-region to another
 - Backups can be scheduled
 
-### 
+### Tiers
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODY2MTc2OTMsLTE2MzA4MTc5MzYsLT
-Q0NzU0MjA1MCwtMTk4MjcwNzAxNyw3ODkzNTQ3MzRdfQ==
+eyJoaXN0b3J5IjpbLTYzNjEwMzI1MCwtMTYzMDgxNzkzNiwtND
+Q3NTQyMDUwLC0xOTgyNzA3MDE3LDc4OTM1NDczNF19
 -->
