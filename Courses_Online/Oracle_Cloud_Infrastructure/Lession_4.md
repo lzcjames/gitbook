@@ -117,7 +117,8 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 	
 ### Object Storage Tiers
 1. Standard Storage Tier (Hot)
-	- Fast
+	- Fast, immediate and frequent access
+	- 
 3. blabla
 
 ### Object Storage Highly durable
@@ -149,8 +150,8 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgxMzc0ODIxLDE1OTU2OTUyMTIsMTkzMz
-g0MTY0NCwtMTM5MzUzODI2LDEyNzkwNTQ3MzUsLTYzNjEwMzI1
-MCwtMTYzMDgxNzkzNiwtNDQ3NTQyMDUwLC0xOTgyNzA3MDE3LD
-c4OTM1NDczNF19
+eyJoaXN0b3J5IjpbMTg3MDI2NjM1MCwyODEzNzQ4MjEsMTU5NT
+Y5NTIxMiwxOTMzODQxNjQ0LC0xMzkzNTM4MjYsMTI3OTA1NDcz
+NSwtNjM2MTAzMjUwLC0xNjMwODE3OTM2LC00NDc1NDIwNTAsLT
+E5ODI3MDcwMTcsNzg5MzU0NzM0XX0=
 -->
