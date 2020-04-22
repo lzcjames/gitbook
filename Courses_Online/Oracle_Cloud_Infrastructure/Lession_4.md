@@ -17,7 +17,7 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 - You can place any kind of file system on block level storage. E.g Windows uses NTFS; VMware uses VMFS.
 
-## Block Volume Service
+### Block Volume Service
 
 - Storage for compute instances (REMOTE)
 
@@ -29,7 +29,7 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 - When instance  dies,  Your  boot  volume  and  your  data  volumes  are  all  still  available. So Block Volume is used for  **data durability** 数据持久化.
 
-### Use cases
+### Block Volume Use cases
 
 - Databases
 - Exchange (supports block level storage only)
@@ -38,7 +38,7 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 <img src="https://imgur.com/PO5DbHp.png" width="420" height="480">
 
-### Highly durable
+### Block Volume Highly durable
 
 - Storage is highly durable and persistent
 - Block Volume store replica of data in 3 separate FDs
@@ -47,15 +47,17 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 <img src="https://imgur.com/UwItVxH.png" width="400" height="220">
 
-### Backup
+### Block Volume Backup
 - Complete point-in-time snapshot copy of your block volumes
 - Encrypted and stored in the Object Storage, and can be restored as new volumes to any AD within the same region
 - Can copy block volume backups from one-region to another
 - Backups can be scheduled
 
 ### Tiers
+<img src="https://imgur.com/JGrdTwk.png" width="500" height="290">
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNjEwMzI1MCwtMTYzMDgxNzkzNiwtND
-Q3NTQyMDUwLC0xOTgyNzA3MDE3LDc4OTM1NDczNF19
+eyJoaXN0b3J5IjpbLTQzNjExOTQ3NCwtNjM2MTAzMjUwLC0xNj
+MwODE3OTM2LC00NDc1NDIwNTAsLTE5ODI3MDcwMTcsNzg5MzU0
+NzM0XX0=
 -->
