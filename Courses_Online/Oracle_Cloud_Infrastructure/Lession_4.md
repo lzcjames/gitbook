@@ -57,11 +57,12 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 <img src="https://imgur.com/JGrdTwk.png" width="500" height="290">
 
 ## Local NVMe
-- **Temporary**
+- **Temporary** storage **locally** attached **directly** to the compute **instances**
+- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NTQxNTg3NCwtNjM2MTAzMjUwLC0xNj
+eyJoaXN0b3J5IjpbMTY2MzQ3MTQ5NywtNjM2MTAzMjUwLC0xNj
 MwODE3OTM2LC00NDc1NDIwNTAsLTE5ODI3MDcwMTcsNzg5MzU0
 NzM0XX0=
 -->
