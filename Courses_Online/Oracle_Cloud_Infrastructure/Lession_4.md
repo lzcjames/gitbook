@@ -78,11 +78,15 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 	- NFS
 	- SMB
 
+### File Storage Service (FSS)
+- Shared file system storage for compute instances
+- Support NFSv.3 distributed fils syste
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3OTA1NDczNSwtNjM2MTAzMjUwLC0xNj
-MwODE3OTM2LC00NDc1NDIwNTAsLTE5ODI3MDcwMTcsNzg5MzU0
-NzM0XX0=
+eyJoaXN0b3J5IjpbLTE0NjI4MjA2NTIsMTI3OTA1NDczNSwtNj
+M2MTAzMjUwLC0xNjMwODE3OTM2LC00NDc1NDIwNTAsLTE5ODI3
+MDcwMTcsNzg5MzU0NzM0XX0=
 -->
