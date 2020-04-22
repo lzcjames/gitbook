@@ -89,7 +89,7 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 - **Highly durable**  and **Persistent**
 - File storage stores replica of data in 3 separate FDs
-<img src="https://imgur.com/schIwme.png" width="500" height="290">
+<img src="https://imgur.com/schIwme.png" width="400" height="220">
 
 ### File Storage Uses cases
 
@@ -102,7 +102,7 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzODM1OTYyNiwtMTM5MzUzODI2LDEyNz
-kwNTQ3MzUsLTYzNjEwMzI1MCwtMTYzMDgxNzkzNiwtNDQ3NTQy
-MDUwLC0xOTgyNzA3MDE3LDc4OTM1NDczNF19
+eyJoaXN0b3J5IjpbLTE1NDUwMTg2OTAsLTEzOTM1MzgyNiwxMj
+c5MDU0NzM1LC02MzYxMDMyNTAsLTE2MzA4MTc5MzYsLTQ0NzU0
+MjA1MCwtMTk4MjcwNzAxNyw3ODkzNTQ3MzRdfQ==
 -->
