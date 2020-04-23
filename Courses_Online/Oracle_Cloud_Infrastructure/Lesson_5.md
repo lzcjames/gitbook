@@ -58,8 +58,9 @@ connect 2 VCNs in the **same region** so that their resources can communicate us
 
 - Remote VCN peering
 connect 2 VCNS in **different regions** so that their resources can communicate using private IP addresses.
+<img src="https://imgur.com/OMeyzwE.png" width="440" height="300">
 
-<img src="https://imgur.com/OMeyzwE.png" width="420" height="300">
+
 
 
 
@@ -69,7 +70,7 @@ connect 2 VCNS in **different regions** so that their resources can communicate 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNDgzOTg0MSwxNjI0NzA3MDE0LDE0Mj
-I4OTcwNTIsLTcwNTY2MjE4MCwtODA3ODUxMDk1LC05MzIzODI0
-NTUsMTUyNTMyMzY1MywxMTI0ODI4MjYwLDQzMDQ4NTY5MV19
+eyJoaXN0b3J5IjpbNDA4MjYwMzAzLDE2MjQ3MDcwMTQsMTQyMj
+g5NzA1MiwtNzA1NjYyMTgwLC04MDc4NTEwOTUsLTkzMjM4MjQ1
+NSwxNTI1MzIzNjUzLDExMjQ4MjgyNjAsNDMwNDg1NjkxXX0=
 -->
