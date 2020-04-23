@@ -27,11 +27,11 @@ It enables outbound connections to the internet, but blocks inbound connections 
 ### Dynamic Routing Gateway (DRG)
 It provides private IPv4 traffic for the communication mixed to on-premises and through the internet
 There are 2 mechanisms of DRG:
-- IPSec VPN
+- VPN Connect (IPSec VPN)
 - FastConnect
 
-#### IPSec VPN
-
+#### VPN Connect (IPSec VPN)
+encrypt the traffic 
 
 
 #### 
@@ -42,6 +42,6 @@ There are 2 mechanisms of DRG:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMjM4MjQ1NSwxNTI1MzIzNjUzLDExMj
-Q4MjgyNjAsNDMwNDg1NjkxXX0=
+eyJoaXN0b3J5IjpbMTU4Mzg0OTQzMCwtOTMyMzgyNDU1LDE1Mj
+UzMjM2NTMsMTEyNDgyODI2MCw0MzA0ODU2OTFdfQ==
 -->
