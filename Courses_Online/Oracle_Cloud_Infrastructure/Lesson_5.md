@@ -66,6 +66,11 @@ It provides automated traffic distribution from one entry point to multiple serv
 A load balancer improves **resource utilization**, facilitates **scaling**, **fault tolerance** and helps ensure **high availability**. 
 You can configure multiple load balancing policies and application-specific **health checks** to ensure that the load balancer directs traffic only to healthy instances.
 
+It has 2 types of LB:
+- Public Load Balancer
+To accept traffic from the internet, you create a public load balancer.
+- Private Load Balancer
+
 
 
 
@@ -79,8 +84,9 @@ You can configure multiple load balancing policies and application-specific **he
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY5MjE0NDAsLTU3MTY3MjU5NywtNzQyOD
-g5ODUzLDQwODI2MDMwMywxNjI0NzA3MDE0LDE0MjI4OTcwNTIs
-LTcwNTY2MjE4MCwtODA3ODUxMDk1LC05MzIzODI0NTUsMTUyNT
-MyMzY1MywxMTI0ODI4MjYwLDQzMDQ4NTY5MV19
+eyJoaXN0b3J5IjpbLTEwODAyNzQyMjIsMzY5MjE0NDAsLTU3MT
+Y3MjU5NywtNzQyODg5ODUzLDQwODI2MDMwMywxNjI0NzA3MDE0
+LDE0MjI4OTcwNTIsLTcwNTY2MjE4MCwtODA3ODUxMDk1LC05Mz
+IzODI0NTUsMTUyNTMyMzY1MywxMTI0ODI4MjYwLDQzMDQ4NTY5
+MV19
 -->
