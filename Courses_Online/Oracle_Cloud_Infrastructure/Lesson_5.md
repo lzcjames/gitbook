@@ -11,9 +11,10 @@
 - Highly Available, Scalable and Secure.
 
 ### How to establish a VCN
-- Address pool
+- Address pool assign to a VCN
+- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3Nzc5NDE0OSwxMTI0ODI4MjYwLDQzMD
+eyJoaXN0b3J5IjpbMTQ0NjY1NjcyMiwxMTI0ODI4MjYwLDQzMD
 Q4NTY5MV19
 -->
