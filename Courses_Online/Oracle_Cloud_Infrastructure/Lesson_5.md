@@ -34,10 +34,12 @@ when connecting your existing on-premises network to your virtual cloud network 
 
 There are 2 mechanisms of DRG:
 - VPN Connect (IPSec VPN)
-encrypt the traffic between your on-premises network (a data center or corporate LAN) and your Oracle virtual cloud network (VCN)
+
+  Encrypt the traffic between your on-premises network (a data center or corporate LAN) and your Oracle virtual cloud network (VCN)
 
 - FastConnect
-private connection between your data center and Oracle Cloud Infrastructure.
+
+  Private connection between your data center and Oracle Cloud Infrastructure.
 
 ### Service Gateway
 
@@ -54,11 +56,13 @@ which  lets  resources  in  VCN  access  public  services  such  as  **Object  S
 **communicate to other VCNs**, it has 2 types of peering:
 
 - Local VCN peering
-connect 2 VCNs in the **same region** so that their resources can communicate using private IP addresses.
+
+  Connect 2 VCNs in the **same region** so that their resources can communicate using private IP addresses.
 <img src="https://imgur.com/t4tCxes.png" width="220" height="300">
 
 - Remote VCN peering
-connect 2 VCNS in **different regions** so that their resources can communicate using private IP addresses.
+
+  Connect 2 VCNS in **different regions** so that their resources can communicate using private IP addresses.
 <img src="https://imgur.com/FToNNM8.png" width="440" height="300">
 
 ## Load Balancer
@@ -69,12 +73,13 @@ You can configure multiple load balancing policies and application-specific **he
 It has 2 types of LB:
 
 - Public Load Balancer
-To accept traffic from the internet, you create a public load balancer.
+
+  To accept traffic from the internet, you create a public load balancer.
 <img src="https://imgur.com/hIQJLW5.png" width="430" height="350">
 
 - Private Load Balancer
  
- To isolate your load balancer from the internet and simplify your security posture 处境
+   To isolate your load balancer from the internet and simplify your security posture 处境
 
 
 
@@ -88,7 +93,7 @@ To accept traffic from the internet, you create a public load balancer.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NDY2MzMyMywzNjkyMTQ0MCwtNTcxNj
+eyJoaXN0b3J5IjpbLTQ4NDc0NDQyMSwzNjkyMTQ0MCwtNTcxNj
 cyNTk3LC03NDI4ODk4NTMsNDA4MjYwMzAzLDE2MjQ3MDcwMTQs
 MTQyMjg5NzA1MiwtNzA1NjYyMTgwLC04MDc4NTEwOTUsLTkzMj
 M4MjQ1NSwxNTI1MzIzNjUzLDExMjQ4MjgyNjAsNDMwNDg1Njkx
