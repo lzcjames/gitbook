@@ -15,6 +15,8 @@
 - Private address pool assigned to a VCN
 - Subnets in private address pool
 
+<img src="https://imgur.com/pZME7IM.png" width="320" height="300">
+
 ## Gateways
 
 ### Internet Gateway 
@@ -28,7 +30,7 @@ It enables outbound connections to the internet, but blocks inbound connections 
 
 when connecting your existing on-premises network to your virtual cloud network (VCN).
 
-<img src="https://imgur.com/6B9z5Nl.png" width="320" height="320">
+<img src="https://imgur.com/6B9z5Nl.png" width="320" height="310">
 
 There are 2 mechanisms of DRG:
 - VPN Connect (IPSec VPN)
@@ -48,7 +50,7 @@ which  lets  resources  in  VCN  access  public  services  such  as  **Object  S
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMxNjI4MjgzLDE2MjQ3MDcwMTQsMTQyMj
-g5NzA1MiwtNzA1NjYyMTgwLC04MDc4NTEwOTUsLTkzMjM4MjQ1
-NSwxNTI1MzIzNjUzLDExMjQ4MjgyNjAsNDMwNDg1NjkxXX0=
+eyJoaXN0b3J5IjpbMjAzNDI0NTA0MiwxNjI0NzA3MDE0LDE0Mj
+I4OTcwNTIsLTcwNTY2MjE4MCwtODA3ODUxMDk1LC05MzIzODI0
+NTUsMTUyNTMyMzY1MywxMTI0ODI4MjYwLDQzMDQ4NTY5MV19
 -->
