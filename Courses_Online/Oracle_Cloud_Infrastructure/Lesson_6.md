@@ -12,7 +12,9 @@ IAM has 2 principals<sup>**1**</sup> :
 
 ### IAM Users and Groups
 - Users = ndividual people or applications
+
 - First IAM User = default administrator
+
 - Users enforce security principle of least privilege:
 	- Users -> Groups
 	- Group -> at least one policy with permission to tenancy or a compartment
@@ -27,9 +29,13 @@ IAM has 2 principals<sup>**1**</sup> :
 
 Authentication Service authenticates by:
 - User name, Password
+ 
 - API Signing key (e.g. github API public key)
+
   Required wiehn using the OCI API in conjunction with the SDK/CLI
+  
 - Auth Tokens
+
   Oracle-generated toekn strings to authenticate with 3rd party APIs that do no support OCI signature-based authentication
 
 ## Authorization
@@ -41,7 +47,7 @@ Policies attachment, can be attached to a compartment or can be attached to an a
 
 ### Policies Syntax
 
-<img src="https://imgur.com/qN8d7kB.png" width="720" height="310">
+<img src="https://imgur.com/qN8d7kB.png" width="560" height="250">
 
 ### Common Policies
 
@@ -54,5 +60,5 @@ Policies attachment, can be attached to a compartment or can be attached to an a
 <sup>**1**</sup> **principal**: is an IAM entity that is allowed to interact with OCI resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MjQwMjMyNl19
+eyJoaXN0b3J5IjpbODk3NDA0MTc3LDEzNDI0MDIzMjZdfQ==
 -->
