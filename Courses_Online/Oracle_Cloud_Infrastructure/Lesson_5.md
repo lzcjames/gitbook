@@ -11,6 +11,7 @@
 - Highly Available, Scalable and Secure.
 
 ### How to establish a VCN
+
 - Private address pool assigned to a VCN
 - Subnets in private address pool
 
@@ -24,9 +25,11 @@ It provides a path for network traffic between your **VCN** and the **internet**
 It enables outbound connections to the internet, but blocks inbound connections initiated from the internet. 允许出站连接但禁止从Internet到VCN的入站连接
 
 ### Dynamic Routing Gateway (DRG)
-It provides private traffic for the communication to on-premises.
+It provides private traffic for the communication to on-premises, there are 2 mechanisms of DRG:
+- IPSec VPN
+- FastConnect
 
-#### Simple IPSec VPN
+#### IPSec VPN
 
 
 
@@ -38,6 +41,6 @@ It provides private traffic for the communication to on-premises.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNDUxMjk3LDExMjQ4MjgyNjAsNDMwND
-g1NjkxXX0=
+eyJoaXN0b3J5IjpbLTE4NjU0MTA5MjUsMTEyNDgyODI2MCw0Mz
+A0ODU2OTFdfQ==
 -->
