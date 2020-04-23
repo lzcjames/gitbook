@@ -28,7 +28,7 @@ It enables outbound connections to the internet, but blocks inbound connections 
 
 when connecting your existing on-premises network to your virtual cloud network (VCN).
 
-<img src="https://imgur.com/PBSsDP7.png" width="420" height="400">
+<img src="https://imgur.com/6B9z5Nl.png" width="420" height="400">
 
 There are 2 mechanisms of DRG:
 - VPN Connect (IPSec VPN)
@@ -48,7 +48,8 @@ which  lets  resources  in  VCN  access  public  services  such  as  **Object  S
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkyMjM0OTIyLDE2MjQ3MDcwMTQsMTQyMj
-g5NzA1MiwtNzA1NjYyMTgwLC04MDc4NTEwOTUsLTkzMjM4MjQ1
-NSwxNTI1MzIzNjUzLDExMjQ4MjgyNjAsNDMwNDg1NjkxXX0=
+eyJoaXN0b3J5IjpbLTEzMjMwNzM3OTUsMTYyNDcwNzAxNCwxND
+IyODk3MDUyLC03MDU2NjIxODAsLTgwNzg1MTA5NSwtOTMyMzgy
+NDU1LDE1MjUzMjM2NTMsMTEyNDgyODI2MCw0MzA0ODU2OTFdfQ
+==
 -->
