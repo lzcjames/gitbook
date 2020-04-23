@@ -37,7 +37,7 @@ private connection between your data center and Oracle Cloud Infrastructure.
 
 which  lets  resources  in  VCN  access  public  services  such  as  **Object  Storage**,  but  **without** using  an  internet  or  NAT  gateway.  So  your  traffic  is  not  going  over  the  internet
 
-
+<img src="<img src="https://imgur.com/YbKBZMG.png" width="320" height="300">.png" width="320" height="300">
 
 
 
@@ -45,7 +45,7 @@ which  lets  resources  in  VCN  access  public  services  such  as  **Object  S
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjg5NzA1MiwtNzA1NjYyMTgwLC04MD
-c4NTEwOTUsLTkzMjM4MjQ1NSwxNTI1MzIzNjUzLDExMjQ4Mjgy
-NjAsNDMwNDg1NjkxXX0=
+eyJoaXN0b3J5IjpbLTI2Mzk3MDUyOSwxNDIyODk3MDUyLC03MD
+U2NjIxODAsLTgwNzg1MTA5NSwtOTMyMzgyNDU1LDE1MjUzMjM2
+NTMsMTEyNDgyODI2MCw0MzA0ODU2OTFdfQ==
 -->
