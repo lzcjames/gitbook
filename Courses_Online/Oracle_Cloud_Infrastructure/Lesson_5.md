@@ -35,6 +35,7 @@ when connecting your existing on-premises network to your virtual cloud network 
 There are 2 mechanisms of DRG:
 - VPN Connect (IPSec VPN)
 encrypt the traffic between your on-premises network (a data center or corporate LAN) and your Oracle virtual cloud network (VCN)
+
 - FastConnect
 private connection between your data center and Oracle Cloud Infrastructure.
 
@@ -58,7 +59,9 @@ connect 2 VCNs in the **same region** so that their resources can communicate us
 
 - Remote VCN peering
 connect 2 VCNS in **different regions** so that their resources can communicate using private IP addresses.
-<img src="https://imgur.com/OMeyzwE.png" width="440" height="300">
+<img src="https://imgur.com/FToNNM8.png" width="440" height="300">
+
+
 
 
 
@@ -70,7 +73,8 @@ connect 2 VCNS in **different regions** so that their resources can communicate 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA4MjYwMzAzLDE2MjQ3MDcwMTQsMTQyMj
-g5NzA1MiwtNzA1NjYyMTgwLC04MDc4NTEwOTUsLTkzMjM4MjQ1
-NSwxNTI1MzIzNjUzLDExMjQ4MjgyNjAsNDMwNDg1NjkxXX0=
+eyJoaXN0b3J5IjpbLTc0Mjg4OTg1Myw0MDgyNjAzMDMsMTYyND
+cwNzAxNCwxNDIyODk3MDUyLC03MDU2NjIxODAsLTgwNzg1MTA5
+NSwtOTMyMzgyNDU1LDE1MjUzMjM2NTMsMTEyNDgyODI2MCw0Mz
+A0ODU2OTFdfQ==
 -->
