@@ -23,7 +23,8 @@ It provides a path for network traffic between your **VCN** and the **internet**
 ### Nat Gateway
 It enables outbound connections to the internet, but blocks inbound connections initiated from the internet. 允许出站连接但禁止从Internet到VCN的入站连接
 
-### Dynamic Routing Gateway (D)
+### Dynamic Routing Gateway (DRG)
+It is used for the communication to on-premises
 
 
 
@@ -31,6 +32,6 @@ It enables outbound connections to the internet, but blocks inbound connections 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTQ5ODI4NCwxMTI0ODI4MjYwLDQzMD
-Q4NTY5MV19
+eyJoaXN0b3J5IjpbNzY4NDY5NDE2LDExMjQ4MjgyNjAsNDMwND
+g1NjkxXX0=
 -->
