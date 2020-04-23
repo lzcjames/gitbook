@@ -14,7 +14,10 @@
 - Private address pool assigned to a VCN
 - Subnets in private address pool
 
+## Gateways
+##Internet Gateways provides a path for network traffic between your **VCN** and the **internet**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MDUxNTM5OCwxMTI0ODI4MjYwLDQzMD
-Q4NTY5MV19
+eyJoaXN0b3J5IjpbLTE0MTI0NTk5MzQsMTEyNDgyODI2MCw0Mz
+A0ODU2OTFdfQ==
 -->
