@@ -67,12 +67,14 @@ A load balancer improves **resource utilization**, facilitates **scaling**, **fa
 You can configure multiple load balancing policies and application-specific **health checks** to ensure that the load balancer directs traffic only to healthy instances.
 
 It has 2 types of LB:
+
 - Public Load Balancer
-  To accept traffic from the internet, you create a public load balancer.
+To accept traffic from the internet, you create a public load balancer.
 <img src="https://imgur.com/hIQJLW5.png" width="430" height="350">
 
 - Private Load Balancer
-  To isolate your load balancer from the internet and simplify your security posture 处境
+ 
+ To isolate your load balancer from the internet and simplify your security posture 处境
 
 
 
@@ -86,9 +88,9 @@ It has 2 types of LB:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjY3ODQzNDcsMzY5MjE0NDAsLTU3MT
-Y3MjU5NywtNzQyODg5ODUzLDQwODI2MDMwMywxNjI0NzA3MDE0
-LDE0MjI4OTcwNTIsLTcwNTY2MjE4MCwtODA3ODUxMDk1LC05Mz
-IzODI0NTUsMTUyNTMyMzY1MywxMTI0ODI4MjYwLDQzMDQ4NTY5
-MV19
+eyJoaXN0b3J5IjpbLTQ5NDY2MzMyMywzNjkyMTQ0MCwtNTcxNj
+cyNTk3LC03NDI4ODk4NTMsNDA4MjYwMzAzLDE2MjQ3MDcwMTQs
+MTQyMjg5NzA1MiwtNzA1NjYyMTgwLC04MDc4NTEwOTUsLTkzMj
+M4MjQ1NSwxNTI1MzIzNjUzLDExMjQ4MjgyNjAsNDMwNDg1Njkx
+XX0=
 -->
