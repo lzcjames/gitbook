@@ -63,6 +63,8 @@ connect 2 VCNS in **different regions** so that their resources can communicate 
 
 ## Load Balancer
 It provides automated traffic distribution from one entry point to multiple servers reachable from your virtual cloud network (VCN)
+A load balancer improves **resource utilization**, facilitates **scaling**, **fault tolerance** and helps ensure **high availability**. 
+You can configure multiple load balancing policies and application-specific **health checks** to ensure that the load balancer directs traffic only to healthy instances.
 
 
 
@@ -77,8 +79,8 @@ It provides automated traffic distribution from one entry point to multiple serv
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzODE2NDc0LC01NzE2NzI1OTcsLTc0Mj
-g4OTg1Myw0MDgyNjAzMDMsMTYyNDcwNzAxNCwxNDIyODk3MDUy
-LC03MDU2NjIxODAsLTgwNzg1MTA5NSwtOTMyMzgyNDU1LDE1Mj
-UzMjM2NTMsMTEyNDgyODI2MCw0MzA0ODU2OTFdfQ==
+eyJoaXN0b3J5IjpbMzY5MjE0NDAsLTU3MTY3MjU5NywtNzQyOD
+g5ODUzLDQwODI2MDMwMywxNjI0NzA3MDE0LDE0MjI4OTcwNTIs
+LTcwNTY2MjE4MCwtODA3ODUxMDk1LC05MzIzODI0NTUsMTUyNT
+MyMzY1MywxMTI0ODI4MjYwLDQzMDQ4NTY5MV19
 -->
