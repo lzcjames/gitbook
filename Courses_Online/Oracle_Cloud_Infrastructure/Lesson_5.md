@@ -6,10 +6,11 @@
 
 ## Virtual Cloud Network (VCN)
 
-- A private network in Software layer
-- Enables OCI resources to securely communicate with **Internet**, other **instances** or **on-premises(内部, 本地) data center**
+- A private network in Software layer which lives in an OCI Region.
+- Enables OCI resources to securely communicate with **Internet**, other **instances** or **on-premises(内部, 本地) data center**.
+- Highly Available, Scalable and Secure
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzEzMTczNTUsNDMwNDg1NjkxXX0=
+eyJoaXN0b3J5IjpbMTEyNDgyODI2MCw0MzA0ODU2OTFdfQ==
 -->
