@@ -45,8 +45,10 @@ which  lets  resources  in  VCN  access  public  services  such  as  **Object  S
 <img src="https://imgur.com/PBSsDP7.png" width="320" height="300">
 
 ## VCN Security
+
 - Firewall rules to protect subnets
-- Network Se
+- Network Security Group consists of set of rules applied only for VNICs
+
 
 
 
@@ -54,7 +56,8 @@ which  lets  resources  in  VCN  access  public  services  such  as  **Object  S
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0OTUxMjg2NiwxNjI0NzA3MDE0LDE0Mj
-I4OTcwNTIsLTcwNTY2MjE4MCwtODA3ODUxMDk1LC05MzIzODI0
-NTUsMTUyNTMyMzY1MywxMTI0ODI4MjYwLDQzMDQ4NTY5MV19
+eyJoaXN0b3J5IjpbLTE4NzI4NzcwNzcsMTYyNDcwNzAxNCwxND
+IyODk3MDUyLC03MDU2NjIxODAsLTgwNzg1MTA5NSwtOTMyMzgy
+NDU1LDE1MjUzMjM2NTMsMTEyNDgyODI2MCw0MzA0ODU2OTFdfQ
+==
 -->
