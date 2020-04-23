@@ -51,8 +51,12 @@ which  lets  resources  in  VCN  access  public  services  such  as  **Object  S
 
 ## Peering
 **communicate to other VCNs**, it has 2 types of peering:
+
 - Local VCN peering
 connecting 2 VCNs in the same region so that their resources can communicate using private IP addresses.
+
+<img src="https://imgur.com/t4tCxes.png" width="220" height="300">
+
 
 
 
@@ -60,7 +64,8 @@ connecting 2 VCNs in the same region so that their resources can communicate usi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3ODcxMTk0MiwxNjI0NzA3MDE0LDE0Mj
-I4OTcwNTIsLTcwNTY2MjE4MCwtODA3ODUxMDk1LC05MzIzODI0
-NTUsMTUyNTMyMzY1MywxMTI0ODI4MjYwLDQzMDQ4NTY5MV19
+eyJoaXN0b3J5IjpbLTIwODcxOTUwMzMsMTYyNDcwNzAxNCwxND
+IyODk3MDUyLC03MDU2NjIxODAsLTgwNzg1MTA5NSwtOTMyMzgy
+NDU1LDE1MjUzMjM2NTMsMTEyNDgyODI2MCw0MzA0ODU2OTFdfQ
+==
 -->
