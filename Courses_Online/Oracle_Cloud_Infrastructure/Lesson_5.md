@@ -24,7 +24,13 @@ It provides a path for network traffic between your **VCN** and the **internet**
 It enables outbound connections to the internet, but blocks inbound connections initiated from the internet. 允许出站连接但禁止从Internet到VCN的入站连接
 
 ### Dynamic Routing Gateway (DRG)
-It is used for the communication to on-premises
+It provides private traffic for the communication to on-premises.
+
+#### Simple IPSec VPN
+
+
+
+#### 
 
 
 
@@ -32,6 +38,6 @@ It is used for the communication to on-premises
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY4NDY5NDE2LDExMjQ4MjgyNjAsNDMwND
+eyJoaXN0b3J5IjpbLTgzNDUxMjk3LDExMjQ4MjgyNjAsNDMwND
 g1NjkxXX0=
 -->
