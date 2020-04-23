@@ -23,9 +23,14 @@ It provides a path for network traffic between your **VCN** and the **internet**
 ### Nat Gateway
 It enables outbound connections to the internet, but blocks inbound connections initiated from the internet. 允许出站连接但禁止从Internet到VCN的入站连接
 
+### Dynamic Routing Gateway (D)
+
+
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDI1Mzg2MTUsMTEyNDgyODI2MCw0Mz
-A0ODU2OTFdfQ==
+eyJoaXN0b3J5IjpbLTEzOTQ5ODI4NCwxMTI0ODI4MjYwLDQzMD
+Q4NTY5MV19
 -->
