@@ -15,9 +15,15 @@
 - Subnets in private address pool
 
 ## Gateways
-##Internet Gateways provides a path for network traffic between your **VCN** and the **internet**
+
+### Internet Gateway 
+It provides a path for network traffic between your **VCN** and the **internet**.
+
+### Nat Gateway
+
+it enables outbound connections to the internet, but blocks inbound connections ini
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTI0NTk5MzQsMTEyNDgyODI2MCw0Mz
+eyJoaXN0b3J5IjpbLTExMDU5MjU1NzUsMTEyNDgyODI2MCw0Mz
 A0ODU2OTFdfQ==
 -->
