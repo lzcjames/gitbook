@@ -70,7 +70,7 @@ It has 2 types of LB:
 - Public Load Balancer
 To accept traffic from the internet, you create a public load balancer.
 - Private Load Balancer
-
+To isolate your load balancer from the internet and simplify your security posture 处境
 
 
 
@@ -84,9 +84,9 @@ To accept traffic from the internet, you create a public load balancer.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODAyNzQyMjIsMzY5MjE0NDAsLTU3MT
-Y3MjU5NywtNzQyODg5ODUzLDQwODI2MDMwMywxNjI0NzA3MDE0
-LDE0MjI4OTcwNTIsLTcwNTY2MjE4MCwtODA3ODUxMDk1LC05Mz
-IzODI0NTUsMTUyNTMyMzY1MywxMTI0ODI4MjYwLDQzMDQ4NTY5
-MV19
+eyJoaXN0b3J5IjpbMjM3MzU2MjQ3LDM2OTIxNDQwLC01NzE2Nz
+I1OTcsLTc0Mjg4OTg1Myw0MDgyNjAzMDMsMTYyNDcwNzAxNCwx
+NDIyODk3MDUyLC03MDU2NjIxODAsLTgwNzg1MTA5NSwtOTMyMz
+gyNDU1LDE1MjUzMjM2NTMsMTEyNDgyODI2MCw0MzA0ODU2OTFd
+fQ==
 -->
