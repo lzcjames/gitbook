@@ -15,7 +15,7 @@
 - Private address pool assigned to a VCN
 - Subnets in private address pool
 
-<img src="https://imgur.com/pZME7IM.png" width="320" height="300">
+<img src="https://imgur.com/pZME7IM.png" width="320" height="320">
 
 ## Gateways
 
@@ -44,13 +44,16 @@ which  lets  resources  in  VCN  access  public  services  such  as  **Object  S
 
 <img src="https://imgur.com/PBSsDP7.png" width="320" height="300">
 
+## VCN Security
+
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNDI0NTA0MiwxNjI0NzA3MDE0LDE0Mj
+eyJoaXN0b3J5IjpbMjAxMzY3NzQ2NywxNjI0NzA3MDE0LDE0Mj
 I4OTcwNTIsLTcwNTY2MjE4MCwtODA3ODUxMDk1LC05MzIzODI0
 NTUsMTUyNTMyMzY1MywxMTI0ODI4MjYwLDQzMDQ4NTY5MV19
 -->
