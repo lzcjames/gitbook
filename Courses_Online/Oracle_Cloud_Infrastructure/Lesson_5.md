@@ -12,9 +12,9 @@
 
 ### How to establish a VCN
 - Private address pool assigned to a VCN
-- 
+- Subnets in private address pool
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDg2NzgyNTIsMTEyNDgyODI2MCw0Mz
-A0ODU2OTFdfQ==
+eyJoaXN0b3J5IjpbMTU4MDUxNTM5OCwxMTI0ODI4MjYwLDQzMD
+Q4NTY5MV19
 -->
