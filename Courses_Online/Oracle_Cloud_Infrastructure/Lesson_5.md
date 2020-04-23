@@ -35,7 +35,7 @@ private connection between your data center and Oracle Cloud Infrastructure.
 
 ### Service Gateway
 
-which  lets  resources  in  networks--  VCN--  access  public  services  such  as  Object  Storage,  but  without  using  an  internet  or  NAT  gateway.  So  your  traffic  is  not  going  over  the  internet
+which  lets  resources  in  VCN  access  public  services  such  as  **Object  Storage**,  but  **without** using  an  internet  or  NAT  gateway.  So  your  traffic  is  not  going  over  the  internet
 
 
 
@@ -45,7 +45,7 @@ which  lets  resources  in  networks--  VCN--  access  public  services  such  a
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5OTYzOTE3LC03MDU2NjIxODAsLTgwNz
-g1MTA5NSwtOTMyMzgyNDU1LDE1MjUzMjM2NTMsMTEyNDgyODI2
-MCw0MzA0ODU2OTFdfQ==
+eyJoaXN0b3J5IjpbMTQyMjg5NzA1MiwtNzA1NjYyMTgwLC04MD
+c4NTEwOTUsLTkzMjM4MjQ1NSwxNTI1MzIzNjUzLDExMjQ4Mjgy
+NjAsNDMwNDg1NjkxXX0=
 -->
