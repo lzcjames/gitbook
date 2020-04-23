@@ -49,15 +49,16 @@ which  lets  resources  in  VCN  access  public  services  such  as  **Object  S
 - Firewall rules to protect subnets
 - Network Security Group consists of set of rules applied only for VNICs
 
-
+## Peering
+communicate to other VCNs, it has 2 types of peering:
+- 
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzI4NzcwNzcsMTYyNDcwNzAxNCwxND
-IyODk3MDUyLC03MDU2NjIxODAsLTgwNzg1MTA5NSwtOTMyMzgy
-NDU1LDE1MjUzMjM2NTMsMTEyNDgyODI2MCw0MzA0ODU2OTFdfQ
-==
+eyJoaXN0b3J5IjpbMTYyMjQ0MzM2MSwxNjI0NzA3MDE0LDE0Mj
+I4OTcwNTIsLTcwNTY2MjE4MCwtODA3ODUxMDk1LC05MzIzODI0
+NTUsMTUyNTMyMzY1MywxMTI0ODI4MjYwLDQzMDQ4NTY5MV19
 -->
