@@ -68,11 +68,11 @@ You can configure multiple load balancing policies and application-specific **he
 
 It has 2 types of LB:
 - Public Load Balancer
-To accept traffic from the internet, you create a public load balancer.
+  To accept traffic from the internet, you create a public load balancer.
 <img src="https://imgur.com/hIQJLW5.png" width="430" height="350">
 
 - Private Load Balancer
-To isolate your load balancer from the internet and simplify your security posture 处境
+  To isolate your load balancer from the internet and simplify your security posture 处境
 
 
 
@@ -86,7 +86,7 @@ To isolate your load balancer from the internet and simplify your security postu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzgxNDU1NjMsMzY5MjE0NDAsLTU3MT
+eyJoaXN0b3J5IjpbLTE0NjY3ODQzNDcsMzY5MjE0NDAsLTU3MT
 Y3MjU5NywtNzQyODg5ODUzLDQwODI2MDMwMywxNjI0NzA3MDE0
 LDE0MjI4OTcwNTIsLTcwNTY2MjE4MCwtODA3ODUxMDk1LC05Mz
 IzODI0NTUsMTUyNTMyMzY1MywxMTI0ODI4MjYwLDQzMDQ4NTY5
