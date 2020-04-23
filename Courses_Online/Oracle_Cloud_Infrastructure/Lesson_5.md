@@ -42,7 +42,7 @@ private connection between your data center and Oracle Cloud Infrastructure.
 
 which  lets  resources  in  VCN  access  public  services  such  as  **Object  Storage**,  but  **without** using  an  internet  or  NAT  gateway.  So  your  traffic  is  not  going  over  the  internet
 
-<img src="https://imgur.com/PBSsDP7.png" width="320" height="300">
+<img src="https://imgur.com/PBSsDP7.png" width="300" height="300">
 
 ## VCN Security
 
@@ -54,8 +54,11 @@ which  lets  resources  in  VCN  access  public  services  such  as  **Object  S
 
 - Local VCN peering
 connecting 2 VCNs in the same region so that their resources can communicate using private IP addresses.
-
 <img src="https://imgur.com/t4tCxes.png" width="220" height="300">
+
+- Remote VCN peering
+
+
 
 
 
@@ -64,8 +67,7 @@ connecting 2 VCNs in the same region so that their resources can communicate usi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODcxOTUwMzMsMTYyNDcwNzAxNCwxND
-IyODk3MDUyLC03MDU2NjIxODAsLTgwNzg1MTA5NSwtOTMyMzgy
-NDU1LDE1MjUzMjM2NTMsMTEyNDgyODI2MCw0MzA0ODU2OTFdfQ
-==
+eyJoaXN0b3J5IjpbMzAxOTIyODY5LDE2MjQ3MDcwMTQsMTQyMj
+g5NzA1MiwtNzA1NjYyMTgwLC04MDc4NTEwOTUsLTkzMjM4MjQ1
+NSwxNTI1MzIzNjUzLDExMjQ4MjgyNjAsNDMwNDg1NjkxXX0=
 -->
