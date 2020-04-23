@@ -32,11 +32,7 @@ encrypt the traffic between your on-premises network (a data center or corporate
 - FastConnect
 private connection between your data center and Oracle Cloud Infrastructure.
 
-#### VPN Connect (IPSec VPN)
 
-encrypt the traffic goes through the internet.
-
-#### 
 
 
 
@@ -44,7 +40,7 @@ encrypt the traffic goes through the internet.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE3NDg2MzksLTgwNzg1MTA5NSwtOTMyMz
-gyNDU1LDE1MjUzMjM2NTMsMTEyNDgyODI2MCw0MzA0ODU2OTFd
-fQ==
+eyJoaXN0b3J5IjpbLTcwNTY2MjE4MCwtODA3ODUxMDk1LC05Mz
+IzODI0NTUsMTUyNTMyMzY1MywxMTI0ODI4MjYwLDQzMDQ4NTY5
+MV19
 -->
