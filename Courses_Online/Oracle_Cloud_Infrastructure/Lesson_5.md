@@ -17,13 +17,15 @@
 ## Gateways
 
 ### Internet Gateway 
+
 It provides a path for network traffic between your **VCN** and the **internet**.
 
 ### Nat Gateway
+It enables outbound connections to the internet, but blocks inbound connections initiated from the internet. 允许出站连接但禁止从Internet到VCN的入站连接
 
-it enables outbound connections to the internet, but blocks inbound connections initiated from the internet. 允许出站连接但禁止ru
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyODcwNzMwNSwxMTI0ODI4MjYwLDQzMD
-Q4NTY5MV19
+eyJoaXN0b3J5IjpbLTExMDI1Mzg2MTUsMTEyNDgyODI2MCw0Mz
+A0ODU2OTFdfQ==
 -->
