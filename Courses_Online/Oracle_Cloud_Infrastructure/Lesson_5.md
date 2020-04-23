@@ -26,8 +26,10 @@ It enables outbound connections to the internet, but blocks inbound connections 
 
 ### Dynamic Routing Gateway (DRG)
 
-It provides private IPv4 traffic for the communication mixed to on-premises and through the internet.
+when connecting your existing on-premises network to your virtual cloud network (VCN).
+
 <img src="https://imgur.com/PBSsDP7.png" width="420" height="400">
+
 There are 2 mechanisms of DRG:
 - VPN Connect (IPSec VPN)
 encrypt the traffic between your on-premises network (a data center or corporate LAN) and your Oracle virtual cloud network (VCN)
@@ -46,7 +48,7 @@ which  lets  resources  in  VCN  access  public  services  such  as  **Object  S
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNDcwNzAxNCwxNDIyODk3MDUyLC03MD
-U2NjIxODAsLTgwNzg1MTA5NSwtOTMyMzgyNDU1LDE1MjUzMjM2
-NTMsMTEyNDgyODI2MCw0MzA0ODU2OTFdfQ==
+eyJoaXN0b3J5IjpbNjkyMjM0OTIyLDE2MjQ3MDcwMTQsMTQyMj
+g5NzA1MiwtNzA1NjYyMTgwLC04MDc4NTEwOTUsLTkzMjM4MjQ1
+NSwxNTI1MzIzNjUzLDExMjQ4MjgyNjAsNDMwNDg1NjkxXX0=
 -->
