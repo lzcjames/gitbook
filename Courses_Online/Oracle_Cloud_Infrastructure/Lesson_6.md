@@ -47,7 +47,7 @@ Policies attachment, can be attached to a compartment or can be attached to an a
 
 ### Policies Syntax
 
-<img src="https://imgur.com/qN8d7kB.png" width="560" height="250">
+<img src="https://imgur.com/qN8d7kB.png" width="680" height="300">
 
 ### Common Policies
 
@@ -60,5 +60,6 @@ Policies attachment, can be attached to a compartment or can be attached to an a
 <sup>**1**</sup> **principal**: is an IAM entity that is allowed to interact with OCI resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk3NDA0MTc3LDEzNDI0MDIzMjZdfQ==
+eyJoaXN0b3J5IjpbMzc3NTE1MzcwLDg5NzQwNDE3NywxMzQyND
+AyMzI2XX0=
 -->
