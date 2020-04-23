@@ -28,9 +28,9 @@ It enables outbound connections to the internet, but blocks inbound connections 
 It provides private IPv4 traffic for the communication mixed to on-premises and through the internet
 There are 2 mechanisms of DRG:
 - VPN Connect (IPSec VPN)
-encrypt the traffic goes through the internet.
+encrypt the traffic between your on-premises network (a data center or corporate LAN) and your Oracle virtual cloud network (VCN)
 - FastConnect
-
+private connection between your data center and Oracle Cloud Infrastructure.
 
 #### VPN Connect (IPSec VPN)
 
@@ -44,6 +44,7 @@ encrypt the traffic goes through the internet.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNzg1MTA5NSwtOTMyMzgyNDU1LDE1Mj
-UzMjM2NTMsMTEyNDgyODI2MCw0MzA0ODU2OTFdfQ==
+eyJoaXN0b3J5IjpbNDE3NDg2MzksLTgwNzg1MTA5NSwtOTMyMz
+gyNDU1LDE1MjUzMjM2NTMsMTEyNDgyODI2MCw0MzA0ODU2OTFd
+fQ==
 -->
