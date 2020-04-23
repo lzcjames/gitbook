@@ -43,7 +43,7 @@ There are 2 mechanisms of DRG:
 
 ### Service Gateway
 
-which  lets  resources  in  VCN  access  public  services  such  as  **Object  Storage**,  but  **without** using  an  internet  or  NAT  gateway.  So  your  traffic  is  not  going  over  the  internet
+which lets resources in VCN  access public services such as **Object  Storage**, but **without** using  an internet or NAT gateway. So your traffic is not going over the internet
 
 <img src="https://imgur.com/PBSsDP7.png" width="300" height="300">
 
@@ -93,9 +93,9 @@ It has 2 types of LB:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NDc0NDQyMSwzNjkyMTQ0MCwtNTcxNj
-cyNTk3LC03NDI4ODk4NTMsNDA4MjYwMzAzLDE2MjQ3MDcwMTQs
-MTQyMjg5NzA1MiwtNzA1NjYyMTgwLC04MDc4NTEwOTUsLTkzMj
-M4MjQ1NSwxNTI1MzIzNjUzLDExMjQ4MjgyNjAsNDMwNDg1Njkx
-XX0=
+eyJoaXN0b3J5IjpbLTExNzk0OTAxOTEsLTQ4NDc0NDQyMSwzNj
+kyMTQ0MCwtNTcxNjcyNTk3LC03NDI4ODk4NTMsNDA4MjYwMzAz
+LDE2MjQ3MDcwMTQsMTQyMjg5NzA1MiwtNzA1NjYyMTgwLC04MD
+c4NTEwOTUsLTkzMjM4MjQ1NSwxNTI1MzIzNjUzLDExMjQ4Mjgy
+NjAsNDMwNDg1NjkxXX0=
 -->
