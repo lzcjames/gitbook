@@ -50,15 +50,17 @@ which  lets  resources  in  VCN  access  public  services  such  as  **Object  S
 - Network Security Group consists of set of rules applied only for VNICs
 
 ## Peering
-communicate to other VCNs, it has 2 types of peering:
-- 
+**communicate to other VCNs**, it has 2 types of peering:
+- Local VCN peering
+connecting 2 VCNs in the same region so that their resources can communicate using private IP addresses.
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMjQ0MzM2MSwxNjI0NzA3MDE0LDE0Mj
+eyJoaXN0b3J5IjpbLTQ3ODcxMTk0MiwxNjI0NzA3MDE0LDE0Mj
 I4OTcwNTIsLTcwNTY2MjE4MCwtODA3ODUxMDk1LC05MzIzODI0
 NTUsMTUyNTMyMzY1MywxMTI0ODI4MjYwLDQzMDQ4NTY5MV19
 -->
