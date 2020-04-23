@@ -61,6 +61,10 @@ connect 2 VCNs in the **same region** so that their resources can communicate us
 connect 2 VCNS in **different regions** so that their resources can communicate using private IP addresses.
 <img src="https://imgur.com/FToNNM8.png" width="440" height="300">
 
+## Load Balancer
+
+
+
 
 
 
@@ -73,8 +77,8 @@ connect 2 VCNS in **different regions** so that their resources can communicate 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0Mjg4OTg1Myw0MDgyNjAzMDMsMTYyND
-cwNzAxNCwxNDIyODk3MDUyLC03MDU2NjIxODAsLTgwNzg1MTA5
-NSwtOTMyMzgyNDU1LDE1MjUzMjM2NTMsMTEyNDgyODI2MCw0Mz
-A0ODU2OTFdfQ==
+eyJoaXN0b3J5IjpbLTU3MTY3MjU5NywtNzQyODg5ODUzLDQwOD
+I2MDMwMywxNjI0NzA3MDE0LDE0MjI4OTcwNTIsLTcwNTY2MjE4
+MCwtODA3ODUxMDk1LC05MzIzODI0NTUsMTUyNTMyMzY1MywxMT
+I0ODI4MjYwLDQzMDQ4NTY5MV19
 -->
