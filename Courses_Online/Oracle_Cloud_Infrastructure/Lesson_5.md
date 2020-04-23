@@ -62,7 +62,7 @@ connect 2 VCNS in **different regions** so that their resources can communicate 
 <img src="https://imgur.com/FToNNM8.png" width="440" height="300">
 
 ## Load Balancer
-
+It provides automated traffic distribution from one entry point to multiple servers reachable from your virtual cloud network (VCN)
 
 
 
@@ -77,8 +77,8 @@ connect 2 VCNS in **different regions** so that their resources can communicate 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MTY3MjU5NywtNzQyODg5ODUzLDQwOD
-I2MDMwMywxNjI0NzA3MDE0LDE0MjI4OTcwNTIsLTcwNTY2MjE4
-MCwtODA3ODUxMDk1LC05MzIzODI0NTUsMTUyNTMyMzY1MywxMT
-I0ODI4MjYwLDQzMDQ4NTY5MV19
+eyJoaXN0b3J5IjpbMTEzODE2NDc0LC01NzE2NzI1OTcsLTc0Mj
+g4OTg1Myw0MDgyNjAzMDMsMTYyNDcwNzAxNCwxNDIyODk3MDUy
+LC03MDU2NjIxODAsLTgwNzg1MTA5NSwtOTMyMzgyNDU1LDE1Mj
+UzMjM2NTMsMTEyNDgyODI2MCw0MzA0ODU2OTFdfQ==
 -->
