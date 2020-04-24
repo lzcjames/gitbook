@@ -70,13 +70,15 @@ Fully managed database with 2 workload types:
 - Autonomous Transaction Processing (ATP)
 - Autonomous Data Warehouse (ADW)
 
-Deployment options
-- Dedicated: 
+Deployment options:
+- Dedicated
 
   You have exclusive use of the Exdata hardware. Supported for both ATP and ADW.
 
-- Shared: you provision and manage only the Autonomous DB, while Oracle handles Exdata infrastructure deployment and management.
+- Shared:
+  You provision and manage only the Autonomous DB, while Oracle handles Exdata infrastructure deployment and management.
 
+Auto
 
 
 
@@ -87,7 +89,7 @@ Deployment options
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE2ODYwOTkyLC0xNjQxNTU0NzkzLDEwNj
+eyJoaXN0b3J5IjpbNDc1MDQxODkxLC0xNjQxNTU0NzkzLDEwNj
 IyODQ1NTAsMTE1NTE5MzAzOSwxNzc4NTM0NTg1LDE4MDEyNzg4
 MzBdfQ==
 -->
