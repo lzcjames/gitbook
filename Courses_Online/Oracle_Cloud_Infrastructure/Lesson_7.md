@@ -54,7 +54,7 @@ Using RAC DB + Data Guard so that you are guaranteeing the maximum High Availabi
 If your primary and standby DBs are 2-node RAC DBs
 both in the same AD
 only one of the two nodes of the standby DB can be in a FD that does not include any other nodes from either the primary or standby DB.
-如图示，我们有两个node节点，一个是主DB的节点，另一个是备用DB的节点，
+如图示，我们有4个node节点，一个是主DB的两个节点(在FD1和FD2)，另一个是备用DB的两节点(在FD2和FD3)，
 
 
 
@@ -64,5 +64,5 @@ only one of the two nodes of the standby DB can be in a FD that does not include
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDY5NDA2MjEsMTgwMTI3ODgzMF19
+eyJoaXN0b3J5IjpbLTQzMjAxNTI5MywxODAxMjc4ODMwXX0=
 -->
