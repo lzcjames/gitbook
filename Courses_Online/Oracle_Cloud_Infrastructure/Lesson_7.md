@@ -66,6 +66,8 @@ Using RAC DB + Data Guard so that you are guaranteeing the maximum High Availabi
 -  假设现在FD2不可用, 则FD1节点的主DB和FD3节点的备用DB仍在运行:
     <img src="https://imgur.com/zUmMBmQ.png" width="400" height="250">
 
+## Autonomous Database
+
 
 
 
@@ -75,6 +77,6 @@ Using RAC DB + Data Guard so that you are guaranteeing the maximum High Availabi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MjI4NDU1MCwxMTU1MTkzMDM5LDE3Nz
-g1MzQ1ODUsMTgwMTI3ODgzMF19
+eyJoaXN0b3J5IjpbLTE2NDE1NTQ3OTMsMTA2MjI4NDU1MCwxMT
+U1MTkzMDM5LDE3Nzg1MzQ1ODUsMTgwMTI3ODgzMF19
 -->
