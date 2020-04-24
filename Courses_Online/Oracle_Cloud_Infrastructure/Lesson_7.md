@@ -22,7 +22,7 @@
 
 ## Oracle Data Guard
 
-- It provides a set of services that create, maintain, manage and monitor one or more standby DBs to enable Oracle DBs to survive disaster and data corruptions.
+- It provides a set of services that create, maintain, manage and monitor one or more standby databases to enable Oracle databases to survive disaster and data corruptions.
 用于创建, 维护, 管理和监视一个或多个备用数据库从而使Oracle数据库能够在灾难或数据损坏中生存.
 
 - It maintains synchronization between the primary and the standby DB.
@@ -76,9 +76,12 @@ Deployment options:
   You have exclusive use of the Exdata hardware. Supported for both ATP and ADW.
 
 - Shared:
+
   You provision and manage only the Autonomous DB, while Oracle handles Exdata infrastructure deployment and management.
 
-Auto
+Automates the following tasks:
+- Backing up the database
+- Patching the
 
 
 
@@ -89,7 +92,7 @@ Auto
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1MDQxODkxLC0xNjQxNTU0NzkzLDEwNj
-IyODQ1NTAsMTE1NTE5MzAzOSwxNzc4NTM0NTg1LDE4MDEyNzg4
-MzBdfQ==
+eyJoaXN0b3J5IjpbMTQ1MjY4NDA3MCw0NzUwNDE4OTEsLTE2ND
+E1NTQ3OTMsMTA2MjI4NDU1MCwxMTU1MTkzMDM5LDE3Nzg1MzQ1
+ODUsMTgwMTI3ODgzMF19
 -->
