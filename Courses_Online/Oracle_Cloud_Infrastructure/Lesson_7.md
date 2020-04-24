@@ -3,7 +3,7 @@
 > OCI DB Options, DB Systems, DB System Backup, DB Systems HA and DR, Autonomous Databases
 ## Overview
 
-<img src="https://imgur.com/Rk4Drky.png" width="600" height="300">
+<img src="https://imgur.com/Rk4Drky.png" width="650" height="330">
 
 
 ## OCI DB Options
@@ -14,7 +14,7 @@
 - Exadata DB Systems
 - Automous
 
-<img src="https://imgur.com/vdjmQoO.png" width="730" height="300">
+<img src="https://imgur.com/vdjmQoO.png" width="530" height="210">
 
 ## DB Systems Backup/Restore
 
@@ -63,10 +63,10 @@ Using RAC DB + Data Guard so that you are guaranteeing the maximum High Availabi
 其中在FD1的主DB是独立的, FD2的主DB和备用DB是相互共享空间的, FD3的备用DB是独立的.
 
 - 假设现在FD1或者FD3不可用, 则FD2节点的主DB和备用DB仍在运行:
-   <img src="https://imgur.com/hxqqk8g.png" width="400" height="250">
+<img src="https://imgur.com/hxqqk8g.png" width="400" height="250">
 
 -  假设现在FD2不可用, 则FD1节点的主DB和FD3节点的备用DB仍在运行:
-    <img src="https://imgur.com/zUmMBmQ.png" width="400" height="250">
+<img src="https://imgur.com/zUmMBmQ.png" width="400" height="250">
 
 ## Autonomous Database
 
@@ -98,7 +98,7 @@ Automates the following tasks:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNzIyODg0OSw0NzUwNDE4OTEsLTE2ND
+eyJoaXN0b3J5IjpbMTY1NDQyODA4Nyw0NzUwNDE4OTEsLTE2ND
 E1NTQ3OTMsMTA2MjI4NDU1MCwxMTU1MTkzMDM5LDE3Nzg1MzQ1
 ODUsMTgwMTI3ODgzMF19
 -->
