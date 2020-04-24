@@ -49,7 +49,7 @@ Using RAC DB + Data Guard so that you are guaranteeing the maximum High Availabi
 <img src="https://imgur.com/DkB0ell.png" width="700" height="300">
 
 ## DB Systems HA and DR (in single AD)
-- If your primary and standby DBs are 2-node RAC DBs
+- If your primary and standby databases are 2-node RAC databases
 - and both are in the same AD
 - only one of the two nodes of the standby DB can be in a FD that does not include any other nodes from either the primary or standby DB.
 
@@ -81,7 +81,9 @@ Deployment options:
 
 Automates the following tasks:
 - Backing up the database
-- Patching the
+- Patching the database
+- Upgrading the database
+- Tuning the database
 
 
 
@@ -92,7 +94,7 @@ Automates the following tasks:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MjY4NDA3MCw0NzUwNDE4OTEsLTE2ND
+eyJoaXN0b3J5IjpbLTc2MjMxMTM4NSw0NzUwNDE4OTEsLTE2ND
 E1NTQ3OTMsMTA2MjI4NDU1MCwxMTU1MTkzMDM5LDE3Nzg1MzQ1
 ODUsMTgwMTI3ODgzMF19
 -->
