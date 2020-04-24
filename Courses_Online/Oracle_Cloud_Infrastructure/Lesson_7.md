@@ -35,7 +35,7 @@
 - So if the primary database becomes unavailable, Oracle Data Guard can switch any standby database to the primary role, minimizing the downtime associated with the outage.
 一旦主数据库变得不再可用,Oracle Data Guard可以将任一的备用数据库转变为新主数据库，从而最小化了中断停机时间.
  
-  <img src="https://imgur.com/QVAtoqA.png" width="440" height="300">
+  <img src="https://imgur.com/QVAtoqA.png" width="400" height="250">
 
 - 2 modes:
 	- Switchover ->planned migration, no data loss	. (when switching a standby DB to primary DB)
@@ -98,7 +98,7 @@ Automates the following tasks:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NDQyODA4Nyw0NzUwNDE4OTEsLTE2ND
+eyJoaXN0b3J5IjpbMTc2NzE3NDI4NSw0NzUwNDE4OTEsLTE2ND
 E1NTQ3OTMsMTA2MjI4NDU1MCwxMTU1MTkzMDM5LDE3Nzg1MzQ1
 ODUsMTgwMTI3ODgzMF19
 -->
