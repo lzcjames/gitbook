@@ -67,11 +67,15 @@ Using RAC DB + Data Guard so that you are guaranteeing the maximum High Availabi
 ## Autonomous Database
 
 Fully managed database with 2 workload types:
-- Autonomous Transaction Processing
-- Autonomous Data Warehouse
+- Autonomous Transaction Processing (ATP)
+- Autonomous Data Warehouse (ADW)
 
 Deployment options
-- Dedicated: you have exclusive use of the Exdata hardware, supported for both ATP 
+- Dedicated: 
+
+  You have exclusive use of the Exdata hardware. Supported for both ATP and ADW.
+
+- Shared: you provision and manage only the Autonomous DB, while Oracle handles Exdata infrastructure deployment and management.
 
 
 
@@ -83,7 +87,7 @@ Deployment options
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNTYzMjAwNiwtMTY0MTU1NDc5MywxMD
-YyMjg0NTUwLDExNTUxOTMwMzksMTc3ODUzNDU4NSwxODAxMjc4
-ODMwXX0=
+eyJoaXN0b3J5IjpbMjE2ODYwOTkyLC0xNjQxNTU0NzkzLDEwNj
+IyODQ1NTAsMTE1NTE5MzAzOSwxNzc4NTM0NTg1LDE4MDEyNzg4
+MzBdfQ==
 -->
