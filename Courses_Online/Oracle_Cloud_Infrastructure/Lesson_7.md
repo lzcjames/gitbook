@@ -68,6 +68,10 @@ Using RAC DB + Data Guard so that you are guaranteeing the maximum High Availabi
 
 ## Autonomous Database
 
+Fully managed database with 2 workload types:
+- Autononmous Transaction Processing
+- Autonomous Data Warehouse
+
 
 
 
@@ -77,6 +81,7 @@ Using RAC DB + Data Guard so that you are guaranteeing the maximum High Availabi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDE1NTQ3OTMsMTA2MjI4NDU1MCwxMT
-U1MTkzMDM5LDE3Nzg1MzQ1ODUsMTgwMTI3ODgzMF19
+eyJoaXN0b3J5IjpbLTE3NzY4MzI1MDUsLTE2NDE1NTQ3OTMsMT
+A2MjI4NDU1MCwxMTU1MTkzMDM5LDE3Nzg1MzQ1ODUsMTgwMTI3
+ODgzMF19
 -->
