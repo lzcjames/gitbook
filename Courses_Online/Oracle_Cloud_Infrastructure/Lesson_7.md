@@ -56,11 +56,14 @@ Using RAC DB + Data Guard so that you are guaranteeing the maximum High Availabi
 - only one of the two nodes of the standby DB can be in a FD that does not include any other nodes from either the primary or standby DB.
 
 如图示，我们有4个node节点, 一个是主DB的两节点(在FD1和FD2), 另一个是备用DB的两节点(在FD2和FD3). 
+<img src="https://imgur.com/WD903Ps.png" width="400" height="250">
+
 其中在FD1的主DB是独立的, FD2的主DB和备用DB是相互共享空间的, FD3的备用DB是独立的.
-- 假设现在FD1或者FD3不可用, 则FD2节点的主DB和备用DB仍在运行
+
+- 假设现在FD1或者FD3不可用, 则FD2节点的主DB和备用DB仍在运行:
    <img src="https://imgur.com/hxqqk8g.png" width="400" height="250">
 
--  假设现在FD2不可用, 则FD1节点的主DB和FD3节点的备用DB仍在运行
+-  假设现在FD2不可用, 则FD1节点的主DB和FD3节点的备用DB仍在运行:
     <img src="https://imgur.com/zUmMBmQ.png" width="400" height="250">
 
 
@@ -72,6 +75,6 @@ Using RAC DB + Data Guard so that you are guaranteeing the maximum High Availabi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODk3ODA4OTYsMTE1NTE5MzAzOSwxNz
-c4NTM0NTg1LDE4MDEyNzg4MzBdfQ==
+eyJoaXN0b3J5IjpbMTA2MjI4NDU1MCwxMTU1MTkzMDM5LDE3Nz
+g1MzQ1ODUsMTgwMTI3ODgzMF19
 -->
