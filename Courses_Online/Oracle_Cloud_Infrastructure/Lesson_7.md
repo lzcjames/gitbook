@@ -51,7 +51,8 @@ Using RAC DB + Data Guard so that you are guaranteeing the maximum High Availabi
 <img src="https://imgur.com/DkB0ell.png" width="700" height="300">
 
 ## DB Systems HA and DR (in single AD)
-If your primary and standby DBs are 2-node RAC DBs in the same AD, only one of the two nodes of the standby DB can be in a FD that does not include any other nodes from rither the primary or standby DB.
+If your primary and standby DBs are 2-node RAC DBs in the same AD, only one of the two nodes of the standby DB can be in a FD that does not include any other nodes from either the primary or standby DB.
+如图示，
 
 
 
@@ -61,5 +62,5 @@ If your primary and standby DBs are 2-node RAC DBs in the same AD, only one of t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMTI3ODgzMF19
+eyJoaXN0b3J5IjpbNTMzNTc3Mjc1LDE4MDEyNzg4MzBdfQ==
 -->
