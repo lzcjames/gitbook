@@ -35,7 +35,9 @@ To avoid single points of failure,  firs  thing is you should always have **mult
 Don't put it in the same FD, because this FD can be unavailable as well.
 
 - In different ADs for multiple Regions
-![avoid single points of failure2](https://imgur.com/J5HdS0V.png)
+
+<img src="https://imgur.com/J5HdS0V.png)" width="700" height="250">
+
 Between 2 ADs, we use *Data Guard* to manage data. And in this case, if your whole AD1 becomes  unavailable, you still have your same application up and running in AD2, because you're replicating your data to AD2 in the same Region, that's saying avoid single points of failure.
 
 ## Compartments
@@ -51,14 +53,14 @@ A compartment is a  collection of related resources. It helps you **isolate** an
 	- Access control by writing Policies
 	- Analyze cost and assign budget for resources in compartments
 	
-![compartment](<img src="https://imgur.com/HYDAFmi.png)" width="600" height="250">
+<img src="https://imgur.com/HYDAFmi.png)" width="800" height="200">
 
 
 
 ---
 <sup>**1:**</sup> 反关联性规则, 比如将一组虚拟机放置在不同的主机上，这样可以防止所有虚拟机在单个主机发生故障时立即发生故障
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM2MzQzNTQxLDEwMjE3MjczMDksLTEzNT
-k0MTA1MzIsLTQyMzc3Nzk0Nyw3NjczMTQ1OCwtMzc4MzY0Mzk5
-XX0=
+eyJoaXN0b3J5IjpbLTEyMjg3MjMzNTgsMTAyMTcyNzMwOSwtMT
+M1OTQxMDUzMiwtNDIzNzc3OTQ3LDc2NzMxNDU4LC0zNzgzNjQz
+OTldfQ==
 -->
