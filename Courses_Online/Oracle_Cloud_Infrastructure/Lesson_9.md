@@ -79,18 +79,23 @@ When you tag your resources, you could tag them with these cost tracking tags.
 - Filter costs by Date, Tags and Compartments
 - To use Cost Analysis you must be a member of the **Administrators group**
 
-## Budgets
+### Budgets
 
 - A monthly threshold you define for your OCI spend
 - Can be set on cost-tracking tags or compartments
 - Alerts are evaluated every 15 minutes
 - Can set email alterts
 
-## Usage Reports
+### Usage Reports
 
 - Detailed information about your OCI consumption
 - Contained 24 hours of usage data
 - Retained for one year
+
+## OCI Free Tier
+
+- $300 free credits valid for 30 days
+- Up to 8 instances across all availables 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NTg0MzA5NV19
+eyJoaXN0b3J5IjpbMTk5NTc5NDkxNiwxMzk1ODQzMDk1XX0=
 -->
