@@ -47,7 +47,7 @@ Oracle Functions where you just write the code. You write the code in different 
 
 Compute instances depend on on other OCI services such as Block Volume and Virtual Cloud Network (VCN)
 
-<img src="https://imgur.com/zrghb9s.png" width="150" height="100">
+<img src="https://imgur.com/zrghb9s.png" width="380" height="200">
 
 ## Vertical Scaling
 
@@ -87,6 +87,6 @@ The concept of containers where we raised the abstraction one more level, and no
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0ODg0NTUwOCwtNDM5ODE1NjU1LC0xMj
+eyJoaXN0b3J5IjpbLTIxMzE0NjQzNCwtNDM5ODE1NjU1LC0xMj
 U4MjExNDIyLC00MTA2Mjc3MDddfQ==
 -->
