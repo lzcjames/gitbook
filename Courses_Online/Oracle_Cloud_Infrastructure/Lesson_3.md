@@ -47,7 +47,7 @@ Oracle Functions where you just write the code. You write the code in different 
 
 Compute instances depend on on other OCI services such as Block Volume and Virtual Cloud Network (VCN)
 
-<img src="https://imgur.com/zrghb9s.png" width="3150" height="2100">
+<img src="https://imgur.com/zrghb9s.png" width="150" height="100">
 
 ## Vertical Scaling
 
@@ -56,7 +56,7 @@ Scale-up and Scale-down instance shape (实例外形) supported, the instance mu
 ## Autoscaling
 Which is literally horizontal scaling. Enables **large scale deployment** of VMs from a single gold image with automatic configuration, referred to as Scale-out or Scale-in.
 
-<img src="https://imgur.com/YbKBZMG.png" width="32150" height="30150">
+<img src="https://imgur.com/YbKBZMG.png" width="150" height="150>
 
 ### How to autoscaling
 
@@ -87,6 +87,6 @@ The concept of containers where we raised the abstraction one more level, and no
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwODgwMDE0MywtNDM5ODE1NjU1LC0xMj
-U4MjExNDIyLC00MTA2Mjc3MDddfQ==
+eyJoaXN0b3J5IjpbLTE3OTI2NjU3OTAsLTQzOTgxNTY1NSwtMT
+I1ODIxMTQyMiwtNDEwNjI3NzA3XX0=
 -->
