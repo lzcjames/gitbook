@@ -1,16 +1,18 @@
 # Cloud Concepts
 
-## 1. Cloud Computing
+> Cloud Computing, Service Models, Cloud Terminology,
+
+## Cloud Computing
 - On-demande self-service (随需应变的自助服务)
 - Broad network access
 - Resource pooling
 - Rapid elasticity (快速弹性)
 - Measured service (监控，报告服务)
 
-## 2. Service Models
+## Service Models
 ![IaaS, Paas and SaaS](https://imgur.com/lpDPe5k.png)
 
-## 3. High Availability  objectives
+## High Availability  objectives
 
 - Full-time availability
 - Redundant hardware and software that makes the system available despite failures (具有冗余的硬件和软件使系统可用，尽管发生任何故障).
