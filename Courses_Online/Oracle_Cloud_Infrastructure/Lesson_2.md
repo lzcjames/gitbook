@@ -51,13 +51,14 @@ A compartment is a  collection of related resources. It helps you **isolate** an
 	- Access control by writing Policies
 	- Analyze cost and assign budget for resources in compartments
 	
-![compartment](https://imgur.com/HYDAFmi.png)
+![compartment](<img src="https://imgur.com/HYDAFmi.png)" width="600" height="250">
 
 
 
 ---
 <sup>**1:**</sup> 反关联性规则, 比如将一组虚拟机放置在不同的主机上，这样可以防止所有虚拟机在单个主机发生故障时立即发生故障
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMTcyNzMwOSwtMTM1OTQxMDUzMiwtND
-IzNzc3OTQ3LDc2NzMxNDU4LC0zNzgzNjQzOTldfQ==
+eyJoaXN0b3J5IjpbOTM2MzQzNTQxLDEwMjE3MjczMDksLTEzNT
+k0MTA1MzIsLTQyMzc3Nzk0Nyw3NjczMTQ1OCwtMzc4MzY0Mzk5
+XX0=
 -->
