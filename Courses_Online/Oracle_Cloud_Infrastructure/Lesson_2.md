@@ -32,7 +32,7 @@ Not share single points of hardware failure such as same physical server, physic
 
 -  In different FDs in one AD in one Region
 
-<img src="https://imgur.com/T6lBG4V.png)" width="800" height="280">
+<img src="https://imgur.com/T6lBG4V.png)" width="500" height="200">
 
 To avoid single points of failure,  firs  thing is you should always have **multiple  instances** of the same type. So you have **a second cop  application** in the second FD. They are all stateless.
 Don't put it in the same FD, because this FD can be unavailable as well.
@@ -63,7 +63,7 @@ A compartment is a  collection of related resources. It helps you **isolate** an
 ---
 <sup>**1:**</sup> 反关联性规则, 比如将一组虚拟机放置在不同的主机上，这样可以防止所有虚拟机在单个主机发生故障时立即发生故障
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTgzNzMxMywxMDIxNzI3MzA5LC0xMz
+eyJoaXN0b3J5IjpbMjEzMTc2MjE1NCwxMDIxNzI3MzA5LC0xMz
 U5NDEwNTMyLC00MjM3Nzc5NDcsNzY3MzE0NTgsLTM3ODM2NDM5
 OV19
 -->
