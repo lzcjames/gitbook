@@ -58,12 +58,14 @@ which lets resources in VCN  access public services such as **Object  Storage**,
 - Local VCN peering
 
   Connect 2 VCNs in the **same region** so that their resources can communicate using private IP addresses.
-<img src="https://imgur.com/t4tCxes.png" width="220" height="300">
+  
+  <img src="https://imgur.com/t4tCxes.png" width="220" height="300">
 
 - Remote VCN peering
 
   Connect 2 VCNS in **different regions** so that their resources can communicate using private IP addresses.
-<img src="https://imgur.com/FToNNM8.png" width="440" height="300">
+  
+  <img src="https://imgur.com/FToNNM8.png" width="440" height="300">
 
 ## Load Balancer
 It provides automated traffic distribution from one entry point to multiple servers reachable from your virtual cloud network (VCN)
