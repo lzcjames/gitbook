@@ -16,8 +16,9 @@ Grouping of hardware and infrastructure within an AD to provide anti-affinity (*
 故障域是在AD中用于提供反关联性<sup>**1**</sup>的硬件和基础结构的分组，FD也称为**逻辑数据中心** . 
 
 Not share single points of hardware failure such as same physical server, physical rack or power distribution unit.
+不共享单个硬件故障点，例如同一物理服务器，物理机架或配电单元。
 
-<img src="https://imgur.com/QQelQ8L.png" width="320" height="300">
+<img src="https://imgur.com/QQelQ8L.png" width="250" height="200">
 
 ## High Availability Design
 
@@ -30,13 +31,15 @@ Not share single points of hardware failure such as same physical server, physic
 3. **Avoid single points of failure**
 
 -  In different FDs in one AD in one Region
-![avoid single points of failure1](https://imgur.com/T6lBG4V.png)
+
+<img src="https://imgur.com/T6lBG4V.png)" width="800" height="280">
+
 To avoid single points of failure,  firs  thing is you should always have **multiple  instances** of the same type. So you have **a second cop  application** in the second FD. They are all stateless.
 Don't put it in the same FD, because this FD can be unavailable as well.
 
 - In different ADs for multiple Regions
 
-<img src="https://imgur.com/J5HdS0V.png)" width="700" height="250">
+<img src="https://imgur.com/J5HdS0V.png)" width="700" height="280">
 
 Between 2 ADs, we use *Data Guard* to manage data. And in this case, if your whole AD1 becomes  unavailable, you still have your same application up and running in AD2, because you're replicating your data to AD2 in the same Region, that's saying avoid single points of failure.
 
@@ -60,7 +63,7 @@ A compartment is a  collection of related resources. It helps you **isolate** an
 ---
 <sup>**1:**</sup> 反关联性规则, 比如将一组虚拟机放置在不同的主机上，这样可以防止所有虚拟机在单个主机发生故障时立即发生故障
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjg3MjMzNTgsMTAyMTcyNzMwOSwtMT
-M1OTQxMDUzMiwtNDIzNzc3OTQ3LDc2NzMxNDU4LC0zNzgzNjQz
-OTldfQ==
+eyJoaXN0b3J5IjpbLTI1OTgzNzMxMywxMDIxNzI3MzA5LC0xMz
+U5NDEwNTMyLC00MjM3Nzc5NDcsNzY3MzE0NTgsLTM3ODM2NDM5
+OV19
 -->
