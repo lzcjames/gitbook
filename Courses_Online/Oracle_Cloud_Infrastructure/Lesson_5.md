@@ -24,7 +24,9 @@
 It provides a path for network traffic between your **VCN** and the **internet**.
 
 ### Nat Gateway
-It enables outbound connections to the internet, but blocks inbound connections initiated from the internet. 允许出站连接但禁止从Internet到VCN的入站连接
+
+It gives cloud resources without public IP addresses access to the internet without exposing those resources to incoming internet connections.
+它提供的云资源无需公共IP地址即可访问Internet，而不会将这些资源暴露于传入的Internet连接中。
 
 ### Dynamic Routing Gateway (DRG)
 
@@ -35,11 +37,11 @@ when connecting your existing on-premises network to your virtual cloud network 
 There are 2 mechanisms of DRG:
 - VPN Connect (IPSec VPN)
 
-  Encrypt the traffic between your on-premises network (a data center or corporate LAN) and your Oracle virtual cloud network (VCN)
+  An **encrypted connection over the internet** between between your on-premises network (a data center or corporate LAN) and your Oracle virtual cloud network (VCN)
 
 - FastConnect
 
-  Private connection between your data center and Oracle Cloud Infrastructure.
+  An **dedicated, private connection** between your data center and Oracle Cloud Infrastructure, **bypasses the internet** (绕过internet)
 
 ### Service Gateway
 
