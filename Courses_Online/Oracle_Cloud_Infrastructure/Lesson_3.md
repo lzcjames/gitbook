@@ -2,7 +2,7 @@
 
 ## Bare Metal 裸机
 
-A physical server without any virtualization, you have to set up  a virtualization layer, then you have to manage all the things: OS, run-times etc.
+A physical server without any virtualization, you have to set up a virtualization layer, then you have to manage all the things: OS, run-times etc.
 Oracle offer a off-box virtualization<sup>**1**</sup>
 
 ### Uses cases
@@ -13,7 +13,7 @@ Direct Hardware Access with all the Security, Capabilities, Elasticity and Scala
 性能密集型工作负载
 - Workloads that are not virtualized
 - Workloads that require a specific hypervisor
-- Workloads that require BYO Licensing
+- Workloads that require BYOL (Bring Your Own Licensing)
 
 ## Dedicated Virtual Hosts 专用虚拟主机
 
@@ -28,7 +28,7 @@ A virtual machine is a guest on a host server with hypervisor based virtualizati
 VMs require work - OS path management, security configuration, monitoring, application configuration and scaling to handle variable traffic, if you want to:
 -  control all aspects of an environment
 - deploy a legacy app running on Windows or Linux
-- move applications from on-premises to OCI
+- **move applications from on-premises to OCI**
 
 
 ## Container Engine
@@ -45,7 +45,7 @@ Oracle Functions where you just write the code. You write the code in different 
 
 ## Instance basics
 
-Compute instances depend on on other OCI services such as Block Volume and Virtual Cloud Network (VCN)
+Compute instances depend on other OCI services such as Block Volume and Virtual Cloud Network (VCN)
 
 <img src="https://imgur.com/zrghb9s.png" width="380" height="200">
 
