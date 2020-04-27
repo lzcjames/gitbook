@@ -3,18 +3,20 @@
 
 > Shared Security Model, SecurityServices, Identity and Access Management, Data Protection, OS and workload management, Infrastructure protection
 
-## Shared Security Model
+## OCI Shared Security Model
 
 In OCI, Oracle maanages **Networking, Storage, Servers** and **Virtualization**,  
 and you manage just Operating System, Middleware, Runtime, Data and Applications.
 
-## Security Services
+The responbility of OCI Shared Security Model is **security of data-center facilites**
+
+## OCI Security Services
 
 <img src="https://imgur.com/y0XudwR.png" width="720" height="310">
 
-## Identity and Access Management
+## OCI Identity and Access Management
 
-### OCI IAM
+### IAM
 
 <img src="https://imgur.com/GAZjd4X.png" width="500" height="250">
 
@@ -33,7 +35,7 @@ Entreprises use **an indentify provider (IdP)** to manage user login/passwords a
 E.g. Single sign-on (SSO)
 <img src="https://qualifio.com/blog/wp-content/uploads/ilustration-sso-1.png" width="280" height="150">
 
-## Data protection
+## OCI Data protection
 
 <img src="https://imgur.com/COM8PD7.png" width="700" height="250">
 
@@ -46,12 +48,12 @@ E.g. Single sign-on (SSO)
 	- Highly available durable, and secure key storage in hardware security modules (HSM)
 	- Integration with select OCI services
 
-### Data safe
+### OCI Data safe
 - Managed service that provides a complete and integrated set of features for protecting **sensitive and regulated** data in OCI.
 - Features include Security Assessment, User Assessment, Data Discovery, Data Masking, and Activity Auditing.
 - No extra costs to use
 
-## OS and workload management
+## OCI OS and workload management
 
 ### Dedicated VM Host
 
@@ -59,7 +61,7 @@ E.g. Single sign-on (SSO)
 - Single-tenant(单租户): never share HW with another customer's VMs
 - Pay only for dedicated VM Host, no addtional charge for the VMs running on it
 
-### OS Management Service
+### Management Service
 
 - Executes and automates common and complex management tasks
 - Package management, configuration management
@@ -67,7 +69,7 @@ E.g. Single sign-on (SSO)
 - Enables live patching of critical components and Linux kernel w/o downtime
 - Configured by default for Oracle Linux instances in OCI
 
-##  Infrastructure protection
+##  OCI Infrastructure protection
 
 ### Network protection
 
