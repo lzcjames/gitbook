@@ -34,7 +34,3 @@ In the Disaster Recovery, the keys metrics are:
 	- Scaling up (vertical scaling)
 - Elasticity (弹性)
 It is the ablity to quickly increase or decrease resourcesNot just limited to virtual machines, it can be your storage. It can be your database. It can be any other load balancer
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjcwMTc5NTksLTExMjY0NzU3NjAsLT
-EzNzQyMzY4MDRdfQ==
--->
