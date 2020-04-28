@@ -161,12 +161,3 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 ---
 <sup>**1**</sup> **bucket**:  is a logical container for storing objects
 
-
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0ODI3MDAwMSwyODEzNzQ4MjEsMTU5NT
-Y5NTIxMiwxOTMzODQxNjQ0LC0xMzkzNTM4MjYsMTI3OTA1NDcz
-NSwtNjM2MTAzMjUwLC0xNjMwODE3OTM2LC00NDc1NDIwNTAsLT
-E5ODI3MDcwMTcsNzg5MzU0NzM0XX0=
--->
