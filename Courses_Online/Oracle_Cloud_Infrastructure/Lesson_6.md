@@ -58,8 +58,3 @@ Policies attachment, can be attached to a compartment or can be attached to an a
 
 ---
 <sup>**1**</sup> **principal**: is an IAM entity that is allowed to interact with OCI resources
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc3NTE1MzcwLDg5NzQwNDE3NywxMzQyND
-AyMzI2XX0=
--->
