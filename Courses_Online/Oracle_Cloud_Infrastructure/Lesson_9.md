@@ -97,6 +97,3 @@ When you tag your resources, you could tag them with these cost tracking tags.
 - $300 free credits valid for 30 days
 - Up to 8 instances across all availables services
 - Up to 5 TB of storage 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbODAyMjU5OTYyLDEzOTU4NDMwOTVdfQ==
--->
