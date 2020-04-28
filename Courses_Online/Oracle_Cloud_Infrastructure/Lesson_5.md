@@ -92,14 +92,3 @@ It has 2 types of LB:
 
 
 
-
-
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzk0OTAxOTEsLTQ4NDc0NDQyMSwzNj
-kyMTQ0MCwtNTcxNjcyNTk3LC03NDI4ODk4NTMsNDA4MjYwMzAz
-LDE2MjQ3MDcwMTQsMTQyMjg5NzA1MiwtNzA1NjYyMTgwLC04MD
-c4NTEwOTUsLTkzMjM4MjQ1NSwxNTI1MzIzNjUzLDExMjQ4Mjgy
-NjAsNDMwNDg1NjkxXX0=
--->
