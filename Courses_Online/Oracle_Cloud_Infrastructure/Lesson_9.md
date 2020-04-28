@@ -7,7 +7,7 @@
 
 ### Pay as you go (PAYG)
 
-- Chared only for the resource consumed 仅对消耗的资源收费
+- Charged only for the resource consumed 仅对消耗的资源收费
 
 - No upfront commitment 没有前期承诺
 
