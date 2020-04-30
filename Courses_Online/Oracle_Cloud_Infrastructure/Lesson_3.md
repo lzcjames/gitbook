@@ -85,3 +85,6 @@ The concept of containers where we raised the abstraction one more level, and no
 <sup>**2 :**</sup> **App container:** is a container runtime which executes container and manages container images on a node. The most widely, known app container or container runtime is Docker.
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTg4ODkzMTE2MV19
+-->
