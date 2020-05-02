@@ -30,5 +30,6 @@
     * [Lesson 7: OCI Database Service](Courses_Online/Oracle_Cloud_Infrastructure/Lesson_7.md)
     * [Lesson 8: OCI Security](Courses_Online/Oracle_Cloud_Infrastructure/Lesson_8.md)
     * [Lesson 9: OCI Prcing and Billing](Courses_Online/Oracle_Cloud_Infrastructure/Lesson_9.md)
+    * [Tips](Courses_Online/Oracle_Cloud_Infrastructure/Tips.md)    
 
 ## A second-page group
