@@ -11,7 +11,7 @@ IAM has 2 principals<sup>**1**</sup> :
 - Instance Principals
 
 ### IAM Users and Groups
-- Users = ndividual people or applications
+- Users = individual people or applications
 
 - First IAM User = default administrator
 
@@ -20,7 +20,7 @@ IAM has 2 principals<sup>**1**</sup> :
 	- Group -> at least one policy with permission to tenancy or a compartment
 
 ### Instance Principals
-- Instance Principals lets instances and applications to make API calls against other OCI services removing the need to configure user credentials or a configuration file.
+- Instance Principals let instances and applications to make API calls against other OCI services removing the need to configure user credentials or a configuration file.
 允许实例和应用程序在实例上运行，以便于对其他OCI服务进行API调用，从而除去用户凭证或配置文件的需要。
 
 <img src="https://imgur.com/OUrwEVH.png" width="720" height="310">
