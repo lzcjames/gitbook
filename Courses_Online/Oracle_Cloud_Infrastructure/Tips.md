@@ -311,4 +311,7 @@
 -   Always Free — 2 Oracle Autonomous DB, 2 OCI Compute VMS, Block, Object and Archive Storage, LB and Data egress, Monitoring and Notifications
 
 ---
-Src:  https://medium.com/@dynamicbalaji/oracle-cloud-infrastructure-foundations-2020-associate-certification-1z0-1085-20-preparation-ea9edb7d428b
+Src:  
+https://medium.com/@dynamicbalaji/oracle-cloud-infrastructure-foundations-2020-associate-certification-1z0-1085-20-preparation-ea9edb7d428b
+
+https://github.com/sarathcakurathi/oci-certs/blob/c280b61f2ad7c57bcd5e024bd82111ba6c822214/oci-foundations-2020-associate.md
