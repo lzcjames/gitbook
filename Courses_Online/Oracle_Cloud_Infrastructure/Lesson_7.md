@@ -22,7 +22,7 @@
 - Manual or Automatic backups
 - Automatic backups written to Oracle owned object storage buckets.
 - Backups run between midnight - 6:00 AM in the DB system's time zone.
-- Preset retention periods: , 15, 30, 45 and 60 days (can custom long periods)
+- Preset retention periods: 7, 15, 30, 45 and 60 days (can custom long periods)
 - Recover a database from a backup stored in Object Storage
 
 ## Oracle Data Guard
