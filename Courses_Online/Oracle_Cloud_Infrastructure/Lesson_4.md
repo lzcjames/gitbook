@@ -72,6 +72,7 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 - NoSQL DB
 - in-memory DB
+- On-Line Transaction Processing (OLTP, 在线交易处理)
 - Scale-out transnational DB
 - Data warehousing (数据仓库)
 
@@ -79,8 +80,8 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 - Hierarchical collection of documents
 - Distributed files standards
-	- NFS
-	- SMB
+    - NFS
+    - SMB
 
 ### File Storage Service (FSS)
 
@@ -130,7 +131,7 @@ Block storage 通过操作系统作为已安装的驱动器卷进行访问
 
 #### 2. Archive Storage Tier (Cold)
 
--  Rarely accessed data, must be retained and saved for long period of time.
+- Rarely accessed data, must be retained and saved for long period of time.
 - 10 times cheaper than Standard Storage Tier
 - **90 days minimum** for storage
 - Objects need to be stored before download; Time To First Byte (TTFB) after restore request is made: 4 hours
