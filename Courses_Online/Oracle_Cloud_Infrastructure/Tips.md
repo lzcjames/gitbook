@@ -1,3 +1,8 @@
+
+> Src from https://medium.com/@dynamicbalaji/oracle-cloud-infrastructure-foundations-2020-associate-certification-1z0-1085-20-preparation-ea9edb7d428b
+
+> See also a useful link: https://github.com/sarathcakurathi/oci-certs/blob/c280b61f2ad7c57bcd5e024bd82111ba6c822214/oci-foundations-2020-associate.md
+
 # OCI Architecture
 
 - **OCI Regions**
@@ -29,7 +34,7 @@
 -   **Compartments** 
 	- collection of related resources
 	- helps to isolate and control access to resources
-	- Tenancy/Root compartment
+	- Tenancy/Root compartme
 	- Compartment Network, Compartment Storage etc
 	- Each resource belong to a single compartment
 	- Resource can interact with other resource in diff compartment
@@ -310,8 +315,3 @@
 -   Free Tier — $300 free credit for 30 days; upto 8 instances, 5TB storage
 -   Always Free — 2 Oracle Autonomous DB, 2 OCI Compute VMS, Block, Object and Archive Storage, LB and Data egress, Monitoring and Notifications
 
----
-Src:  
-https://medium.com/@dynamicbalaji/oracle-cloud-infrastructure-foundations-2020-associate-certification-1z0-1085-20-preparation-ea9edb7d428b
-
-https://github.com/sarathcakurathi/oci-certs/blob/c280b61f2ad7c57bcd5e024bd82111ba6c822214/oci-foundations-2020-associate.md
