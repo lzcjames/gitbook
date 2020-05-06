@@ -7,8 +7,7 @@
 	- Localized Geographical area comprised of 1 or more AD
 -   **Availability Domains** 
 	- One or more fault-tolerent
-	- isolated DC located within a region, but connected to each other by low latency,			
-	-  high bandwidth network
+	- isolated DC located within a region, but connected to each other by low latency,high bandwidth network
 	- Do not share physical infrastructure
 -   **Fault Domains**
 	- Grouping of hardware and infrastructure with in an AD to provide anti-affinity(logical data center)
@@ -229,6 +228,7 @@
     - Policies — Allow **\<subject>** to **\<verb> <resource-type>** in **\<location>** where **\<conditions>**
     - Verb — inspect(list resources), read(inspect_user-specified metadata), use (Read+Update), manage(all permissions)  
     - Resource type — all-resources, database-family, instance-family, object-family etc
+	
 - **Common Policies** 
 	- Network admin(manage virtual-network-family)
 	- Instance Launchers(manage instance-family, use volume-family, use virtual-network-family)
