@@ -31,5 +31,13 @@
     * [Lesson 8: OCI Security](Courses_Online/Oracle_Cloud_Infrastructure/Lesson_8.md)
     * [Lesson 9: OCI Prcing and Billing](Courses_Online/Oracle_Cloud_Infrastructure/Lesson_9.md)
     * [Tips](Courses_Online/Oracle_Cloud_Infrastructure/Tips.md)    
+    
+## MongoDB University
+
+* [M001: MongoDB Basic](Courses_Online/MongoDB_University/M001_MongoDB_Basic/Intro.md)    
+    * [Chapter 1: Introdution](Courses_Online/MongoDB_University/M001_MongoDB_Basic/Chapter_1.md)   
+    * [Chapter 2: The MongoDB Query Language + Atlas](Courses_Online/MongoDB_University/M001_MongoDB_Basic/Chapter_2.md)
+    * [Chapter 3: Deeper Dive into the MongoDB Query Language](Courses_Online/MongoDB_University/M001_MongoDB_Basic/Chapter_3.md)
+
 
 ## A second-page group
