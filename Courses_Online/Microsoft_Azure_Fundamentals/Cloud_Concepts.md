@@ -35,3 +35,15 @@ CapEx is the spending of money on physical infrastructure up front, and then ded
 
 ### Operational Expenditure (OpEx)
 OpEx is spending money on services or products now and being billed for them now. You can deduct this expense from your tax bill in the same year. There is no upfront cost, you pay for a service or product as you use it.
+
+
+## IaaS vs PaaS vs SaaS
+
+![IaaS, Paas and SaaS](https://imgur.com/lpDPe5k.png)
+
+
+|      | User                                                                                                                           | Cloud Provider                                                                                                                                   |
+|------|--------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| IaaS | SaPurchase, installation, configuration, and management of their own software operating systems, middleware, and applications. | Responsible for ensuring that the underlying cloud infrastructure (such as virtual machines, storage, and networking) is available for the user. |
+| PaaS | Responsible for the development of their own applications.                                                                     | Responsible for operating system management, and network and service configuration.                                                              |
+| SaaS | Users just use the application software; they are not responsible for any maintenance or management of that software.          | The cloud provider is responsible for the provision, management, and maintenance of the application software.                                    |
