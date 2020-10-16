@@ -1,5 +1,7 @@
 # Describe Cloud Concepts (15-20%)
- 
+
+:notebook: Exam Preparation Guide:  https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3VwUY
+
 :love_letter: Source from https://www.taygan.co/blog/2019/02/07/az-900-azure-fundamentals-exam-preparation 
 
 ## Basic Terms
