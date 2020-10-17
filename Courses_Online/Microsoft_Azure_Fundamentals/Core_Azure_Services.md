@@ -58,3 +58,35 @@ With Azure Resource Manager, you can:
 - Deploy Application resources. 
 - Organize resources. 
 - Control access and resources.
+
+
+### Azure Compute Services
+
+| Azure Compute Services |  |
+|--|--|
+| Virtual Machines  | Windows or Linux virtual machines (VMs) hosted in Azure |
+| Virtual Machine Scale Sets | Scaling for Windows or Linux VMs hosted in Azure |
+| App Services | PaaS offerings to build, deploy, and scale enterprise-grade web, mobile, and API apps.  |
+| Azure Functions | An event-driven, serverless compute service |
+
+
+### Container services
+
+Azure supports Docker containers, There are two ways to manage both Docker and Microsoft-based containers in Azure.
+
+| Azure Compute Services |  |
+|--|--|
+| Azure Container Instances  | Offers the fastest and simplest way to run a container. <br> Without having to manage any virtual machines or adopt any additional services. <br> It is a PaaS offering. |
+| Azure Kubernetes Service | A **complete orchestration service** for containers with distributed architectures and large volumes of containers. |
+
+ps. Orchestration is the task of automating and managing a large number of containers and how they interact.
+
+### Azure network services
+
+| Azure network services |  |
+|--|--|
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-4.png" width="30" height="30"> Azure Virtual Network  | Connects VMs to incoming Virtual Private Network (VPN) connections |
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-2.png" width="30" height="30"> Azure Load Balancer | Balances inbound and outbound connections to applications or service endpoints |
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-gateway.png" width="30" height="30"> Azure VPN Gateway | Accesses Azure Virtual Networks through high-performance VPN gateways |
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-app-gateway.png" width="30" height="30"> Azure Application Gateway | Optimizes app server farm delivery while increasing application security |
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-1.png" width="30" height="30"> Azure Content Delivery Network | Delivers high-bandwidth content to customers globally |
