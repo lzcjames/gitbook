@@ -60,7 +60,7 @@ With Azure Resource Manager, you can:
 - Control access and resources.
 
 
-### Azure Compute Services
+## Azure Compute Services
 
 | Azure Compute Services |  |
 |--|--|
@@ -70,7 +70,7 @@ With Azure Resource Manager, you can:
 | Azure Functions | An event-driven, serverless compute service |
 
 
-### Container services
+## Container services
 
 Azure supports Docker containers, There are two ways to manage both Docker and Microsoft-based containers in Azure.
 
@@ -81,7 +81,7 @@ Azure supports Docker containers, There are two ways to manage both Docker and M
 
 ps. Orchestration is the task of automating and managing a large number of containers and how they interact.
 
-### Azure network services
+## Azure network services
 
 | Azure network services |  |
 |--|--|
@@ -90,3 +90,24 @@ ps. Orchestration is the task of automating and managing a large number of conta
 | <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-gateway.png" width="30" height="30"> Azure VPN Gateway | Accesses Azure Virtual Networks through high-performance VPN gateways |
 | <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-app-gateway.png" width="30" height="30"> Azure Application Gateway | Optimizes app server farm delivery while increasing application security |
 | <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-1.png" width="30" height="30"> Azure Content Delivery Network | Delivers high-bandwidth content to customers globally |
+
+## Azure Storage
+
+| Azure Storages |  |
+|--|--|
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-blob.png" width="30" height="30"> Container(Blob) Storage  | Storage service for very large objects, such as video files or bitmaps. |
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-disks.png" width="30" height="30"> Disk Storage | Provides disks for virtual machines, applications, and other services. |
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-files.png" width="30" height="30"> File Storage | Azure Files offers fully-managed file shares in the cloud. |
+| <img src="https://azurecomcdn.azureedge.net/cvt-6ef370aa9a2f3452dfe1c2fdc1f3ba16dd38153b9e5a25c85872818eb280a39b/images/page/solutions/backup-archive/back-up-archive-banner.png" width="30" height="30"> Archive Storage | Storage facility for data that is rarely accessed. |
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-queue.png" width="30" height="30"> Queues | To store lists of messages to be processed asynchronously. |
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-table.png" width="30" height="30"> Tables| Stores large amounts of structured data, uses NoSQL |
+
+## Azure database services
+
+| Azure Database Services |  |
+|--|--|
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-cosmos-db.png" width="30" height="30"> Azure Cosmos DB  | Globally distributed database that supports NoSQL options. |
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-3.png" width="30" height="30"> Azure SQL Database | Fully managed relational database with auto-scale, integral intelligence, and robust security. |
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-db-migration.png" width="30" height="30"> Azure Database Migration |  Fully managed service designed to enable seamless migrations from multiple database sources to Azure data platforms with minimal downtime (online migrations). |
+
+## 
