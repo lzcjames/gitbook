@@ -124,8 +124,7 @@ Two of the core Azure IoT service types are Azure IoT Central, and Azure IoT Hub
 
 | Azure IoT service types |  |
 |--|--|
-| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/identify-azure-solutions/media/icon-1.png" width="30" height="30"> 
-IoT Central | Fully-managed global IoT software as a service (SaaS) solution that makes it easy to connect, monitor, and manage your IoT assets at scale. |
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/identify-azure-solutions/media/icon-1.png" width="30" height="30"> IoT Central | Fully-managed global IoT software as a service (SaaS) solution that makes it easy to connect, monitor, and manage your IoT assets at scale. |
 | <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/identify-azure-solutions/media/icon-2.png" width="30" height="30"> Azure IoT Hub | FMessaging hub that provides secure communications and monitoring between millions of IoT devices. |
 
 ## Big Data and Analytics
