@@ -110,4 +110,15 @@ ps. Orchestration is the task of automating and managing a large number of conta
 | <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-3.png" width="30" height="30"> Azure SQL Database | Fully managed relational database with auto-scale, integral intelligence, and robust security. |
 | <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-db-migration.png" width="30" height="30"> Azure Database Migration |  Fully managed service designed to enable seamless migrations from multiple database sources to Azure data platforms with minimal downtime (online migrations). |
 
-## 
+<img src="https://azurecomcdn.azureedge.net/cvt-6ef370aa9a2f3452dfe1c2fdc1f3ba16dd38153b9e5a25c85872818eb280a39b/images/page/services/database-migration/discover.png" width="730" height="380">
+
+## Azure Marketplace
+
+The Marketplace allows customers to find, try, purchase, and provision applications and services from hundreds of leading service providers, all certified to run on Azure. Azure Marketplace is a service on Azure that helps connect end users with Microsoft partners, independent software vendors (ISVs), and start-ups that are offering their solutions and services, which are optimized to run on Azure.
+
+<img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/marketplace.png" width="710" height="420">
+
+
+
+
+
