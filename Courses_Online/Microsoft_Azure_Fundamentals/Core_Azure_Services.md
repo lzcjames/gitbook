@@ -118,7 +118,34 @@ The Marketplace allows customers to find, try, purchase, and provision applicati
 
 <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/marketplace.png" width="810" height="540">
 
+## Azure IoT services
 
+Two of the core Azure IoT service types are Azure IoT Central, and Azure IoT Hub.
 
+| Azure IoT service types |  |
+|--|--|
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/identify-azure-solutions/media/icon-1.png" width="30" height="30"> 
+IoT Central | Fully-managed global IoT software as a service (SaaS) solution that makes it easy to connect, monitor, and manage your IoT assets at scale. |
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/identify-azure-solutions/media/icon-2.png" width="30" height="30"> Azure IoT Hub | FMessaging hub that provides secure communications and monitoring between millions of IoT devices. |
+
+## Big Data and Analytics
+
+| Big Data and Analytics |  |
+|--|--|
+| Azure Synapse Analytics(Azure SQL Data Warehouse) | Run analytics at a massive scale using a cloud-based Enterprise Data Warehouse (EDW) that leverages massive parallel processing (MPP) to run complex queries quickly across petabytes of data. |
+| Azure HDInsight | Process massive amounts of data with managed clusters of Hadoop clusters in the cloud. |
+| Azure Data Lake Analytics | On-demand ("pay as you go") scalable analytics service that allows you to write queries to transform your data and extract valuable insights. |
+
+## Azure Artificial Intelligence
+
+| Azure Artificial Intelligence |  |
+|--|--|
+| Azure Cognitive Services | Cognitive services are a collection of domain-specific pre-trained AI models that can be customized with your data. They are categorized broadly into vision, speech, language, and search. |
+| Azure Machine Learning Service | Cloud-based environment you can use to develop, train, test, deploy, manage, and track machine learning models. It can auto-generate a model and auto-tune it for you. It will let you start training on your local machine, and then scale out to the cloud. |
+
+## Serverless Computing
+
+https://www.taygan.co/blog/2019/02/07/az-900-azure-fundamentals-exam-preparation
+https://docs.microsoft.com/en-us/learn/modules/identify-azure-solutions/6-define-serverless-computing
 
 
