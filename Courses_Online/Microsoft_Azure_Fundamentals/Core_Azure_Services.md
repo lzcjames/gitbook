@@ -144,7 +144,33 @@ Two of the core Azure IoT service types are Azure IoT Central, and Azure IoT Hub
 
 ## Serverless Computing
 
-https://www.taygan.co/blog/2019/02/07/az-900-azure-fundamentals-exam-preparation
-https://docs.microsoft.com/en-us/learn/modules/identify-azure-solutions/6-define-serverless-computing
+| Serverless computing |  |
+|--|--|
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/identify-azure-solutions/media/icon-functions.png" width="30" height="30"> Azure Functions | An event-driven - often via a REST request, timer, or message. Serverless compute service, scale automatically. |
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/identify-azure-solutions/media/icon-logic-app.png" width="30" height="30"> Azure Logic Apps | Help you automate and orchestrate tasks, business processes, and workflows when you need to integrate apps, data, systems, and services across enterprises or organizations. |
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/identify-azure-solutions/media/icon-eventgrid.png" width="30" height="30"> Azure Logic Apps |Allows you to easily build applications with event-based architectures. It's a fully-managed, intelligent event routing service that uses a publish-subscribe model for uniform event consumption. |
+
+## Azure DevOps
+
+DevOps  (Development and Operations) brings together people, processes, and technology, automating software delivery to provide continuous value to your users. Azure DevOps Services allows you to create, build, and release pipelines that provide continuous integration, delivery, and deployment for your applications. 
+
+Some of the main DevOps services available with Azure are Azure DevOps Services, and Azure DevTest Labs.
+
+| DevOps services |  |
+|--|--|
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/identify-azure-solutions/media/icon-devops.png" width="30" height="30"> Azure DevOps Services | An event-driven - often via a REST request, timer, or message. Serverless compute service, scale automatically. |
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/identify-azure-solutions/media/icon-devtest.png" width="30" height="30"> Azure Lab Services | a service that helps developers and testers quickly create environments in Azure, while minimizing waste and controlling cost. |
+
+## Azure Management tools
+
+| Azure Management tools |  |
+|--|--|
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/differentiate-azure-management-tools/media/icon-portal.png" width="30" height="30"> Azure portal | The portal is a web-based administration site that lets you interact with all of your subscriptions and resources you have created. |
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/differentiate-azure-management-tools/media/icon-3.png" width="30" height="30"> Azure PowerShell | A module that you add to Windows PowerShell or PowerShell Core that enables you to connect to your Azure subscription and manage resources. |
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/differentiate-azure-management-tools/media/icon-2.png" width="30" height="30"> Azure Command Line Interface (CLI) | A cross-platform command-line program that connects to Azure and executes administrative commands on Azure resources. Cross-platform means that it can be run on Windows, Linux, or macOS. |
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/differentiate-azure-management-tools/media/icon-shell.png" width="30" height="30"> Azure Cloud Shell | A browser-based scripting environment in your portal. It provides the flexibility of choosing the shell experience that best suits the way you work. Linux users can opt for a Bash experience, while Windows users can opt for PowerShell. |
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/identify-azure-solutions/media/icon-devtest.png" width="30" height="30"> Azure Lab Services | a service that helps developers and testers quickly create environments in Azure, while minimizing waste and controlling cost. |
+| <img src="https://www.e-apostolidis.gr/wp-content/uploads/2018/10/advisor.png" width="60" height="30"> Azure Advisor | A free service built into Azure that provides recommendations on high availability, security, performance, and cost. Advisor analyzes your deployed services and looks for ways to improve your environment across those four areas. |
+
 
 
