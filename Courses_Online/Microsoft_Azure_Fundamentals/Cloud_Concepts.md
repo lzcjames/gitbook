@@ -1,22 +1,20 @@
-# Describe Cloud Concepts (15-20%)
+# Describe Cloud Concepts (20-25%)
 
 :notebook: Exam Preparation Guide:  https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3VwUY
 
 :love_letter: Source from https://www.taygan.co/blog/2019/02/07/az-900-azure-fundamentals-exam-preparation 
 
-## Basic Terms
+## Identify the benefits of cloud computing
 
-### High Availability (HA)
+- **High Availability (HA)**
+
 The ability of the application to continue running in a healthy state, without significant downtime. By "healthy state," we mean the application is responsive, and users can connect to the application and interact with it.
 
-### Scalability
-Increase or decrease the resources and services used based on the demand or workload at any given time. Vertical Scaling (aka "scaling up) - add more resources to existing servers. Horizontal Scaling (aka "scaling out) - add more servers.
+- **Scalability**
 
-### Vertical Scaling (aka "scaling up")
-The process of adding resources to increase the power of an existing server (e.g. adding a faster CPU, additional CPUs, more memory).
-
-### Horizontal Scaling (aka "scaling out")
-The process of adding more servers that function together as one unit (e.g. adding more servers).
+  Increase or decrease the resources and services used based on the demand or workload at any given time. 
+  - Vertical Scaling (aka "scaling up) - add more resources(RAM, CPU) to a virtual machine. 
+  - Horizontal Scaling (aka "scaling out) - add more virtual machines.
 
 ### Elasticity
 Automatically add or remove resources based on demand.
