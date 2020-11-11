@@ -8,7 +8,7 @@ A subscription provides you with *authenticated* and *authorized* access to Azur
 
 An Azure subscription is a logical unit of Azure services that links to an Azure account, which is an identity in Azure Active Directory (Azure AD) or in a directory that Azure AD trusts.
 
-<img src="https://docs.microsoft.com/en-us/learn/azure-fundamentals/azure-architecture-fundamentals/media/subscriptions-expanded.png" width="600" height="250"/>
+<img src="https://docs.microsoft.com/en-us/learn/azure-fundamentals/azure-architecture-fundamentals/media/subscriptions-expanded.png" width="650" height="250"/>
 
 ### Azure Management Groups
 
@@ -30,13 +30,23 @@ Resource is a manageable item that's available through Azure. Virtual machines (
 
 Resource groups are a fundamental element of the Azure platform. A resource group is a **logical container** for resources deployed on Azure, Resource groups can't be nested.
 
-<img src="https://docs.microsoft.com/en-us/learn/azure-fundamentals/azure-architecture-fundamentals/media/resource-group.png" width="380" height="150"/>
+<img src="https://docs.microsoft.com/en-us/learn/azure-fundamentals/azure-architecture-fundamentals/media/resource-group.png" width="280" height="120"/>
 
 ### Azure Resource Manager
 
 It provides a management layer that enables you to create, update, and delete resources in your Azure account. You use management features like access control, locks, and tags to secure and organize your resources after deployment.
 
-<img src="https://docs.microsoft.com/en-us/learn/azure-fundamentals/azure-architecture-fundamentals/media/consistent-management-layer-expanded.png" width="380" height="150"/>
+<img src="https://docs.microsoft.com/en-us/learn/azure-fundamentals/azure-architecture-fundamentals/media/consistent-management-layer-expanded.png" width="600" height="320"/>
+
+#### The benefits of using Resource Manager
+
+- Manage your infrastructure through declarative templates rather than scripts. A Resource Manager template is a JSON file that defines what you want to deploy to Azure.
+- Deploy, manage, and monitor all the resources for your solution as a group, rather than handling these resources individually.
+- Redeploy your solution throughout the development life cycle and have confidence your resources are deployed in a consistent state.
+- Define the dependencies between resources so they're deployed in the correct order.
+- Apply access control to all services because RBAC is natively integrated into the management platform.
+- Apply tags to resources to logically organize all the resources in your subscription.
+- Clarify your organization's billing by viewing costs for a group of resources that share the same tag.
 
 ### Region (e.g. North Europe, West Europe, Germany North, Germany West Central) 
 
