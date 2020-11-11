@@ -51,7 +51,7 @@ A consumption-based model has many benefits, including:
 - The ability to pay for additional resources when they are needed.
 - The ability to stop paying for resources that are no longer needed.
 
-## 2 Describe the differences between categories of cloud services
+## 2. Describe the differences between categories of cloud services
 
 ### 2.1 IaaS vs PaaS vs SaaS
 
