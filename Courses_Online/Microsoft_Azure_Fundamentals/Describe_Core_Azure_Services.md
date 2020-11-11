@@ -1,6 +1,35 @@
-# Core Azure Services (30-35%)
+# Describe Core Azure Services (15-20%)
 
-## The core Azure architectural components
+## [The core Azure architectural components](https://docs.microsoft.com/en-us/learn/modules/azure-architecture-fundamentals/)
+
+### Azure Subscriptions
+
+A subscription provides you with *authenticated* and *authorized* access to Azure products and services, it also allows you to provision resources.
+
+An Azure subscription is a logical unit of Azure services that links to an Azure account, which is an identity in Azure Active Directory (Azure AD) or in a directory that Azure AD trusts.
+
+<img src="https://docs.microsoft.com/en-us/learn/azure-fundamentals/azure-architecture-fundamentals/media/subscriptions-expanded.png" width="600" height="250"/>
+
+### Azure Management Groups
+
+Azure management groups provide a level of scope above subscriptions, all subscriptions within a management group automatically inherit the conditions applied to the management group.
+
+For example, you can apply policies to a management group that limits the regions available for VM creation. This policy would be applied to all management groups, subscriptions, and resources under that management group by only allowing VMs to be created in that region.
+
+Important facts about management groups:
+
+- 10,000 management groups can be supported in a single directory.
+- A management group tree can support up to six levels of depth. This limit doesn't include the root level or the subscription level.
+- Each management group and subscription can support only one parent.
+- Each management group can have many children.
+- All subscriptions and management groups are within a single hierarchy in each directory.
+
+### Azure resource groups
+
+Resource is a manageable item that's available through Azure. Virtual machines (VMs), storage accounts, web apps, databases, and virtual networks are examples of resources.
+
+Resource groups are a fundamental element of the Azure platform. A resource group is a **logical container** for resources deployed on Azure, Resource groups can't be nested.
+
 
 ### Region (e.g. North Europe, West Europe, Germany North, Germany West Central) 
 
