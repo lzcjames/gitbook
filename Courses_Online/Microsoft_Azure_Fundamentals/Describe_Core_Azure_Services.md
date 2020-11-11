@@ -24,12 +24,19 @@ Important facts about management groups:
 - Each management group can have many children.
 - All subscriptions and management groups are within a single hierarchy in each directory.
 
-### Azure resource groups
+### Azure Resource Groups
 
 Resource is a manageable item that's available through Azure. Virtual machines (VMs), storage accounts, web apps, databases, and virtual networks are examples of resources.
 
 Resource groups are a fundamental element of the Azure platform. A resource group is a **logical container** for resources deployed on Azure, Resource groups can't be nested.
 
+<img src="https://docs.microsoft.com/en-us/learn/azure-fundamentals/azure-architecture-fundamentals/media/resource-group.png" width="380" height="150"/>
+
+### Azure Resource Manager
+
+It provides a management layer that enables you to create, update, and delete resources in your Azure account. You use management features like access control, locks, and tags to secure and organize your resources after deployment.
+
+<img src="https://docs.microsoft.com/en-us/learn/azure-fundamentals/azure-architecture-fundamentals/media/consistent-management-layer-expanded.png" width="380" height="150"/>
 
 ### Region (e.g. North Europe, West Europe, Germany North, Germany West Central) 
 
@@ -61,7 +68,7 @@ Availability Zones are physically separate datacenters within an Azure region. E
 
 ### Determine availability options
 
-<img src="https://docs.microsoft.com/en-us/learn/wwl-azure/discuss-core-azure-architectural-components/media/availability-options.png" width="780" height="280">
+<img src="https://docs.microsoft.com/en-us/learn/wwl-azure/discuss-core-azure-architectural-components/media/availability-options.png"/>
 
 **SLA:** The Service Level Agreement (SLA) describes Microsoft's commitments for uptime and connectivity.
 
