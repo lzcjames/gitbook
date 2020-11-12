@@ -52,6 +52,10 @@ It provides a management layer that enables you to create, update, and delete re
 
 A region is a geographical area on the planet containing at least one, but potentially multiple datacenters that are nearby and networked together with a low-latency network.
 
+#### The benefits of using Resource Manager
+
+Azure has more global regions than any other cloud provider. These regions give you the flexibility to bring applications closer to your users no matter where they are. Global regions provide better scalability and redundancy. They also preserve data residency for your services.
+
 ### Region Pair
 
 Each Azure region is always paired with another region within the same geography (such as US, Europe, or Asia) at least 300 miles away. This approach allows for the replication of resources (such as virtual machine storage) across a geography that helps reduce the likelihood of interruptions due to events such as natural disasters, civil unrest, power outages, or physical network outages affecting both regions at once. 
@@ -75,6 +79,11 @@ Availability Sets comprise of update and fault domains.
 ### Availability Zone (e.g. Zone 1, Zone 2, Zone 3 - within a particular region) 
 
 Availability Zones are physically separate datacenters within an Azure region. Each Availability Zone is made up of one or more datacenters equipped with independent power, cooling, and networking.
+
+Availability zones are connected through high-speed, private fiber-optic networks.
+
+<img src="https://docs.microsoft.com/en-us/learn/azure-fundamentals/azure-architecture-fundamentals/media/availability-zones-expanded.png" width="600" height="500" />
+
 
 ### Determine availability options
 
