@@ -1,3 +1,4 @@
+
 # Describe Core Azure Services (15-20%)
 
 ## [The core Azure architectural components](https://docs.microsoft.com/en-us/learn/modules/azure-architecture-fundamentals/)
@@ -34,7 +35,13 @@ Resource groups are a fundamental element of the Azure platform. A resource grou
 
 ### Azure Resource Manager
 
-It provides a management layer that enables you to create, update, and delete resources in your Azure account. You use management features like access control, locks, and tags to secure and organize your resources after deployment.
+Azure Resource Manager is the interface for managing and organizing cloud resources. Think of Resource Manager as a way to deploy cloud resources
+
+With Azure Resource Manager, you can:
+
+- Deploy Application resources. 
+- Organize resources. 
+- Control access and resources.
 
 <img src="https://docs.microsoft.com/en-us/learn/azure-fundamentals/azure-architecture-fundamentals/media/consistent-management-layer-expanded.png" width="600" height="320"/>
 
@@ -52,29 +59,22 @@ It provides a management layer that enables you to create, update, and delete re
 
 A region is a geographical area on the planet containing at least one, but potentially multiple datacenters that are nearby and networked together with a low-latency network.
 
-#### The benefits of using Resource Manager
+#### The benefits of regions
 
 Azure has more global regions than any other cloud provider. These regions give you the flexibility to bring applications closer to your users no matter where they are. Global regions provide better scalability and redundancy. They also preserve data residency for your services.
 
 ### Region Pair
 
-Each Azure region is always paired with another region within the same geography (such as US, Europe, or Asia) at least 300 miles away. This approach allows for the replication of resources (such as virtual machine storage) across a geography that helps reduce the likelihood of interruptions due to events such as natural disasters, civil unrest, power outages, or physical network outages affecting both regions at once. 
+Each Azure region is always paired with another region within the same geography (such as US, Europe, or Asia) at least 300 miles away. 
+This approach allows for the replication of resources (such as virtual machine storage) across a geography that helps reduce the likelihood of interruptions.
 
-### Geography (Americas, Europe, Asia Pacific, Middle East and Africa)
+<img src="https://docs.microsoft.com/en-us/learn/azure-fundamentals/azure-architecture-fundamentals/media/region-pairs-expanded.png" width="900" height="220"/>
 
-An Azure geography is a discrete market typically containing two or more regions that preserve data residency and compliance boundaries.
+#### Additional advantages of region pairs
 
-### Availability Sets
-
-Availability Sets comprise of update and fault domains.
-
-- Update Domain
-
-  When a maintenance event occurs, the update is sequenced through update domains. 
-  
-- Fault Domain
-
-  Fault domains provide for the physical separation of a workload across different hardware in the datacenter.
+-   If an extensive Azure outage occurs, one region out of every pair is prioritized to make sure at least one is restored as quickly as possible for applications hosted in that region pair.
+-   Planned Azure updates are rolled out to paired regions one region at a time to minimize downtime and risk of application outage.
+-   Data continues to reside within the same geography as its pair (except for Brazil South) for tax- and law-enforcement jurisdiction purposes.
 
 ### Availability Zone (e.g. Zone 1, Zone 2, Zone 3 - within a particular region) 
 
@@ -84,8 +84,16 @@ Availability zones are connected through high-speed, private fiber-optic network
 
 <img src="https://docs.microsoft.com/en-us/learn/azure-fundamentals/azure-architecture-fundamentals/media/availability-zones-expanded.png" width="600" height="500" />
 
+### ~~Availability Sets~~
 
-### Determine availability options
+Availability Sets comprise of update and fault domains.
+- Update Domain
+  When a maintenance event occurs, the update is sequenced through update domains. 
+  
+- Fault Domain
+  Fault domains provide for the physical separation of a workload across different hardware in the datacenter.
+
+### ~~Determine availability options~~
 
 <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/discuss-core-azure-architectural-components/media/availability-options.png"/>
 
@@ -100,39 +108,17 @@ Availability zones are connected through high-speed, private fiber-optic network
 
 - For multi-region disaster recovery, region pairs protect and provide data residency boundaries.
 
-### Resource Group 
-
-Resource groups are a fundamental element of the Azure platform. A resource group is a **logical container** for resources deployed on Azure
-
-### Azure Resource Manager
-
-Azure Resource Manager is the interface for managing and organizing cloud resources. Think of Resource Manager as a way to deploy cloud resources
-
-With Azure Resource Manager, you can:
-
-- Deploy Application resources. 
-- Organize resources. 
-- Control access and resources.
-
-
 ## Azure Compute Services
 
-| Azure Compute Services |  |
+| Azure Compute Services | Service function  |
 |--|--|
 | Virtual Machines  | Windows or Linux virtual machines (VMs) hosted in Azure |
-| Virtual Machine Scale Sets | Scaling for Windows or Linux VMs hosted in Azure |
 | App Services | PaaS offerings to build, deploy, and scale enterprise-grade web, mobile, and API apps.  |
 | Azure Functions | An event-driven, serverless compute service |
-
-
-## Container services
-
-Azure supports Docker containers, There are two ways to manage both Docker and Microsoft-based containers in Azure.
-
-| Azure Compute Services |  |
-|--|--|
 | Azure Container Instances  | Offers the fastest and simplest way to run a container. <br> Without having to manage any virtual machines or adopt any additional services. <br> It is a PaaS offering. |
-| Azure Kubernetes Service | A **complete orchestration service** for containers with distributed architectures and large volumes of containers. |
+| Azure Kubernetes Service | A **complete orchestration service** for containers with distributed architectures and large volumes of containers. | Virtual Machine Scale Sets | Scaling for Windows or Linux VMs hosted in Azure |
+| *Azure Service Fabric* | *Distributed systems platform that runs in Azure or on-premises* |
+| *Azure Batch* | *Managed service for parallel and high-performance computing applications* |
 
 ps. Orchestration is the task of automating and managing a large number of containers and how they interact.
 
@@ -141,10 +127,12 @@ ps. Orchestration is the task of automating and managing a large number of conta
 | Azure network services |  |
 |--|--|
 | <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-4.png" width="30" height="30"> Azure Virtual Network  | Connects VMs to incoming Virtual Private Network (VPN) connections |
-| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-2.png" width="30" height="30"> Azure Load Balancer | Balances inbound and outbound connections to applications or service endpoints |
+| <img src="https://symbols.getvecta.com/stencil_28/37_expressroute.796d8d6f8b.png" width="30" height="30"> Azure ExpressRoute  | Connects to Azure over high-bandwidth dedicated secure connections |
+| <img src="https://abouconde335669239.files.wordpress.com/2019/08/azure-vnet-peering.png" width="30" height="30"> Virtual network peering | enables you to seamlessly connect two or more [Virtual Networks](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview) in Azure |
 | <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-gateway.png" width="30" height="30"> Azure VPN Gateway | Accesses Azure Virtual Networks through high-performance VPN gateways |
-| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-app-gateway.png" width="30" height="30"> Azure Application Gateway | Optimizes app server farm delivery while increasing application security |
-| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-1.png" width="30" height="30"> Azure Content Delivery Network | Delivers high-bandwidth content to customers globally |
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-app-gateway.png" width="30" height="30"> *Azure Application Gateway* | *Optimizes app server farm delivery while increasing application security* |
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-2.png" width="30" height="30"> *Azure Load Balancer* | *Balances inbound and outbound connections to applications or service endpoints* |
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-1.png" width="30" height="30"> *Azure Content Delivery Network* | *Delivers high-bandwidth content to customers globally* |
 
 ## Azure Storage
 
@@ -153,9 +141,15 @@ ps. Orchestration is the task of automating and managing a large number of conta
 | <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-blob.png" width="30" height="30"> Container(Blob) Storage  | Storage service for very large objects, such as video files or bitmaps. |
 | <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-disks.png" width="30" height="30"> Disk Storage | Provides disks for virtual machines, applications, and other services. |
 | <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-files.png" width="30" height="30"> File Storage | Azure Files offers fully-managed file shares in the cloud. |
-| <img src="https://azurecomcdn.azureedge.net/cvt-6ef370aa9a2f3452dfe1c2fdc1f3ba16dd38153b9e5a25c85872818eb280a39b/images/page/solutions/backup-archive/back-up-archive-banner.png" width="30" height="30"> Archive Storage | Storage facility for data that is rarely accessed. |
-| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-queue.png" width="30" height="30"> Queues | To store lists of messages to be processed asynchronously. |
-| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-table.png" width="30" height="30"> Tables| Stores large amounts of structured data, uses NoSQL |
+| <img src="https://azurecomcdn.azureedge.net/cvt-6ef370aa9a2f3452dfe1c2fdc1f3ba16dd38153b9e5a25c85872818eb280a39b/images/page/solutions/backup-archive/back-up-archive-banner.png" width="30" height="30"> *Archive Storage* | *Storage facility for data that is rarely accessed*. |
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-queue.png" width="30" height="30"> *Queues* | *To store lists of messages to be processed asynchronously*. |
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-table.png" width="30" height="30"> *Tables*| *Stores large amounts of structured data, uses NoSQL* |
+
+Azure storage offers **different access tiers**, which allow you to store blob object data in the most cost-effective manner. The available access tiers include:
+
+-   **Hot**  - Optimized for storing data that is accessed frequently.
+-   **Cool**  - Optimized for storing data that is infrequently accessed and stored for at least 30 days.
+-   **Archive**  - Optimized for storing data that is rarely accessed and stored for at least 180 days with flexible latency requirements (on the order of hours).
 
 ## Azure database services
 
@@ -163,9 +157,13 @@ ps. Orchestration is the task of automating and managing a large number of conta
 |--|--|
 | <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-cosmos-db.png" width="30" height="30"> Azure Cosmos DB  | Globally distributed database that supports NoSQL options. |
 | <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-3.png" width="30" height="30"> Azure SQL Database | Fully managed relational database with auto-scale, integral intelligence, and robust security. |
-| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-db-migration.png" width="30" height="30"> Azure Database Migration |  Fully managed service designed to enable seamless migrations from multiple database sources to Azure data platforms with minimal downtime (online migrations). |
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-3.png" width="30" height="30"> Azure Database for MySQL | Fully managed and scalable MySQL relational database with high availability and security |
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-3.png" width="30" height="30"> Azure Database for PostgreSQL | Fully managed and scalable PostgreSQL relational database with high availability and security |
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-db-migration.png" width="30" height="30"> *Azure Database Migration* |  *Fully managed service designed to enable seamless migrations from multiple database sources to Azure data platforms with minimal downtime (online migrations).* |
 
-<img src="https://azurecomcdn.azureedge.net/cvt-6ef370aa9a2f3452dfe1c2fdc1f3ba16dd38153b9e5a25c85872818eb280a39b/images/page/services/database-migration/discover.png" width="840" height="480">
+##### Azure SQL Managed Instance
+
+SQL Managed Instance has near 100% compatibility with the latest SQL Server (Enterprise Edition) database engine, providing a native [virtual network (VNet)](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview) implementation that addresses common security concerns, and a [business model](https://azure.microsoft.com/pricing/details/sql-database/) favorable for existing SQL Server customers.
 
 ## Azure Marketplace
 
@@ -173,7 +171,7 @@ The Marketplace allows customers to find, try, purchase, and provision applicati
 
 <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/marketplace.png" width="810" height="540">
 
-## Azure IoT services
+## ~~Azure IoT services~~
 
 Two of the core Azure IoT service types are Azure IoT Central, and Azure IoT Hub.
 
@@ -182,7 +180,7 @@ Two of the core Azure IoT service types are Azure IoT Central, and Azure IoT Hub
 | <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/identify-azure-solutions/media/icon-1.png" width="30" height="30"> IoT Central | Fully-managed global IoT software as a service (SaaS) solution that makes it easy to connect, monitor, and manage your IoT assets at scale. |
 | <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/identify-azure-solutions/media/icon-2.png" width="30" height="30"> Azure IoT Hub | FMessaging hub that provides secure communications and monitoring between millions of IoT devices. |
 
-## Big Data and Analytics
+## ~~Big Data and Analytics~~
 
 | Big Data and Analytics |  |
 |--|--|
@@ -190,14 +188,14 @@ Two of the core Azure IoT service types are Azure IoT Central, and Azure IoT Hub
 | Azure HDInsight | Process massive amounts of data with managed clusters of Hadoop clusters in the cloud. |
 | Azure Data Lake Analytics | On-demand ("pay as you go") scalable analytics service that allows you to write queries to transform your data and extract valuable insights. |
 
-## Azure Artificial Intelligence
+## ~~Azure Artificial Intelligence~~
 
 | Azure Artificial Intelligence |  |
 |--|--|
 | Azure Cognitive Services | Cognitive services are a collection of domain-specific pre-trained AI models that can be customized with your data. They are categorized broadly into vision, speech, language, and search. |
 | Azure Machine Learning Service | Cloud-based environment you can use to develop, train, test, deploy, manage, and track machine learning models. It can auto-generate a model and auto-tune it for you. It will let you start training on your local machine, and then scale out to the cloud. |
 
-## Serverless Computing
+## ~~Serverless Computing~~
 
 | Serverless computing |  |
 |--|--|
@@ -205,7 +203,7 @@ Two of the core Azure IoT service types are Azure IoT Central, and Azure IoT Hub
 | <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/identify-azure-solutions/media/icon-logic-app.png" width="30" height="30"> Azure Logic Apps | Help you automate and orchestrate tasks, business processes, and workflows when you need to integrate apps, data, systems, and services across enterprises or organizations. |
 | <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/identify-azure-solutions/media/icon-eventgrid.png" width="30" height="30"> Azure Logic Apps |Allows you to easily build applications with event-based architectures. It's a fully-managed, intelligent event routing service that uses a publish-subscribe model for uniform event consumption. |
 
-## Azure DevOps
+## ~~Azure DevOps~~
 
 DevOps  (Development and Operations) brings together people, processes, and technology, automating software delivery to provide continuous value to your users. Azure DevOps Services allows you to create, build, and release pipelines that provide continuous integration, delivery, and deployment for your applications. 
 
@@ -216,7 +214,7 @@ Some of the main DevOps services available with Azure are Azure DevOps Services,
 | <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/identify-azure-solutions/media/icon-devops.png" width="30" height="30"> Azure DevOps Services | An event-driven - often via a REST request, timer, or message. Serverless compute service, scale automatically. |
 | <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/identify-azure-solutions/media/icon-devtest.png" width="30" height="30"> Azure Lab Services | a service that helps developers and testers quickly create environments in Azure, while minimizing waste and controlling cost. |
 
-## Azure Management tools
+## ~~Azure Management tools~~
 
 | Azure Management tools |  |
 |--|--|
