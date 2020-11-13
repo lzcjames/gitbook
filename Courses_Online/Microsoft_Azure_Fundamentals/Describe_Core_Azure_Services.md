@@ -1,4 +1,5 @@
 
+
 # Describe Core Azure Services (15-20%)
 
 ## [The core Azure architectural components](https://docs.microsoft.com/en-us/learn/modules/azure-architecture-fundamentals/)
