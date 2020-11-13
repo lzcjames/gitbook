@@ -3,6 +3,8 @@
 
 ## [The core Azure architectural components](https://docs.microsoft.com/en-us/learn/modules/azure-architecture-fundamentals/)
 
+## Describe the core Azure architectural components
+
 ### Azure Subscriptions
 
 A subscription provides you with *authenticated* and *authorized* access to Azure products and services, it also allows you to provision resources.
@@ -108,25 +110,28 @@ Availability Sets comprise of update and fault domains.
 
 - For multi-region disaster recovery, region pairs protect and provide data residency boundaries.
 
-## Azure Compute Services
+## Describe core resources available in Azure
 
-| Azure Compute Services | Service function  |
-|--|--|
-| Virtual Machines  | Windows or Linux virtual machines (VMs) hosted in Azure |
-| App Services | PaaS offerings to build, deploy, and scale enterprise-grade web, mobile, and API apps.  |
-| Azure Functions | An event-driven, serverless compute service |
-| Azure Container Instances  | Offers the fastest and simplest way to run a container. <br> Without having to manage any virtual machines or adopt any additional services. <br> It is a PaaS offering. |
-| Azure Kubernetes Service | A **complete orchestration service** for containers with distributed architectures and large volumes of containers. | Virtual Machine Scale Sets | Scaling for Windows or Linux VMs hosted in Azure |
-| *Azure Service Fabric* | *Distributed systems platform that runs in Azure or on-premises* |
-| *Azure Batch* | *Managed service for parallel and high-performance computing applications* |
+### Azure Compute Services
 
-ps. Orchestration is the task of automating and managing a large number of containers and how they interact.
+| Azure Compute Services | Service function  | Advantages |
+|--|--|--|
+| <img src="https://docs.microsoft.com/en-us/learn/azure-fundamentals/azure-compute-fundamentals/media/icon-virtual-machine.png" width="30" height="30"> [Virtual Machines](https://docs.microsoft.com/en-us/learn/modules/azure-compute-fundamentals/azure-virtual-machines)  |Windows or Linux virtual machines (VMs) hosted in Azure | - Total control over OS<br>- The ability to run custom software. <br>- To use custom hosting configurations. |
+| <img src="https://docs.microsoft.com/en-us/learn/azure-fundamentals/azure-compute-fundamentals/media/icon-app-service.png" width="30" height="30"> [App Services](https://docs.microsoft.com/en-us/learn/modules/azure-compute-fundamentals/azure-app-services) | PaaS offerings to build, deploy, and scale enterprise-grade web, mobile, and API apps.  | - language upon your choices without managing infra<br> - automatic scaling and high availability <br> deploy automated from GitHub, Azuez DevOps etc
+| <img src="https://docs.microsoft.com/en-us/learn/azure-fundamentals/azure-compute-fundamentals/media/icon-functions.png" width="30" height="30"> [Azure Functions](https://docs.microsoft.com/en-us/learn/modules/azure-compute-fundamentals/azure-functions) | An event-driven, serverless compute service | - Reduce costs <br> - High availability <br> - Write just fouctions, not applications |
+| <img src="https://docs.microsoft.com/en-us/learn/azure-fundamentals/azure-compute-fundamentals/media/icon-container-instance.png" width="30" height="30"> [Azure Container Instances](https://docs.microsoft.com/en-us/learn/modules/azure-compute-fundamentals/azure-container-services)  | Offers the fastest and simplest way to run a container. <br> Without having to manage any virtual machines or adopt any additional services. <br> It is a PaaS offering. | - Reduce costs <br> - High availability <br> - Fault tolerance |
+| <img src="https://docs.microsoft.com/en-us/learn/azure-fundamentals/azure-compute-fundamentals/media/icon-kubernetes.png" width="30" height="30"> [Azure Kubernetes Service](https://docs.microsoft.com/en-us/learn/modules/azure-compute-fundamentals/azure-container-services) | A **complete orchestration<sup>1</sup> service** for containers with distributed architectures and large volumes of containers. | Idem |
+| <img src="https://azure.microsoft.com/svghandler/virtual-desktop/" width="35" height="30"> [Windows Virtual Desktop](https://docs.microsoft.com/en-us/learn/modules/azure-compute-fundamentals/windows-virtual-desktop) | It's a Windows desktop and application virtualization service that runs on the cloud. | - Facility for remote workers <br> - Reduce costs <br> - Enhance security <br> - Simplified management |
+
+
+**Orchestration<sup>1</sup>**: It is the task of automating and managing a large number of containers and how they interact.
+
 
 ## Azure network services
 
-| Azure network services |  |
-|--|--|
-| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-4.png" width="30" height="30"> Azure Virtual Network  | Connects VMs to incoming Virtual Private Network (VPN) connections |
+| Azure network services |  Service function  | Advantages |
+|--|--|--|
+| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-4.png" width="30" height="30"> Azure Virtual Network  | Connects VMs to incoming Virtual Private Network (VPN) connections | 
 | <img src="https://symbols.getvecta.com/stencil_28/37_expressroute.796d8d6f8b.png" width="30" height="30"> Azure ExpressRoute  | Connects to Azure over high-bandwidth dedicated secure connections |
 | <img src="https://abouconde335669239.files.wordpress.com/2019/08/azure-vnet-peering.png" width="30" height="30"> Virtual network peering | enables you to seamlessly connect two or more [Virtual Networks](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview) in Azure |
 | <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-gateway.png" width="30" height="30"> Azure VPN Gateway | Accesses Azure Virtual Networks through high-performance VPN gateways |
@@ -136,8 +141,8 @@ ps. Orchestration is the task of automating and managing a large number of conta
 
 ## Azure Storage
 
-| Azure Storages |  |
-|--|--|
+| Azure Storages | Service function  | Advantages |
+|--|--|--|
 | <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-blob.png" width="30" height="30"> Container(Blob) Storage  | Storage service for very large objects, such as video files or bitmaps. |
 | <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-disks.png" width="30" height="30"> Disk Storage | Provides disks for virtual machines, applications, and other services. |
 | <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-files.png" width="30" height="30"> File Storage | Azure Files offers fully-managed file shares in the cloud. |
@@ -153,8 +158,8 @@ Azure storage offers **different access tiers**, which allow you to store blob o
 
 ## Azure database services
 
-| Azure Database Services |  |
-|--|--|
+| Azure Database Services | Service function  | Advantages |
+|--|--|--|
 | <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-cosmos-db.png" width="30" height="30"> Azure Cosmos DB  | Globally distributed database that supports NoSQL options. |
 | <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-3.png" width="30" height="30"> Azure SQL Database | Fully managed relational database with auto-scale, integral intelligence, and robust security. |
 | <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/icon-3.png" width="30" height="30"> Azure Database for MySQL | Fully managed and scalable MySQL relational database with high availability and security |
