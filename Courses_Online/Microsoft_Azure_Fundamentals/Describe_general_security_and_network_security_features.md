@@ -59,3 +59,4 @@ Azure Sentinel enables you to:
 
 You're charged per dedicated host, independent of how many virtual machines you deploy to it. The host price is based on the VM family, type (hardware size), and region.
 
+## Describe Azure network security
