@@ -96,4 +96,23 @@ With Azure Firewall, you can configure:
 
 ## Azure DDoS protection
 
+[Azure DDoS Protection](https://azure.microsoft.com/services/ddos-protection/) (Standard) helps protect your Azure resources from DDoS attacks.
+
+<img src="https://docs.microsoft.com/en-us/learn/azure-fundamentals/secure-network-connectivity-azure/media/4-distributed-denial-service.png">
+
+### What kinds of attacks can DDoS Protection help prevent?
+
+The Standard service tier can help prevent:
+
+-   **Volumetric attacks**
+    
+    The goal of this attack is to flood the network layer with a substantial amount of seemingly legitimate traffic.
+    
+-   **Protocol attacks**
+    
+    These attacks render a target inaccessible by exploiting a weakness in the layer 3 and layer 4 protocol stack.
+    
+-   **Resource-layer (application-layer) attacks (only with web application firewall)**
+    
+    These attacks target web application packets to disrupt the transmission of data between hosts. You need a web application firewall (WAF) to protect against L7 attacks. DDoS Protection Standard protects the WAF from volumetric and protocol attacks.
 
