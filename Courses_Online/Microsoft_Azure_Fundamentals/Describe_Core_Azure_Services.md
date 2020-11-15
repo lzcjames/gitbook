@@ -84,30 +84,6 @@ Availability zones are connected through high-speed, private fiber-optic network
 
 <img src="https://docs.microsoft.com/en-us/learn/azure-fundamentals/azure-architecture-fundamentals/media/availability-zones-expanded.png" width="600" height="500" />
 
-### ~~Availability Sets~~
-
-Availability Sets comprise of update and fault domains.
-- Update Domain
-  When a maintenance event occurs, the update is sequenced through update domains. 
-  
-- Fault Domain
-  Fault domains provide for the physical separation of a workload across different hardware in the datacenter.
-
-### ~~Determine availability options~~
-
-<img src="https://docs.microsoft.com/en-us/learn/wwl-azure/discuss-core-azure-architectural-components/media/availability-options.png"/>
-
-**SLA:** The Service Level Agreement (SLA) describes Microsoft's commitments for uptime and connectivity.
-
-
-- A single virtual machine with premium storage has an SLA of 99.9%. You can quickly migrate existing virtual machines to Azure through “lift and shift”. Lift and shift is a no-code option where each application is migrated as-is, providing the benefits of the cloud without the risks or costs of making code changes.
-
-- By placing virtual machines in an availability set, you protect against datacenter failures and increases the SLA to 99.95%.
-
-- Adding virtual machines to availability zones protects from entire datacenter failures and increases the SLA to 99.99%, which is highest level of protection that is provided.
-
-- For multi-region disaster recovery, region pairs protect and provide data residency boundaries.
-
 ## Describe core resources available in Azure
 
 ### Azure Compute Services
@@ -173,60 +149,3 @@ SQL Managed Instance has near 100% compatibility with the latest SQL Server (Ent
 The Marketplace allows customers to find, try, purchase, and provision applications and services from hundreds of leading service providers, all certified to run on Azure. Azure Marketplace is a service on Azure that helps connect end users with Microsoft partners, independent software vendors (ISVs), and start-ups that are offering their solutions and services, which are optimized to run on Azure.
 
 <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/define-core-azure-services-products/media/marketplace.png" width="810" height="540">
-
-## ~~Azure IoT services~~
-
-Two of the core Azure IoT service types are Azure IoT Central, and Azure IoT Hub.
-
-| Azure IoT service types |  |
-|--|--|
-| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/identify-azure-solutions/media/icon-1.png" width="30" height="30"> IoT Central | Fully-managed global IoT software as a service (SaaS) solution that makes it easy to connect, monitor, and manage your IoT assets at scale. |
-| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/identify-azure-solutions/media/icon-2.png" width="30" height="30"> Azure IoT Hub | FMessaging hub that provides secure communications and monitoring between millions of IoT devices. |
-
-## ~~Big Data and Analytics~~
-
-| Big Data and Analytics |  |
-|--|--|
-| Azure Synapse Analytics(Azure SQL Data Warehouse) | Run analytics at a massive scale using a cloud-based Enterprise Data Warehouse (EDW) that leverages massive parallel processing (MPP) to run complex queries quickly across petabytes of data. |
-| Azure HDInsight | Process massive amounts of data with managed clusters of Hadoop clusters in the cloud. |
-| Azure Data Lake Analytics | On-demand ("pay as you go") scalable analytics service that allows you to write queries to transform your data and extract valuable insights. |
-
-## ~~Azure Artificial Intelligence~~
-
-| Azure Artificial Intelligence |  |
-|--|--|
-| Azure Cognitive Services | Cognitive services are a collection of domain-specific pre-trained AI models that can be customized with your data. They are categorized broadly into vision, speech, language, and search. |
-| Azure Machine Learning Service | Cloud-based environment you can use to develop, train, test, deploy, manage, and track machine learning models. It can auto-generate a model and auto-tune it for you. It will let you start training on your local machine, and then scale out to the cloud. |
-
-## ~~Serverless Computing~~
-
-| Serverless computing |  |
-|--|--|
-| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/identify-azure-solutions/media/icon-functions.png" width="30" height="30"> Azure Functions | An event-driven - often via a REST request, timer, or message. Serverless compute service, scale automatically. |
-| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/identify-azure-solutions/media/icon-logic-app.png" width="30" height="30"> Azure Logic Apps | Help you automate and orchestrate tasks, business processes, and workflows when you need to integrate apps, data, systems, and services across enterprises or organizations. |
-| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/identify-azure-solutions/media/icon-eventgrid.png" width="30" height="30"> Azure Logic Apps |Allows you to easily build applications with event-based architectures. It's a fully-managed, intelligent event routing service that uses a publish-subscribe model for uniform event consumption. |
-
-## ~~Azure DevOps~~
-
-DevOps  (Development and Operations) brings together people, processes, and technology, automating software delivery to provide continuous value to your users. Azure DevOps Services allows you to create, build, and release pipelines that provide continuous integration, delivery, and deployment for your applications. 
-
-Some of the main DevOps services available with Azure are Azure DevOps Services, and Azure DevTest Labs.
-
-| DevOps services |  |
-|--|--|
-| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/identify-azure-solutions/media/icon-devops.png" width="30" height="30"> Azure DevOps Services | An event-driven - often via a REST request, timer, or message. Serverless compute service, scale automatically. |
-| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/identify-azure-solutions/media/icon-devtest.png" width="30" height="30"> Azure Lab Services | a service that helps developers and testers quickly create environments in Azure, while minimizing waste and controlling cost. |
-
-## ~~Azure Management tools~~
-
-| Azure Management tools |  |
-|--|--|
-| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/differentiate-azure-management-tools/media/icon-portal.png" width="30" height="30"> Azure portal | The portal is a web-based administration site that lets you interact with all of your subscriptions and resources you have created. |
-| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/differentiate-azure-management-tools/media/icon-3.png" width="30" height="30"> Azure PowerShell | A module that you add to Windows PowerShell or PowerShell Core that enables you to connect to your Azure subscription and manage resources. |
-| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/differentiate-azure-management-tools/media/icon-2.png" width="30" height="30"> Azure Command Line Interface (CLI) | A cross-platform command-line program that connects to Azure and executes administrative commands on Azure resources. Cross-platform means that it can be run on Windows, Linux, or macOS. |
-| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/differentiate-azure-management-tools/media/icon-shell.png" width="30" height="30"> Azure Cloud Shell | A browser-based scripting environment in your portal. It provides the flexibility of choosing the shell experience that best suits the way you work. Linux users can opt for a Bash experience, while Windows users can opt for PowerShell. |
-| <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/identify-azure-solutions/media/icon-devtest.png" width="30" height="30"> Azure Lab Services | a service that helps developers and testers quickly create environments in Azure, while minimizing waste and controlling cost. |
-| <img src="https://www.e-apostolidis.gr/wp-content/uploads/2018/10/advisor.png" width="60" height="30"> Azure Advisor | A free service built into Azure that provides recommendations on high availability, security, performance, and cost. Advisor analyzes your deployed services and looks for ways to improve your environment across those four areas. |
-
-
-
