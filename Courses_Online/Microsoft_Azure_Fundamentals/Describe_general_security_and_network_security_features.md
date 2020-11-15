@@ -66,7 +66,7 @@ The objective of defense in depth is to protect information and prevent it from 
 
 Each layer provides protection so that if one layer is breached, a subsequent layer is already in place to prevent further exposure
 
-<img src="https://docs.microsoft.com/en-us/learn/azure-fundamentals/secure-network-connectivity-azure/media/2-defense-depth.png" width="250" height="300">
+<img src="https://docs.microsoft.com/en-us/learn/azure-fundamentals/secure-network-connectivity-azure/media/2-defense-depth.png" width="250" height="280">
 
 Here's a brief overview of the role of each layer:
 
