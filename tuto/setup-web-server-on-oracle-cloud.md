@@ -15,5 +15,5 @@
 
 ## PM2
 1. To replace **npm run dev** --> **pm2 start npm --name *yourAppName* -- run dev**
-2. To kill process: **pm2 delete *processId* ** or **pm2 delete all**
+2. To kill process: **pm2 delete *processId*** or **pm2 delete all**
 3. [How to npm run start at the background](https://medium.com/idomongodb/how-to-npm-run-start-at-the-background-%EF%B8%8F-64ddda7c1f1)
