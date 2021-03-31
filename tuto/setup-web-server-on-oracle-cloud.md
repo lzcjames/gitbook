@@ -12,3 +12,8 @@
 1. Chose a free domain name in [freenom.com](freenom.com)
 2. Click panel `Service` -> `My domain` -> `Manage domain` -> `Manage Freenom DNS` than add a record.
 3. A record can be :**Name**: *(empty)*,  **Type**: A,  **TTL**: 3600,  **Target**: *Your VM public IP*
+
+## PM2
+1. To replace `npm run dev` --> `pm2 start npm --name *appname* -- run dev`
+2. To kill process: `pm2 delete *id*` or `pm2 delete all`
+3. [How to npm run start at the background](https://medium.com/idomongodb/how-to-npm-run-start-at-the-background-%EF%B8%8F-64ddda7c1f1)
