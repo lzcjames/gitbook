@@ -53,19 +53,34 @@ This caches frequently used data. This is the CDN service.
 ## [The AWS Cloud Computing  Structure and Components AWS](https://community.aviatrix.com/t/h7hxphg/aws-networking-and-security-101#the-aws-cloud-computing-structure-and-components)
 
 1.  In a region
-  1.1 The first thing to do is to create a VPC using a specified CIDR. VPC’s are regional concepts in AWS. 
-    首先要做的是使用指定的 CIDR 创建一个 VPC。 VPC 是 AWS 中的区域概念
-2.  Specify an AZ within the VPC. 在 VPC 中指定一个 AZ
-3.  Specify a subnet in the AZ.  在 az. 中指定子网
-    3.1  This will be part of the CIDR that was already created. 这将是已经建立的 CIDR 的一部分
-    3.2 There is now an AZ to subnet affinity. 现在有一个 AZ 到子网亲和类型
+
+    1.1 The first thing to do is to create a VPC using a specified CIDR. VPC’s are regional concepts in AWS. 
+  
+2.  Specify an AZ within the VPC. 
+
+3.  Specify a subnet in the AZ.
+
+    3.1  This will be part of the CIDR that was already created. 这将是已经创建的CIDR的一部分。
+ 
+    3.2 There is now an AZ to subnet affinity. 现在有一个AZ的子网亲和性
+
 4.  Define or deploy the instances within the subnet. 在子网中定义或部署实例
-5.  Once the instances are defined, users must now define a level of security.  一旦实例被定义，用户现在必须定义一个安全级别
-    5.1  Create a security group and apply it to multiple instances, or have one security group per instance. 创建一个安全组并将其应用于多个实例，或者每个实例有一个安全组
-6.  Network ACL  网络 ACL
-    6.1  This is a stateless Access Control List that is applied at a subnet level. 这是在子网级应用的无状态访问控制列表
-7.  Route-table and router  路由表和路由器
-    7,1  Users have basic access to the route-table, but do not have access to the actual router. 用户可以基本访问路由表，但不能访问实际的路由器
+
+5.  Once the instances are defined, users must now define a level of security. 一旦实例被定义，用户现在必须定义一个安全级别
+
+    5.1  Create a security group and apply it to multiple instances, or have one security group per instance. 
+    
+    创建一个安全组并将其应用于多个实例，或者每个实例有一个安全组
+
+6.  Network ACL  
+
+    6.1  This is a stateless Access Control List that is applied at a subnet level. 
+    这是在子网级应用的无状态访问控制列表
+
+7.  Route-table and router  
+
+    7.1  Users have basic access to the route-table, but do not have access to the actual router. 
+    用户可以基本访问路由表，但不能访问实际的路由器
 
 ![](https://s3-us-west-2.amazonaws.com/media.forumbee.com/i/228f1fc9-ae1f-4e88-9b91-c76f0d759a9d/h/547.png)
 
@@ -93,14 +108,14 @@ This gateway allows private subnets to connect to the Internet.
 
 This provides hub and spoke connectivity for the VPCs in the  system.
 
-这为系统中的虚拟 pc 提供了中心辐射连接。
+这为系统中的VPC提供枢纽和轴辐式连接。
 
 ### [VPN Gateway](https://community.aviatrix.com/t/h7hxphg/aws-networking-and-security-101#vpn-gateway)
 
 This connects the on prem network to the VPC or creates a hub and spoke technology between third party VPN devices and the AWS VPN Gateway.
 
-这样可以将 on prem 网络连接到 VPC 或者在第三方 VPN 设备和 AWS VPN 网关之间创建一个中心辐射技术。
-
+这连接了企业内部网络和VPC，或者在第三方VPN设备和AWS VPN网关之间创建了一个枢纽和轴辐式技术。
+![spoke connectivity](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/_images/azure-best-practices/network-hub-spokes-cluster.png)
 ### [Customer Gateway (CGW)](https://community.aviatrix.com/t/h7hxphg/aws-networking-and-security-101#customer-gateway-cgw)
 
 This is allows users to create a shell or definition for the gateway sitting on the on-prem site and then apply the configuration on the actual router.
@@ -122,18 +137,29 @@ This is a service that allows multiple regions to connect to a physical Direct C
 
 ## [AWS Transit Gateway (AWS TGW)](https://community.aviatrix.com/t/h7hxphg/aws-networking-and-security-101#aws-transitgateway-aws-tgw)
 
--   This allows many VPCs to talk to each other without VPC Peering.  这使得许多 VPC 可以在没有 vpcpeering 的情况下彼此通信
-    -   The difference between using VPC Peering or using the TGW is that the VPC peering doesn’t allow transitive routing while the TGW does. 使用 vpcpeering 和使用 TGW 的区别在于 VPC Peering 不允许传递路由，而 TGW 允许传递路由
--   This native service supports multiple  route tables and also has a VPN attachment type. 此本机服务支持多个路由表，并且具有 VPN 附件类型
--   However, this has its own limitations.  然而，这也有其局限性
-    -   The enterprises are responsible for programming the VPC routes manually when using the AWS platform without Aviatrix. 企业在使用 AWS 平台时，无需使用 Aviatrix，负责手工编程 VPC 路由
-    -   The IPSec Tunnel throughput is only about 1.25Gbps. IPSec 隧道吞吐量只有约1.25 Gbps
-    -   The scalability is a problem. 可伸缩性是一个问题
-    -   There is no overlapping IP support. 没有重叠的 IP 支持
+-   This allows many VPCs to talk to each other without VPC Peering.  
+这使得许多 VPC 可以在没有 vpcpeering 的情况下彼此通信
+    -   The difference between using VPC Peering or using the TGW is that the VPC peering doesn’t allow transitive routing while the TGW does. 
+    使用 vpcpeering 和使用 TGW 的区别在于 VPC Peering 不允许传递路由，而 TGW 允许传递路由
+-   This native service supports multiple  route tables and also has a VPN attachment type. 
+这种本地服务支持多个路由表，也有一个VPN附件类型。
+-   However, this has its own **limitations**. 
+    -   The enterprises are responsible for programming the VPC routes manually when using the AWS platform without Aviatrix. 
+    企业在使用 AWS 平台时，无需使用 Aviatrix，负责手工编程 VPC 路由
+    -   The IPSec Tunnel throughput is only about 1.25Gbps. IPSec 
+    隧道吞吐量只有约1.25 Gbps
+    -   The scalability is a problem. 
+    可伸缩性是一个问题
+    -   There is no overlapping IP support. 
+    没有重叠的 IP 支持
 
 ## [How Aviatrix Solves for the Limitations of the AWS Transit Gateway](https://community.aviatrix.com/t/h7hxphg/aws-networking-and-security-101#how-aviatrix-solves-for-the-limitations-of-the-aws-transit-gateway)
 
--   Aviatrix manages and controls the AWS TGW which removes  飞行器管理和控制移除的 AWS TGWthe routing limitations. 路由限制
--   Aviatrix takes care of the initial configuration of the routes and any updates. Aviatrix 负责路线的初始配置和任何更新
--   It helps to simplify the BGP over Direct Connect. 它有助于通过直接连接简化 BGP
--   Aviatrix provides network correctness and propagates all the on-prem routes to the VPCs. Aviatrix 提供网络正确性并将所有 on-prem 路由传播到 vpc
+-   Aviatrix manages and controls the AWS TGW which removes AWS TGWthe routing limitations. 
+   Aviatrix管理和控制AWS TGW，消除了AWS TGW的路由限制。
+-   Aviatrix takes care of the initial configuration of the routes and any updates.
+   Aviatrix负责路由的初始配置和任何更新。
+-   It helps to simplify the BGP over Direct Connect. 
+    它有助于简化BGP over Direct Connect。
+-   Aviatrix provides network correctness and propagates all the on-prem routes to the VPCs. 
+ Aviatrix提供网络正确性，并将所有的内部路由传播到VPC上
