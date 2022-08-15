@@ -1,7 +1,33 @@
 [Google Cloud Engineer Associate Certification Exam Guide](https://cloud.google.com/certification/guides/cloud-engineer)
 
-[[_TOC_]]  
-
+- [Section 1. Setting up a cloud solution environment](#section-1-setting-up-a-cloud-solution-environment)
+  * [1.1 Setting up cloud projects and accounts. Activities include](#11-setting-up-cloud-projects-and-accounts-activities-include)
+  * [1.2 Managing billing configuration. Activities include:](#12-managing-billing-configuration-activities-include-)
+  * [1.3 Installing and configuring the command line interface (CLI), specifically the Cloud SDK (e.g., setting the default project).](#13-installing-and-configuring-the-command-line-interface--cli---specifically-the-cloud-sdk--eg--setting-the-default-project-)
+- [Section 2. Planning and configuring a cloud solution](#section-2-planning-and-configuring-a-cloud-solution)
+  * [2.1 Planning and estimating Google Cloud product use using the Pricing Calculator](#21-planning-and-estimating-google-cloud-product-use-using-the-pricing-calculator)
+  * [2.2 Planning and configuring compute resources. Considerations include:](#22-planning-and-configuring-compute-resources-considerations-include-)
+  * [2.3 Planning and configuring data storage options. Considerations include:](#23-planning-and-configuring-data-storage-options-considerations-include-)
+  * [2.4 Planning and configuring network resources. Tasks include:](#24-planning-and-configuring-network-resources-tasks-include-)
+- [Section 3. Deploying and implementing a cloud solution](#section-3-deploying-and-implementing-a-cloud-solution)
+  * [3.1 Deploying and implementing Compute Engine resources. Tasks include:](#31-deploying-and-implementing-compute-engine-resources-tasks-include-)
+  * [3.2 Deploying and implementing Google Kubernetes Engine resources. Tasks include:](#32-deploying-and-implementing-google-kubernetes-engine-resources-tasks-include-)
+  * [3.3 Deploying and implementing Cloud Run and Cloud Functions resources. Tasks include, where applicable:](#33-deploying-and-implementing-cloud-run-and-cloud-functions-resources-tasks-include--where-applicable-)
+  * [3.4 Deploying and implementing data solutions. Tasks include:](#34-deploying-and-implementing-data-solutions-tasks-include-)
+  * [3.5 Deploying and implementing networking resources. Tasks include:](#35-deploying-and-implementing-networking-resources-tasks-include-)
+  * [3.6 Deploying a solution using Cloud Marketplace. Tasks include:](#36-deploying-a-solution-using-cloud-marketplace-tasks-include-)
+  * [3.7 Implementing resources via infrastructure as code. Tasks include:](#37-implementing-resources-via-infrastructure-as-code-tasks-include-)
+- [Section 4. Ensuring successful operation of a cloud solution](#section-4-ensuring-successful-operation-of-a-cloud-solution)
+  * [4.1 Managing Compute Engine resources. Tasks include:](#41-managing-compute-engine-resources-tasks-include-)
+  * [4.2 Managing Google Kubernetes Engine resources. Tasks include:](#42-managing-google-kubernetes-engine-resources-tasks-include-)
+  * [4.3 Managing Cloud Run resources. Tasks include:](#43-managing-cloud-run-resources-tasks-include-)
+  * [4.4 Managing storage and database solutions. Tasks include:](#44-managing-storage-and-database-solutions-tasks-include-)
+  * [4.5 Managing networking resources. Tasks include:](#45-managing-networking-resources-tasks-include-)
+  * [4.6 Monitoring and logging. Tasks include:](#46-monitoring-and-logging-tasks-include-)
+- [Section 5. Configuring access and security](#section-5-configuring-access-and-security)
+  * [5.1 Managing Identity and Access Management (IAM). Tasks include:](#51-managing-identity-and-access-management--iam--tasks-include-)
+  * [5.2 Managing service accounts. Tasks include:](#52-managing-service-accounts-tasks-include-)
+  * [5.3 Viewing audit logs](#53-viewing-audit-logs)
 
 # Section 1. Setting up a cloud solution environment 
 
